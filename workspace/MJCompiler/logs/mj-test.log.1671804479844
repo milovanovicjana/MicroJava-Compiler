@@ -1,0 +1,54 @@
+INFO  17:38:32,565 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  17:38:32,618 - #13 program
+INFO  17:38:32,618 - #41 test301
+INFO  17:38:32,618 - #41 i22
+INFO  17:38:32,619 - #41 i
+INFO  17:38:32,620 - #38 ;
+INFO  17:38:32,621 - #36 {
+INFO  17:38:32,622 - #10 void
+INFO  17:38:32,622 - #41 main
+INFO  17:38:32,623 - #31 (
+INFO  17:38:32,623 - #32 )
+INFO  17:38:32,623 - #36 {
+INFO  17:38:32,624 - #37 }
+INFO  17:38:32,625 - #37 }
+INFO  17:38:32,633 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         i22
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       i
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  17:38:32,633 - ===================================
+ERROR 17:38:32,636 - Greska na liniji 7: Nije pronadjen tip i22 u tabeli simbola!
+INFO  17:38:32,636 - ===================================
+ERROR 17:38:32,637 - Parsiranje NIJE uspesno zavrseno!

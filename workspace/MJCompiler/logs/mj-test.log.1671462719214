@@ -1,0 +1,66 @@
+INFO  16:09:08,547 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  16:09:08,615 - #35 program
+INFO  16:09:08,616 - #42 test301
+INFO  16:09:08,616 - #38 const
+INFO  16:09:08,618 - #42 int
+INFO  16:09:08,619 - #42 jedan
+INFO  16:09:08,620 - #40 =
+INFO  16:09:08,620 - #44 1
+INFO  16:09:08,620 - #41 ,
+INFO  16:09:08,621 - #42 x
+INFO  16:09:08,621 - #40 =
+INFO  16:09:08,622 - #29 .
+ERROR 16:09:08,622 - 
+Sintaksna greska na liniji 5
+INFO  16:09:08,622 - #41 ,
+INFO  16:09:08,622 - #42 v
+INFO  16:09:08,622 - #40 =
+INFO  16:09:08,623 - #44 1
+INFO  16:09:08,623 - #41 ,
+INFO  16:09:08,623 - #42 v
+INFO  16:09:08,623 - #40 =
+INFO  16:09:08,624 - #44 3
+INFO  16:09:08,624 - #29 .
+ERROR 16:09:08,624 - 
+Sintaksna greska na liniji 5
+INFO  16:09:08,624 - #39 ;
+INFO  16:09:08,624 - #36 {
+INFO  16:09:08,624 - #37 }
+INFO  16:09:08,629 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       jedan
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_errorcomma(
+        ConDeclMore_comma(
+          ConDecl(
+           v
+            Constant_n(
+             1
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_errorcomma(
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConDeclMore_errorcomma]
+        ) [ConDeclMore_comma]
+      ) [ConDeclMore_errorcomma]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  16:09:08,629 - ===================================
+ERROR 16:09:08,629 - Parsiranje NIJE uspesno zavrseno!

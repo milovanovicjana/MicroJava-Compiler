@@ -1,0 +1,65 @@
+INFO  17:50:58,123 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  17:50:58,162 - #13 program
+INFO  17:50:58,162 - #41 Program
+INFO  17:50:58,162 - #36 {
+INFO  17:50:58,163 - #10 void
+INFO  17:50:58,164 - #41 main
+INFO  17:50:58,164 - #31 (
+INFO  17:50:58,164 - #32 )
+INFO  17:50:58,165 - #36 {
+INFO  17:50:58,165 - #7 print
+INFO  17:50:58,165 - #31 (
+INFO  17:50:58,166 - #44 a
+INFO  17:50:58,166 - #40 ,
+INFO  17:50:58,167 - #43 4
+INFO  17:50:58,167 - #32 )
+INFO  17:50:58,167 - #38 ;
+INFO  17:50:58,167 - #37 }
+INFO  17:50:58,167 - #37 }
+INFO  17:50:58,175 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          PrintParameters_withNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_constant(
+                        Constant_c(
+                         a
+                        ) [Constant_c]
+                      ) [FactorSub_constant]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+           4
+          ) [PrintParameters_withNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  17:50:58,176 - ===================================
+INFO  17:50:58,179 - ===================================
+INFO  17:50:58,184 - Parsiranje uspesno zavrseno!

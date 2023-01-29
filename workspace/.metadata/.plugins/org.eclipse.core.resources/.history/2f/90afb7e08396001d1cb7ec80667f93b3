@@ -1,0 +1,70 @@
+program p1
+bool flag1,flag2;
+{
+
+   void main()bool niz[];bool elem;int i;int niz2[];{
+   
+   		niz=new bool[4];
+   		niz2=new int[4];
+   		niz[0]=false;
+   		niz[1]=true;
+   		niz[2]=false;
+   		niz[3]=true;
+   		
+   		niz2[0]=1;
+   		niz2[1]=2;
+   		niz2[2]=3;
+   		niz2[3]=4;
+   		
+   		i=0;
+   		niz.foreach(elem=>{
+   			i=0;
+   			if(elem){
+   				while(i<2){
+   					print(niz2[i]);
+   					i++;
+   				}
+   			}
+   			print(eol);
+   		});
+   		print(eol);
+   		niz2.foreach(i=>{
+   			  print(i);
+   			  print('s'); //spoljasnja petlja
+   			  print(eol);
+   			  niz2.foreach(i=>{
+   					print(i); 
+   					print('u');//unutrasnja petlja
+   					if(i==3)break;
+   			  }); 
+   			  print(eol);
+   			
+   		});
+   		
+   		flag1=true;
+   		flag2=false;
+   		
+   		if(flag1 || flag2){
+   		 	  print('a');
+   			  print(eol);
+   		}
+   		if(flag2 || flag2 && flag1){
+   		 	  print('b');
+   			  print(eol);
+   		}
+   		if(flag1 && flag1 || flag2 ){
+   		 	  print('c');
+   			  print(eol);
+   		}
+   		if(flag2 && flag2 || flag2 && flag1 ){
+   		 	  print('d');
+   			  print(eol);
+   		}
+   		
+   		
+   
+   
+   
+   }
+    
+}

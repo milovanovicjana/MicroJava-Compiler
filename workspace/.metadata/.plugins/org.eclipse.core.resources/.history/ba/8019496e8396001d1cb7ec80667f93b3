@@ -1,0 +1,47 @@
+program p1
+
+const int l=1;
+int a,niz2[];
+char niz[];
+{
+
+	int f(int x){
+		x=x/2;
+		return x;
+	}
+
+   void main()int i,b,c;char elem;int elem2;{
+   		niz=new char[3];
+   		niz2=new int[5];
+   		
+   		niz[0]='a';
+   		niz[1]='b';
+   		niz[2]='c';
+   		
+   		niz.foreach(elem=>{
+   			print(elem);
+   		});
+   		print(eol);
+   		
+   		i=0;
+   		while(i<5){
+   			read(niz2[i]); 
+   			i++;
+   		}
+   		niz2.foreach(elem2=>{
+   			print(elem2);
+   		});
+   		
+   		[a,,b,,c]=niz2;
+   		
+   		print(eol);
+   		print(a);
+   		print(b);
+   		print(c);
+   		
+   		c=16;
+   		print(eol);
+   		print(f(c)+f(10)-2*2);
+   }
+    
+}

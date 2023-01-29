@@ -1,0 +1,251 @@
+INFO  15:52:12,264 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  15:52:12,304 - #35 program
+INFO  15:52:12,304 - #42 test301
+INFO  15:52:12,304 - #42 int
+INFO  15:52:12,305 - #42 niz
+INFO  15:52:12,305 - #32 [
+INFO  15:52:12,306 - #33 ]
+INFO  15:52:12,306 - #39 ;
+INFO  15:52:12,306 - #42 int
+INFO  15:52:12,307 - #42 a
+INFO  15:52:12,307 - #41 ,
+INFO  15:52:12,307 - #42 curr
+INFO  15:52:12,307 - #39 ;
+INFO  15:52:12,307 - #36 {
+INFO  15:52:12,307 - #42 int
+INFO  15:52:12,308 - #42 sum
+INFO  15:52:12,308 - #30 (
+INFO  15:52:12,308 - #42 int
+INFO  15:52:12,308 - #42 z
+INFO  15:52:12,308 - #15 *
+ERROR 15:52:12,308 - 
+Sintaksna greska na liniji 11
+INFO  15:52:12,310 - #15 *
+INFO  15:52:12,310 - #41 ,
+INFO  15:52:12,310 - #42 int
+INFO  15:52:12,311 - #42 x
+INFO  15:52:12,311 - #29 .
+ERROR 15:52:12,312 - 
+Sintaksna greska na liniji 11
+INFO  15:52:12,312 - #41 ,
+INFO  15:52:12,312 - #42 int
+INFO  15:52:12,312 - #32 [
+INFO  15:52:12,312 - #33 ]
+INFO  15:52:12,312 - #31 )
+INFO  15:52:12,312 - #36 {
+INFO  15:52:12,312 - #9 return
+INFO  15:52:12,312 - #42 z
+INFO  15:52:12,314 - #13 +
+INFO  15:52:12,315 - #42 d
+INFO  15:52:12,316 - #39 ;
+INFO  15:52:12,317 - #37 }
+INFO  15:52:12,317 - #10 void
+INFO  15:52:12,318 - #42 main
+INFO  15:52:12,318 - #30 (
+INFO  15:52:12,318 - #31 )
+INFO  15:52:12,319 - #36 {
+INFO  15:52:12,319 - #42 a
+INFO  15:52:12,319 - #40 =
+INFO  15:52:12,319 - #42 a
+INFO  15:52:12,319 - #13 +
+INFO  15:52:12,319 - #39 ;
+ERROR 15:52:12,319 - 
+Sintaksna greska na liniji 17
+INFO  15:52:12,320 - #42 a
+INFO  15:52:12,320 - #40 =
+INFO  15:52:12,320 - #42 a
+INFO  15:52:12,320 - #13 +
+INFO  15:52:12,320 - #44 1
+INFO  15:52:12,320 - #39 ;
+INFO  15:52:12,320 - #4 if
+INFO  15:52:12,320 - #30 (
+INFO  15:52:12,320 - #42 a
+INFO  15:52:12,320 - #13 +
+INFO  15:52:12,321 - #42 b
+INFO  15:52:12,321 - #13 +
+INFO  15:52:12,321 - #31 )
+ERROR 15:52:12,321 - 
+Sintaksna greska na liniji 21
+INFO  15:52:12,321 - #36 {
+INFO  15:52:12,321 - #37 }
+INFO  15:52:12,321 - #37 }
+INFO  15:52:12,322 - #37 }
+INFO  15:52:12,324 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_bracket(
+         niz
+        ) [VarDecl_bracket]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_ident(
+       a
+      ) [VarDecl_ident]
+      VarDeclMore_comma(
+        VarDecl_ident(
+         curr
+        ) [VarDecl_ident]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         sum
+        ) [MethodRetAndName_type]
+        FormParsList_list(
+          FormParam_error(
+          ) [FormParam_error]
+          FormParsMore_comma(
+            FormParam_error(
+            ) [FormParam_error]
+            FormParsMore_e(
+            ) [FormParsMore_e]
+          ) [FormParsMore_comma]
+        ) [FormParsList_list]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_return_expr(
+            Expr(
+              AddopTermList_add(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        FactorSub_designator1(
+                          Designator_ident(
+                           z
+                          ) [Designator_ident]
+                        ) [FactorSub_designator1]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+                Addop_plus(
+                ) [Addop_plus]
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorSub_designator1(
+                        Designator_ident(
+                         d
+                        ) [Designator_ident]
+                      ) [FactorSub_designator1]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_add]
+            ) [Expr]
+          ) [Statement_return_expr]
+        ) [StatementList_list]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_list(
+          StatementList_list(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_designator_error(
+              Designator_ident(
+               a
+              ) [Designator_ident]
+              Assignop(
+              ) [Assignop]
+            ) [Statement_designator_error]
+          ) [StatementList_list]
+          Statement_designator(
+            DesignatorStatement_assignop(
+              Designator_ident(
+               a
+              ) [Designator_ident]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddopTermList_add(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          FactorSub_designator1(
+                            Designator_ident(
+                             a
+                            ) [Designator_ident]
+                          ) [FactorSub_designator1]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                  Addop_plus(
+                  ) [Addop_plus]
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        FactorSub_num(
+                         1
+                        ) [FactorSub_num]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_add]
+              ) [Expr]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designator]
+        ) [StatementList_list]
+        Statement_if(
+          Condition_error(
+          ) [Condition_error]
+          Statement_statementList(
+            StatementList_e(
+            ) [StatementList_e]
+          ) [Statement_statementList]
+          ElseStatement_e(
+          ) [ElseStatement_e]
+        ) [Statement_if]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  15:52:12,324 - ===================================
+ERROR 15:52:12,324 - Parsiranje NIJE uspesno zavrseno!

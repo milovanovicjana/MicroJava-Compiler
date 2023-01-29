@@ -1,0 +1,84 @@
+INFO  14:22:00,744 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  14:22:00,791 - #35 program
+INFO  14:22:00,791 - #42 test301
+INFO  14:22:00,791 - #36 {
+INFO  14:22:00,792 - #10 void
+INFO  14:22:00,792 - #42 main
+INFO  14:22:00,792 - #30 (
+INFO  14:22:00,793 - #31 )
+INFO  14:22:00,793 - #36 {
+INFO  14:22:00,794 - #42 a
+INFO  14:22:00,794 - #40 =
+INFO  14:22:00,794 - #42 a
+INFO  14:22:00,795 - #13 +
+INFO  14:22:00,797 - #42 n
+INFO  14:22:00,798 - #39 ;
+INFO  14:22:00,799 - #37 }
+INFO  14:22:00,799 - #37 }
+INFO  14:22:00,800 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          Designator_ident(
+           a
+          ) [Designator_ident]
+          Assignop(
+          ) [Assignop]
+          Expr(
+            AddopTermList_add(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorSub_designator1(
+                        Designator_ident(
+                         a
+                        ) [Designator_ident]
+                      ) [FactorSub_designator1]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+              Addop_plus(
+              ) [Addop_plus]
+              Term(
+                MulopFactorList_factor(
+                  Factor(
+                    Unary_e(
+                    ) [Unary_e]
+                    FactorSub_designator1(
+                      Designator_ident(
+                       n
+                      ) [Designator_ident]
+                    ) [FactorSub_designator1]
+                  ) [Factor]
+                ) [MulopFactorList_factor]
+              ) [Term]
+            ) [AddopTermList_add]
+          ) [Expr]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  14:22:00,801 - ===================================
+INFO  14:22:00,801 - Parsiranje uspesno zavrseno!

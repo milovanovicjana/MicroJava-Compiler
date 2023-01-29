@@ -1,0 +1,114 @@
+INFO  21:10:02,648 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  21:10:02,714 - #13 program
+INFO  21:10:02,714 - #41 test301
+INFO  21:10:02,714 - #41 char
+INFO  21:10:02,715 - #41 int
+INFO  21:10:02,716 - #41 i
+ERROR 21:10:02,716 - 
+Sintaksna greska na liniji 5
+INFO  21:10:02,717 - #39 =
+INFO  21:10:02,717 - #43 8
+INFO  21:10:02,717 - #40 ,
+INFO  21:10:02,717 - #41 j
+INFO  21:10:02,717 - #39 =
+INFO  21:10:02,718 - #43 9
+INFO  21:10:02,718 - #40 ,
+INFO  21:10:02,718 - #41 e
+INFO  21:10:02,718 - #39 =
+INFO  21:10:02,718 - #44 a
+INFO  21:10:02,718 - #38 ;
+INFO  21:10:02,718 - #14 const
+INFO  21:10:02,718 - #41 bool
+INFO  21:10:02,718 - #41 a
+ERROR 21:10:02,719 - Izvrsen oporavak u deklaraciji globalne promenljive u liniji 5
+INFO  21:10:02,722 - #39 =
+INFO  21:10:02,723 - #42 0
+INFO  21:10:02,723 - #40 ,
+INFO  21:10:02,724 - #41 c
+INFO  21:10:02,724 - #39 =
+INFO  21:10:02,724 - #43 0
+INFO  21:10:02,724 - #40 ,
+INFO  21:10:02,724 - #41 b
+INFO  21:10:02,725 - #39 =
+INFO  21:10:02,725 - #42 1
+INFO  21:10:02,725 - #38 ;
+INFO  21:10:02,726 - #36 {
+INFO  21:10:02,726 - #10 void
+INFO  21:10:02,727 - #41 main
+INFO  21:10:02,727 - #31 (
+INFO  21:10:02,727 - #32 )
+INFO  21:10:02,728 - #36 {
+INFO  21:10:02,729 - #37 }
+INFO  21:10:02,729 - #37 }
+INFO  21:10:02,742 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           char
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_error(
+        ) [VarDecl_error]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         bool
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       a
+        Constant_b(
+         0
+        ) [Constant_b]
+      ) [ConDecl]
+      ConDeclMore_comma(
+        ConDecl(
+         c
+          Constant_n(
+           0
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_comma(
+          ConDecl(
+           b
+            Constant_b(
+             1
+            ) [Constant_b]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclMore_comma]
+      ) [ConDeclMore_comma]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  21:10:02,742 - ===================================
+ERROR 21:10:02,745 - Greska na liniji 7! Nekompabilan tip u definiciji konstante
+INFO  21:10:02,746 - ===================================
+ERROR 21:10:02,747 - Parsiranje NIJE uspesno zavrseno!

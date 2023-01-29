@@ -1,0 +1,14 @@
+program p1
+int a;
+{
+
+	int f(int a,int b){
+		return a+b;
+	}
+
+  	void main(){
+	   	a=2;
+	   	print(f(1+1,a+2)
+   	}
+    
+}

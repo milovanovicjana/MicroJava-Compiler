@@ -1,0 +1,135 @@
+INFO  11:05:23,152 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  11:05:23,226 - #13 program
+INFO  11:05:23,226 - #41 test302
+INFO  11:05:23,226 - #14 const
+INFO  11:05:23,228 - #41 int
+INFO  11:05:23,228 - #41 x
+INFO  11:05:23,230 - #39 =
+INFO  11:05:23,230 - #43 2
+INFO  11:05:23,230 - #38 ;
+INFO  11:05:23,231 - #36 {
+INFO  11:05:23,232 - #10 void
+INFO  11:05:23,233 - #41 main
+INFO  11:05:23,233 - #31 (
+INFO  11:05:23,233 - #32 )
+INFO  11:05:23,234 - #41 int
+INFO  11:05:23,234 - #41 niz
+INFO  11:05:23,235 - #33 [
+INFO  11:05:23,235 - #34 ]
+INFO  11:05:23,235 - #38 ;
+INFO  11:05:23,235 - #36 {
+INFO  11:05:23,236 - #41 niz
+INFO  11:05:23,238 - #30 .
+INFO  11:05:23,240 - #12 foreach
+INFO  11:05:23,240 - #31 (
+INFO  11:05:23,241 - #41 c
+INFO  11:05:23,241 - #35 =>
+INFO  11:05:23,241 - #7 print
+INFO  11:05:23,241 - #31 (
+INFO  11:05:23,241 - #41 x
+INFO  11:05:23,241 - #32 )
+INFO  11:05:23,243 - #38 ;
+INFO  11:05:23,243 - #32 )
+INFO  11:05:23,243 - #38 ;
+INFO  11:05:23,244 - #37 }
+INFO  11:05:23,244 - #37 }
+INFO  11:05:23,255 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         2
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_bracket(
+           niz
+          ) [VarDecl_bracket]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_foreach(
+          Designator(
+            DesignatorName(
+             niz
+            ) [DesignatorName]
+            DesignatorIndex_e(
+            ) [DesignatorIndex_e]
+          ) [Designator]
+          ForeachLoopStart(
+          ) [ForeachLoopStart]
+          ForeachIdentName(
+           c
+          ) [ForeachIdentName]
+          Statement_print(
+            PrintParameters_noNumber(
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_designator1(
+                          Designator(
+                            DesignatorName(
+                             x
+                            ) [DesignatorName]
+                            DesignatorIndex_e(
+                            ) [DesignatorIndex_e]
+                          ) [Designator]
+                        ) [FactorSub_designator1]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [PrintParameters_noNumber]
+          ) [Statement_print]
+        ) [Statement_foreach]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  11:05:23,255 - ===================================
+INFO  11:05:23,261 - Pretraga na liniji 13(niz), nadjeno Var niz: Arr of int, 0, 1 
+INFO  11:05:23,261 - Pretraga na liniji 13(x), nadjeno Con x: int, 2, 0 
+INFO  11:05:23,262 - Pretraga na liniji 13(c), nadjeno Var noObj: notype, -1, -1 
+ERROR 11:05:23,262 - Greska na liniji 13: Promenljiva c u foreach petlji mora biti lokalna ili globalna promenljiva
+ERROR 11:05:23,262 - Greska na liniji 13: Promenljiva c u foreach petlji mora biti istog tipa kao i elementi niza nad kojim se zove foreach petlja
+INFO  11:05:23,262 - ===================================
+ERROR 11:05:23,263 - Parsiranje NIJE uspesno zavrseno!

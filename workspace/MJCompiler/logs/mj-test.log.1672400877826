@@ -1,0 +1,161 @@
+INFO  12:47:18,213 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  12:47:18,271 - #13 program
+INFO  12:47:18,272 - #41 test302
+INFO  12:47:18,272 - #41 int
+INFO  12:47:18,275 - #41 arr
+INFO  12:47:18,275 - #33 [
+INFO  12:47:18,275 - #34 ]
+INFO  12:47:18,275 - #38 ;
+INFO  12:47:18,276 - #36 {
+INFO  12:47:18,277 - #10 void
+INFO  12:47:18,278 - #41 main
+INFO  12:47:18,278 - #31 (
+INFO  12:47:18,278 - #32 )
+INFO  12:47:18,279 - #36 {
+INFO  12:47:18,280 - #41 arr
+INFO  12:47:18,281 - #39 =
+INFO  12:47:18,283 - #6 new
+INFO  12:47:18,284 - #41 int
+INFO  12:47:18,284 - #33 [
+INFO  12:47:18,284 - #43 4
+INFO  12:47:18,284 - #34 ]
+INFO  12:47:18,287 - #38 ;
+INFO  12:47:18,288 - #41 len
+INFO  12:47:18,288 - #31 (
+INFO  12:47:18,290 - #41 arr
+INFO  12:47:18,290 - #32 )
+INFO  12:47:18,291 - #38 ;
+INFO  12:47:18,292 - #37 }
+INFO  12:47:18,292 - #37 }
+INFO  12:47:18,305 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_bracket(
+       arr
+      ) [VarDecl_bracket]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_assignop(
+              DesignatorStatementAssignop_assignop(
+                Designator(
+                  DesignatorName(
+                   arr
+                  ) [DesignatorName]
+                  DesignatorIndex_e(
+                  ) [DesignatorIndex_e]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_new(
+                            Type(
+                             int
+                            ) [Type]
+                            Expr(
+                              AddopTermList_terml(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor_e(
+                                      FactorSub_constant(
+                                        Constant_n(
+                                         4
+                                        ) [Constant_n]
+                                      ) [FactorSub_constant]
+                                    ) [Factor_e]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_terml]
+                            ) [Expr]
+                          ) [FactorSub_new]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [DesignatorStatementAssignop_assignop]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designator]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_actPars(
+            FunCallName(
+              Designator(
+                DesignatorName(
+                 len
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+            ) [FunCallName]
+            ActParsList_ap(
+              ActPar(
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_designator1(
+                            Designator(
+                              DesignatorName(
+                               arr
+                              ) [DesignatorName]
+                              DesignatorIndex_e(
+                              ) [DesignatorIndex_e]
+                            ) [Designator]
+                          ) [FactorSub_designator1]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [ActPar]
+              ActParMore_e(
+              ) [ActParMore_e]
+            ) [ActParsList_ap]
+          ) [DesignatorStatement_actPars]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  12:47:18,306 - ===================================
+INFO  12:47:18,311 - Pretraga na liniji 12(arr), nadjeno Var arr: Arr of int, 0, 0 
+INFO  12:47:18,312 - Pretraga na liniji 14(len), nadjeno Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+INFO  12:47:18,312 - Pretraga na liniji 14(arr), nadjeno Var arr: Arr of int, 0, 0 
+ERROR 12:47:18,312 - Greska na liniji 14: Tipovi stvarnih i formalnih parametara nisu kompatibilni!
+INFO  12:47:18,312 - ===================================
+ERROR 12:47:18,313 - Parsiranje NIJE uspesno zavrseno!

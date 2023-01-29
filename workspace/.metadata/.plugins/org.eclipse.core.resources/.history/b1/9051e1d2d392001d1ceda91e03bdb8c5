@@ -1,0 +1,78 @@
+program p1
+
+int x, y;
+
+const int pet=5;
+{
+
+  
+  void ispisi(int x, int y){
+	  if((x+y) > 7){
+	  		if(x<3){
+	  			print(x);
+	  		
+	  		}else{
+	  			print(y);
+	  		}
+	  }else{
+	  	print(x + y);
+	  }
+  }
+  
+  int decrement(int x, int dec){
+  	return (x-dec);
+  }
+  
+  
+   void main()
+   		int niz1[], niz2[], curr;
+   		int i, j;
+   		int loop1, loop2, loop3;
+   {
+   
+   		niz1 = new int[3+1+1];
+   		niz2 = new int[5*1];
+   		i = 0;
+   		while(i<5){
+   			niz1[i] = i;
+   			niz2[i] = i+5;
+   			i++;
+   		}
+   		i = 0;
+   		while(i < 5){
+   			ispisi(niz1[i], niz2[i]);
+   			i++;
+   		}
+   		
+   		print(eol);
+   		loop1 = 0;
+   		while(loop1 < 3){
+   			print('L'); print(1);
+   			print(eol);
+   			loop2 = 0;
+   			while(loop2 < 3){
+   				if(loop2==2 && loop1 == 0) break;
+   				print('L'); print(2); 
+   				print(eol);
+   				niz1.foreach(curr=> {
+   					if(loop2 == 1 || loop2==2) continue;
+   					print('L'); print(3); 
+   				});
+   				print(eol);
+   				loop2++;
+   			}
+   			
+   			loop1++;
+   		}
+   		
+   		print(eol);
+   		j = 0;
+   		niz1.foreach(curr =>{
+   			read(niz2[j]);
+   			niz2[j] = decrement(niz2[j], curr);
+   			print(niz2[j]);
+   			j++;
+   		} );
+   		
+   }
+}

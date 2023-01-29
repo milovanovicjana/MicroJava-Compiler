@@ -1,0 +1,90 @@
+INFO  18:20:29,665 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  18:20:29,765 - #13 program
+INFO  18:20:29,765 - #41 test302
+INFO  18:20:29,765 - #14 const
+INFO  18:20:29,767 - #41 int
+INFO  18:20:29,767 - #41 jedan
+INFO  18:20:29,770 - #39 =
+INFO  18:20:29,771 - #43 1
+INFO  18:20:29,771 - #38 ;
+INFO  18:20:29,774 - #36 {
+INFO  18:20:29,776 - #10 void
+INFO  18:20:29,777 - #41 main
+INFO  18:20:29,777 - #31 (
+INFO  18:20:29,777 - #32 )
+INFO  18:20:29,778 - #36 {
+INFO  18:20:29,779 - #7 print
+INFO  18:20:29,780 - #31 (
+INFO  18:20:29,780 - #41 jedan
+INFO  18:20:29,781 - #32 )
+INFO  18:20:29,789 - #38 ;
+INFO  18:20:29,790 - #37 }
+INFO  18:20:29,790 - #37 }
+INFO  18:20:29,811 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       jedan
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          PrintParameters_noNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_designator1(
+                        Designator(
+                          DesignatorName(
+                           jedan
+                          ) [DesignatorName]
+                          DesignatorIndex_e(
+                          ) [DesignatorIndex_e]
+                        ) [Designator]
+                      ) [FactorSub_designator1]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [PrintParameters_noNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  18:20:29,812 - ===================================
+INFO  18:20:29,818 - Pretraga na liniji 14(jedan), nadjeno Con jedan: int, 1, 0 
+INFO  18:20:29,818 - ===================================
+INFO  18:20:29,833 - Parsiranje uspesno zavrseno!

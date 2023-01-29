@@ -1,0 +1,123 @@
+INFO  11:56:23,925 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  11:56:24,008 - #13 program
+INFO  11:56:24,009 - #41 test302
+INFO  11:56:24,009 - #36 {
+INFO  11:56:24,011 - #41 int
+INFO  11:56:24,012 - #41 f
+INFO  11:56:24,013 - #31 (
+INFO  11:56:24,013 - #32 )
+INFO  11:56:24,014 - #36 {
+INFO  11:56:24,015 - #37 }
+INFO  11:56:24,016 - #10 void
+INFO  11:56:24,018 - #41 main
+INFO  11:56:24,018 - #31 (
+INFO  11:56:24,018 - #32 )
+INFO  11:56:24,018 - #36 {
+INFO  11:56:24,018 - #7 print
+INFO  11:56:24,019 - #31 (
+INFO  11:56:24,019 - #41 chr
+INFO  11:56:24,019 - #31 (
+INFO  11:56:24,022 - #43 97
+INFO  11:56:24,022 - #32 )
+INFO  11:56:24,029 - #32 )
+INFO  11:56:24,029 - #38 ;
+INFO  11:56:24,029 - #37 }
+INFO  11:56:24,030 - #37 }
+INFO  11:56:24,045 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethodRetAndName_type]
+        FormParsList_e(
+        ) [FormParsList_e]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          PrintParameters_noNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_designator2(
+                        FunCallName(
+                          Designator(
+                            DesignatorName(
+                             chr
+                            ) [DesignatorName]
+                            DesignatorIndex_e(
+                            ) [DesignatorIndex_e]
+                          ) [Designator]
+                        ) [FunCallName]
+                        ActParsList_ap(
+                          ActPar(
+                            Expr(
+                              AddopTermList_terml(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor_e(
+                                      FactorSub_constant(
+                                        Constant_n(
+                                         97
+                                        ) [Constant_n]
+                                      ) [FactorSub_constant]
+                                    ) [Factor_e]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_terml]
+                            ) [Expr]
+                          ) [ActPar]
+                          ActParMore_e(
+                          ) [ActParMore_e]
+                        ) [ActParsList_ap]
+                      ) [FactorSub_designator2]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [PrintParameters_noNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  11:56:24,045 - ===================================
+INFO  11:56:24,052 - Pretraga na liniji 14(chr), nadjeno Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+INFO  11:56:24,053 - petlja
+INFO  11:56:24,053 - ===================================
+INFO  11:56:24,060 - 0
+INFO  11:56:24,060 - 0
+INFO  11:56:24,060 - jeste main
+INFO  11:56:24,060 - 0
+INFO  11:56:24,061 - 0
+INFO  11:56:24,062 - Parsiranje uspesno zavrseno!

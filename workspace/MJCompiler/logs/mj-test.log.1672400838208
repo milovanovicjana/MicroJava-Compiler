@@ -1,0 +1,129 @@
+INFO  12:47:01,045 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  12:47:01,104 - #13 program
+INFO  12:47:01,104 - #41 test302
+INFO  12:47:01,104 - #41 int
+INFO  12:47:01,106 - #41 arr
+INFO  12:47:01,107 - #33 [
+INFO  12:47:01,107 - #34 ]
+INFO  12:47:01,107 - #38 ;
+INFO  12:47:01,108 - #36 {
+INFO  12:47:01,109 - #10 void
+INFO  12:47:01,110 - #41 main
+INFO  12:47:01,110 - #31 (
+INFO  12:47:01,111 - #32 )
+INFO  12:47:01,111 - #36 {
+INFO  12:47:01,112 - #41 arr
+INFO  12:47:01,113 - #39 =
+INFO  12:47:01,115 - #6 new
+INFO  12:47:01,116 - #41 int
+INFO  12:47:01,116 - #33 [
+INFO  12:47:01,116 - #43 4
+INFO  12:47:01,117 - #34 ]
+INFO  12:47:01,119 - #38 ;
+INFO  12:47:01,120 - #41 len
+INFO  12:47:01,121 - #31 (
+INFO  12:47:01,121 - #41 arr
+INFO  12:47:01,121 - #33 [
+INFO  12:47:01,121 - #34 ]
+ERROR 12:47:01,121 - 
+Sintaksna greska na liniji 14
+INFO  12:47:01,121 - #32 )
+INFO  12:47:01,121 - #38 ;
+INFO  12:47:01,122 - #37 }
+INFO  12:47:01,123 - #37 }
+ERROR 12:47:01,123 - Izvrsen oporavak u iskazu dodele u liniji 1
+INFO  12:47:01,137 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_bracket(
+       arr
+      ) [VarDecl_bracket]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_assignop(
+              DesignatorStatementAssignop_assignop(
+                Designator(
+                  DesignatorName(
+                   arr
+                  ) [DesignatorName]
+                  DesignatorIndex_e(
+                  ) [DesignatorIndex_e]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_new(
+                            Type(
+                             int
+                            ) [Type]
+                            Expr(
+                              AddopTermList_terml(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor_e(
+                                      FactorSub_constant(
+                                        Constant_n(
+                                         4
+                                        ) [Constant_n]
+                                      ) [FactorSub_constant]
+                                    ) [Factor_e]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_terml]
+                            ) [Expr]
+                          ) [FactorSub_new]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [DesignatorStatementAssignop_assignop]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designator]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_error(
+            ) [DesignatorStatementAssignop_error]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  12:47:01,138 - ===================================
+INFO  12:47:01,144 - Pretraga na liniji 12(arr), nadjeno Var arr: Arr of int, 0, 0 
+INFO  12:47:01,144 - ===================================
+ERROR 12:47:01,145 - Parsiranje NIJE uspesno zavrseno!

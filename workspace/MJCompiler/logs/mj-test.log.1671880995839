@@ -1,0 +1,301 @@
+INFO  12:22:58,938 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  12:22:59,048 - #13 program
+INFO  12:22:59,050 - #41 P
+INFO  12:22:59,050 - #14 const
+INFO  12:22:59,052 - #41 int
+INFO  12:22:59,053 - #41 size
+INFO  12:22:59,054 - #39 =
+INFO  12:22:59,055 - #43 10
+INFO  12:22:59,056 - #38 ;
+INFO  12:22:59,058 - #41 int
+INFO  12:22:59,059 - #41 pos
+INFO  12:22:59,059 - #33 [
+INFO  12:22:59,060 - #34 ]
+INFO  12:22:59,061 - #38 ;
+INFO  12:22:59,062 - #41 int
+INFO  12:22:59,065 - #41 t
+INFO  12:22:59,065 - #38 ;
+INFO  12:22:59,065 - #14 const
+INFO  12:22:59,066 - #41 bool
+INFO  12:22:59,066 - #41 jana
+INFO  12:22:59,066 - #39 =
+INFO  12:22:59,067 - #42 1
+INFO  12:22:59,067 - #38 ;
+INFO  12:22:59,067 - #36 {
+INFO  12:22:59,067 - #41 int
+INFO  12:22:59,069 - #41 ff
+INFO  12:22:59,069 - #31 (
+INFO  12:22:59,069 - #41 int
+INFO  12:22:59,069 - #41 s
+INFO  12:22:59,070 - #33 [
+INFO  12:22:59,070 - #34 ]
+INFO  12:22:59,070 - #40 ,
+INFO  12:22:59,070 - #41 int
+INFO  12:22:59,070 - #41 d
+INFO  12:22:59,070 - #32 )
+INFO  12:22:59,072 - #36 {
+INFO  12:22:59,073 - #9 return
+INFO  12:22:59,075 - #38 ;
+INFO  12:22:59,075 - #37 }
+INFO  12:22:59,076 - #10 void
+INFO  12:22:59,078 - #41 main
+INFO  12:22:59,078 - #31 (
+INFO  12:22:59,079 - #32 )
+INFO  12:22:59,080 - #41 char
+INFO  12:22:59,082 - #41 x
+INFO  12:22:59,082 - #38 ;
+INFO  12:22:59,082 - #36 {
+INFO  12:22:59,082 - #41 x
+INFO  12:22:59,083 - #39 =
+INFO  12:22:59,083 - #44 p
+INFO  12:22:59,085 - #38 ;
+INFO  12:22:59,089 - #41 t
+INFO  12:22:59,089 - #39 =
+INFO  12:22:59,089 - #31 (
+INFO  12:22:59,089 - #43 1
+INFO  12:22:59,089 - #15 +
+INFO  12:22:59,089 - #43 2
+INFO  12:22:59,091 - #15 +
+INFO  12:22:59,092 - #43 2
+INFO  12:22:59,092 - #32 )
+INFO  12:22:59,092 - #38 ;
+INFO  12:22:59,093 - #37 }
+INFO  12:22:59,093 - #37 }
+INFO  12:22:59,117 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_var(
+      ConVarDeclList_var(
+        ConVarDeclList_con(
+          ConVarDeclList_e(
+          ) [ConVarDeclList_e]
+          ConstDeclList(
+            ConstDeclListType(
+              Type(
+               int
+              ) [Type]
+            ) [ConstDeclListType]
+            ConDecl(
+             size
+              Constant_n(
+               10
+              ) [Constant_n]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConstDeclList]
+        ) [ConVarDeclList_con]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_bracket(
+           pos
+          ) [VarDecl_bracket]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [ConVarDeclList_var]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_ident(
+         t
+        ) [VarDecl_ident]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         bool
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       jana
+        Constant_b(
+         1
+        ) [Constant_b]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         ff
+        ) [MethodRetAndName_type]
+        FormParsList_list(
+          FormParam_bracket(
+            Type(
+             int
+            ) [Type]
+           s
+          ) [FormParam_bracket]
+          FormParsMore_comma(
+            FormParam_ident(
+              Type(
+               int
+              ) [Type]
+             d
+            ) [FormParam_ident]
+            FormParsMore_e(
+            ) [FormParsMore_e]
+          ) [FormParsMore_comma]
+        ) [FormParsList_list]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_return_noexpr(
+          ) [Statement_return_noexpr]
+        ) [StatementList_list]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             char
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           x
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_assignop(
+              DDesignatorStatementAssignop_assignop(
+                Designator_ident(
+                 x
+                ) [Designator_ident]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_constant(
+                            Constant_c(
+                             p
+                            ) [Constant_c]
+                          ) [FactorSub_constant]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [DDesignatorStatementAssignop_assignop]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designator]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DDesignatorStatementAssignop_assignop(
+              Designator_ident(
+               t
+              ) [Designator_ident]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_expr(
+                          Expr(
+                            AddopTermList_add(
+                              AddopTermList_add(
+                                AddopTermList_terml(
+                                  Term(
+                                    MulopFactorList_factor(
+                                      Factor_e(
+                                        FactorSub_constant(
+                                          Constant_n(
+                                           1
+                                          ) [Constant_n]
+                                        ) [FactorSub_constant]
+                                      ) [Factor_e]
+                                    ) [MulopFactorList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_terml]
+                                Addop_plus(
+                                ) [Addop_plus]
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor_e(
+                                      FactorSub_constant(
+                                        Constant_n(
+                                         2
+                                        ) [Constant_n]
+                                      ) [FactorSub_constant]
+                                    ) [Factor_e]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_add]
+                              Addop_plus(
+                              ) [Addop_plus]
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor_e(
+                                    FactorSub_constant(
+                                      Constant_n(
+                                       2
+                                      ) [Constant_n]
+                                    ) [FactorSub_constant]
+                                  ) [Factor_e]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_add]
+                          ) [Expr]
+                        ) [FactorSub_expr]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [DDesignatorStatementAssignop_assignop]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  12:22:59,118 - ===================================
+ERROR 12:22:59,125 - Greska na liniji 24: Nekompatibilan izraz u return iskazu
+INFO  12:22:59,125 - Pretraga na liniji 13(x), nadjeno Var x: char, 0, 1 
+INFO  12:22:59,126 - Pretraga na liniji 14(t), nadjeno Var t: int, 1, 0 
+INFO  12:22:59,126 - ===================================
+ERROR 12:22:59,133 - Parsiranje NIJE uspesno zavrseno!

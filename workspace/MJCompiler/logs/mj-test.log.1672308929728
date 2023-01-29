@@ -1,0 +1,254 @@
+INFO  11:15:13,247 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  11:15:13,318 - #13 program
+INFO  11:15:13,319 - #41 test302
+INFO  11:15:13,319 - #14 const
+INFO  11:15:13,320 - #41 bool
+INFO  11:15:13,321 - #41 x
+INFO  11:15:13,322 - #39 =
+INFO  11:15:13,322 - #43 2
+INFO  11:15:13,322 - #38 ;
+INFO  11:15:13,324 - #36 {
+INFO  11:15:13,325 - #10 void
+INFO  11:15:13,326 - #41 main
+INFO  11:15:13,326 - #31 (
+INFO  11:15:13,326 - #32 )
+INFO  11:15:13,327 - #41 bool
+INFO  11:15:13,328 - #41 niz
+INFO  11:15:13,328 - #33 [
+INFO  11:15:13,329 - #34 ]
+INFO  11:15:13,329 - #38 ;
+INFO  11:15:13,330 - #41 bool
+INFO  11:15:13,331 - #41 c
+INFO  11:15:13,332 - #40 ,
+INFO  11:15:13,332 - #41 c1
+INFO  11:15:13,332 - #38 ;
+INFO  11:15:13,332 - #36 {
+INFO  11:15:13,332 - #41 niz
+INFO  11:15:13,333 - #30 .
+INFO  11:15:13,335 - #12 foreach
+INFO  11:15:13,335 - #31 (
+INFO  11:15:13,336 - #41 x
+INFO  11:15:13,336 - #35 =>
+INFO  11:15:13,336 - #7 print
+INFO  11:15:13,336 - #31 (
+INFO  11:15:13,336 - #41 x
+INFO  11:15:13,337 - #32 )
+INFO  11:15:13,339 - #38 ;
+INFO  11:15:13,339 - #32 )
+INFO  11:15:13,339 - #38 ;
+INFO  11:15:13,339 - #41 c
+INFO  11:15:13,339 - #39 =
+INFO  11:15:13,339 - #42 1
+INFO  11:15:13,340 - #38 ;
+INFO  11:15:13,340 - #41 niz
+INFO  11:15:13,340 - #33 [
+INFO  11:15:13,340 - #43 1
+INFO  11:15:13,340 - #34 ]
+INFO  11:15:13,340 - #39 =
+INFO  11:15:13,341 - #42 0
+INFO  11:15:13,341 - #38 ;
+INFO  11:15:13,341 - #37 }
+INFO  11:15:13,341 - #37 }
+INFO  11:15:13,351 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         bool
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         2
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_list(
+          VarDeclListMethod_e(
+          ) [VarDeclListMethod_e]
+          VarDeclList(
+            TypeVar_type(
+              Type(
+               bool
+              ) [Type]
+            ) [TypeVar_type]
+            VarDecl_bracket(
+             niz
+            ) [VarDecl_bracket]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListMethod_list]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           c
+          ) [VarDecl_ident]
+          VarDeclMore_comma(
+            VarDecl_ident(
+             c1
+            ) [VarDecl_ident]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_comma]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_list(
+          StatementList_list(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_foreach(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+              ForeachLoopStart(
+              ) [ForeachLoopStart]
+              ForeachIdentName(
+               x
+              ) [ForeachIdentName]
+              Statement_print(
+                PrintParameters_noNumber(
+                  Expr(
+                    AddopTermList_terml(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor_e(
+                            FactorSub_designator1(
+                              Designator(
+                                DesignatorName(
+                                 x
+                                ) [DesignatorName]
+                                DesignatorIndex_e(
+                                ) [DesignatorIndex_e]
+                              ) [Designator]
+                            ) [FactorSub_designator1]
+                          ) [Factor_e]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_terml]
+                  ) [Expr]
+                ) [PrintParameters_noNumber]
+              ) [Statement_print]
+            ) [Statement_foreach]
+          ) [StatementList_list]
+          Statement_designator(
+            DesignatorStatement_assignop(
+              DesignatorStatementAssignop_assignop(
+                Designator(
+                  DesignatorName(
+                   c
+                  ) [DesignatorName]
+                  DesignatorIndex_e(
+                  ) [DesignatorIndex_e]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_constant(
+                            Constant_b(
+                             1
+                            ) [Constant_b]
+                          ) [FactorSub_constant]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [DesignatorStatementAssignop_assignop]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designator]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_assignop(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesignatorIndex_index(
+                  Expr(
+                    AddopTermList_terml(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor_e(
+                            FactorSub_constant(
+                              Constant_n(
+                               1
+                              ) [Constant_n]
+                            ) [FactorSub_constant]
+                          ) [Factor_e]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_terml]
+                  ) [Expr]
+                ) [DesignatorIndex_index]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_constant(
+                          Constant_b(
+                           0
+                          ) [Constant_b]
+                        ) [FactorSub_constant]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [DesignatorStatementAssignop_assignop]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  11:15:13,353 - ===================================
+ERROR 11:15:13,356 - Greska na liniji 5: Nekompabilan tip u definiciji konstante
+INFO  11:15:13,357 - Pretraga na liniji 13(niz), nadjeno Var niz: Arr of bool, 0, 1 
+ERROR 11:15:13,357 - Greska na liniji 13: Simbol x ne postoji u tabeli simbola
+INFO  11:15:13,357 - Pretraga na liniji 13(x), nadjeno Var noObj: notype, -1, -1 
+ERROR 11:15:13,357 - Greska na liniji 13: Izraz u print iskazu mora biti tipa int,char ili bool
+INFO  11:15:13,357 - Pretraga na liniji 13(x), nadjeno Var noObj: notype, -1, -1 
+ERROR 11:15:13,357 - Greska na liniji 13: Promenljiva x u foreach petlji mora biti lokalna ili globalna promenljiva
+ERROR 11:15:13,357 - Greska na liniji 13: Promenljiva x u foreach petlji mora biti istog tipa kao i elementi niza nad kojim se zove foreach petlja
+INFO  11:15:13,357 - Pretraga na liniji 14(c), nadjeno Var c: bool, 1, 1 
+INFO  11:15:13,358 - Pretraga na liniji 15(niz), nadjeno Var niz: Arr of bool, 0, 1 
+INFO  11:15:13,358 - ===================================
+ERROR 11:15:13,358 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,83 @@
+INFO  12:52:18,176 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  12:52:18,239 - #13 program
+INFO  12:52:18,240 - #41 test302
+INFO  12:52:18,240 - #36 {
+INFO  12:52:18,241 - #10 void
+INFO  12:52:18,242 - #41 main
+INFO  12:52:18,242 - #31 (
+INFO  12:52:18,243 - #32 )
+INFO  12:52:18,243 - #36 {
+INFO  12:52:18,244 - #41 ord
+INFO  12:52:18,245 - #31 (
+INFO  12:52:18,248 - #44 b
+INFO  12:52:18,248 - #32 )
+INFO  12:52:18,253 - #38 ;
+INFO  12:52:18,253 - #37 }
+INFO  12:52:18,253 - #37 }
+INFO  12:52:18,267 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_actPars(
+            FunCallName(
+              Designator(
+                DesignatorName(
+                 ord
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+            ) [FunCallName]
+            ActParsList_ap(
+              ActPar(
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_constant(
+                            Constant_c(
+                             b
+                            ) [Constant_c]
+                          ) [FactorSub_constant]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [ActPar]
+              ActParMore_e(
+              ) [ActParMore_e]
+            ) [ActParsList_ap]
+          ) [DesignatorStatement_actPars]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  12:52:18,269 - ===================================
+INFO  12:52:18,274 - Pretraga na liniji 13(ord), nadjeno Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+INFO  12:52:18,274 - ===================================
+INFO  12:52:18,278 - jeste main
+INFO  12:52:18,278 - 0
+INFO  12:52:18,279 - 0
+INFO  12:52:18,279 - Parsiranje uspesno zavrseno!

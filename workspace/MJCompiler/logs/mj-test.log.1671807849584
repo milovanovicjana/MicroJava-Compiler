@@ -1,0 +1,79 @@
+INFO  16:03:43,818 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  16:03:43,866 - #13 program
+INFO  16:03:43,866 - #41 test301
+INFO  16:03:43,867 - #14 const
+INFO  16:03:43,868 - #41 int
+INFO  16:03:43,868 - #41 i
+INFO  16:03:43,869 - #39 =
+INFO  16:03:43,869 - #42 1
+INFO  16:03:43,869 - #38 ;
+INFO  16:03:43,871 - #36 {
+INFO  16:03:43,872 - #10 void
+INFO  16:03:43,873 - #41 main
+INFO  16:03:43,873 - #31 (
+INFO  16:03:43,873 - #32 )
+INFO  16:03:43,874 - #41 bool
+INFO  16:03:43,875 - #41 x
+INFO  16:03:43,875 - #33 [
+INFO  16:03:43,875 - #34 ]
+INFO  16:03:43,875 - #38 ;
+INFO  16:03:43,876 - #36 {
+INFO  16:03:43,877 - #37 }
+INFO  16:03:43,878 - #37 }
+INFO  16:03:43,888 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       i
+        Constant_b(
+         1
+        ) [Constant_b]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_bracket(
+           x
+          ) [VarDecl_bracket]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  16:03:43,889 - ===================================
+ERROR 16:03:43,891 - Greska na liniji 7: Nekompabilan tip u definiciji konstante
+INFO  16:03:43,891 - ===================================
+ERROR 16:03:43,892 - Parsiranje NIJE uspesno zavrseno!

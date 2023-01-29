@@ -1,0 +1,52 @@
+INFO  20:02:36,467 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  20:02:36,531 - #13 program
+INFO  20:02:36,531 - #41 test301
+INFO  20:02:36,531 - #36 {
+INFO  20:02:36,533 - #10 void
+INFO  20:02:36,534 - #41 main
+INFO  20:02:36,534 - #31 (
+INFO  20:02:36,534 - #32 )
+INFO  20:02:36,535 - #36 {
+INFO  20:02:36,537 - #41 ex
+INFO  20:02:36,538 - #41 r
+ERROR 20:02:36,539 - 
+Sintaksna greska na liniji 10
+INFO  20:02:36,539 - #39 =
+INFO  20:02:36,539 - #43 3
+INFO  20:02:36,539 - #38 ;
+INFO  20:02:36,540 - #37 }
+INFO  20:02:36,541 - #37 }
+ERROR 20:02:36,541 - Izvrsen oporavak u iskazu dodele u liniji 1
+INFO  20:02:36,557 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_error(
+            ) [DesignatorStatementAssignop_error]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  20:02:36,559 - ===================================
+INFO  20:02:36,561 - ===================================
+ERROR 20:02:36,563 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,85 @@
+INFO  10:38:34,096 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:38:34,160 - #13 program
+INFO  10:38:34,160 - #41 test302
+INFO  10:38:34,160 - #14 const
+INFO  10:38:34,161 - #41 int
+INFO  10:38:34,162 - #41 x
+INFO  10:38:34,163 - #39 =
+INFO  10:38:34,163 - #43 4
+INFO  10:38:34,163 - #38 ;
+INFO  10:38:34,165 - #36 {
+INFO  10:38:34,165 - #10 void
+INFO  10:38:34,166 - #41 main
+INFO  10:38:34,166 - #31 (
+INFO  10:38:34,166 - #32 )
+INFO  10:38:34,167 - #36 {
+INFO  10:38:34,168 - #7 print
+INFO  10:38:34,169 - #31 (
+INFO  10:38:34,169 - #43 4
+INFO  10:38:34,169 - #32 )
+INFO  10:38:34,171 - #38 ;
+INFO  10:38:34,171 - #37 }
+INFO  10:38:34,171 - #37 }
+INFO  10:38:34,185 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         4
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          PrintParameters_noNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_constant(
+                        Constant_n(
+                         4
+                        ) [Constant_n]
+                      ) [FactorSub_constant]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [PrintParameters_noNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:38:34,186 - ===================================
+INFO  10:38:34,191 - ===================================
+INFO  10:38:34,199 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,133 @@
+INFO  21:11:09,387 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  21:11:09,453 - #13 program
+INFO  21:11:09,453 - #41 test301
+INFO  21:11:09,453 - #14 const
+INFO  21:11:09,455 - #41 char
+INFO  21:11:09,455 - #41 i
+INFO  21:11:09,458 - #39 =
+INFO  21:11:09,458 - #43 8
+INFO  21:11:09,458 - #40 ,
+INFO  21:11:09,460 - #41 j
+INFO  21:11:09,460 - #39 =
+INFO  21:11:09,460 - #43 9
+INFO  21:11:09,460 - #40 ,
+INFO  21:11:09,460 - #41 e
+INFO  21:11:09,460 - #39 =
+INFO  21:11:09,460 - #44 a
+INFO  21:11:09,461 - #38 ;
+INFO  21:11:09,462 - #14 const
+INFO  21:11:09,463 - #41 bool
+INFO  21:11:09,463 - #41 a
+INFO  21:11:09,464 - #39 =
+INFO  21:11:09,465 - #42 0
+INFO  21:11:09,465 - #40 ,
+INFO  21:11:09,466 - #41 c
+INFO  21:11:09,466 - #39 =
+INFO  21:11:09,466 - #43 0
+INFO  21:11:09,466 - #40 ,
+INFO  21:11:09,466 - #41 b
+INFO  21:11:09,466 - #39 =
+INFO  21:11:09,466 - #42 1
+INFO  21:11:09,466 - #38 ;
+INFO  21:11:09,466 - #36 {
+INFO  21:11:09,466 - #10 void
+INFO  21:11:09,467 - #41 main
+INFO  21:11:09,467 - #31 (
+INFO  21:11:09,467 - #32 )
+INFO  21:11:09,468 - #36 {
+INFO  21:11:09,469 - #37 }
+INFO  21:11:09,470 - #37 }
+INFO  21:11:09,484 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConstDeclList(
+        ConstDeclListType(
+          Type(
+           char
+          ) [Type]
+        ) [ConstDeclListType]
+        ConDecl(
+         i
+          Constant_n(
+           8
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_comma(
+          ConDecl(
+           j
+            Constant_n(
+             9
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_comma(
+            ConDecl(
+             e
+              Constant_c(
+               a
+              ) [Constant_c]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConDeclMore_comma]
+        ) [ConDeclMore_comma]
+      ) [ConstDeclList]
+    ) [ConVarDeclList_con]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         bool
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       a
+        Constant_b(
+         0
+        ) [Constant_b]
+      ) [ConDecl]
+      ConDeclMore_comma(
+        ConDecl(
+         c
+          Constant_n(
+           0
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_comma(
+          ConDecl(
+           b
+            Constant_b(
+             1
+            ) [Constant_b]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclMore_comma]
+      ) [ConDeclMore_comma]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  21:11:09,485 - ===================================
+ERROR 21:11:09,487 - Greska na liniji 5! Nekompabilan tip u definiciji konstante
+ERROR 21:11:09,488 - Greska na liniji 5! Nekompabilan tip u definiciji konstante
+ERROR 21:11:09,488 - Greska na liniji 7! Nekompabilan tip u definiciji konstante
+INFO  21:11:09,488 - ===================================
+ERROR 21:11:09,491 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,20 @@
+program p1
+
+int x;
+int y;
+{
+  void f()int z;{
+  	z=123;
+  	print(z);
+  }
+
+    void main() {
+    	x=3;
+        f();
+        x++;
+        print(x);
+        print(y);
+    }
+}
+
+//izlaz 1 8 4 9

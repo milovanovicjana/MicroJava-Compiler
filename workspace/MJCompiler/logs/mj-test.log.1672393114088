@@ -1,0 +1,100 @@
+INFO  10:15:27,117 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:15:27,229 - #13 program
+INFO  10:15:27,229 - #41 test302
+INFO  10:15:27,230 - #36 {
+INFO  10:15:27,232 - #41 int
+INFO  10:15:27,233 - #41 f
+INFO  10:15:27,235 - #31 (
+INFO  10:15:27,236 - #32 )
+INFO  10:15:27,237 - #36 {
+INFO  10:15:27,239 - #37 }
+INFO  10:15:27,240 - #10 void
+INFO  10:15:27,243 - #41 c
+INFO  10:15:27,243 - #31 (
+INFO  10:15:27,243 - #32 )
+INFO  10:15:27,243 - #36 {
+INFO  10:15:27,243 - #41 f
+INFO  10:15:27,244 - #31 (
+INFO  10:15:27,249 - #32 )
+INFO  10:15:27,251 - #38 ;
+INFO  10:15:27,251 - #37 }
+INFO  10:15:27,252 - #10 void
+INFO  10:15:27,252 - #41 main
+INFO  10:15:27,252 - #31 (
+INFO  10:15:27,253 - #32 )
+INFO  10:15:27,253 - #36 {
+INFO  10:15:27,253 - #37 }
+INFO  10:15:27,253 - #37 }
+INFO  10:15:27,275 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_decl(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethodRetAndName_type(
+            Type(
+             int
+            ) [Type]
+           f
+          ) [MethodRetAndName_type]
+          FormParsList_e(
+          ) [FormParsList_e]
+          VarDeclListMethod_e(
+          ) [VarDeclListMethod_e]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [MethodDecl]
+      ) [MethodDeclList_decl]
+      MethodDecl(
+        MethodRetAndName_void(
+         c
+        ) [MethodRetAndName_void]
+        FormParsList_e(
+        ) [FormParsList_e]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_actPars(
+              FunCallName(
+                Designator(
+                  DesignatorName(
+                   f
+                  ) [DesignatorName]
+                  DesignatorIndex_e(
+                  ) [DesignatorIndex_e]
+                ) [Designator]
+              ) [FunCallName]
+              ActParsList_e(
+              ) [ActParsList_e]
+            ) [DesignatorStatement_actPars]
+          ) [Statement_designator]
+        ) [StatementList_list]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:15:27,275 - ===================================
+INFO  10:15:27,282 - Pretraga na liniji 11(f), nadjeno Meth f: int, 0, 0 
+
+INFO  10:15:27,283 - ===================================
+INFO  10:15:27,288 - Parsiranje uspesno zavrseno!

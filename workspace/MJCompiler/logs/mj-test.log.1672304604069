@@ -1,0 +1,59 @@
+INFO  10:01:25,013 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:01:25,064 - #13 program
+INFO  10:01:25,065 - #41 test302
+INFO  10:01:25,065 - #14 const
+INFO  10:01:25,066 - #41 int
+INFO  10:01:25,066 - #41 x
+INFO  10:01:25,068 - #39 =
+INFO  10:01:25,068 - #43 9
+INFO  10:01:25,068 - #38 ;
+INFO  10:01:25,069 - #36 {
+INFO  10:01:25,070 - #10 void
+INFO  10:01:25,070 - #41 main
+INFO  10:01:25,070 - #31 (
+INFO  10:01:25,071 - #32 )
+INFO  10:01:25,071 - #36 {
+INFO  10:01:25,072 - #37 }
+INFO  10:01:25,073 - #37 }
+INFO  10:01:25,082 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         9
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:01:25,083 - ===================================
+INFO  10:01:25,086 - ===================================
+INFO  10:01:25,087 - Parsiranje uspesno zavrseno!

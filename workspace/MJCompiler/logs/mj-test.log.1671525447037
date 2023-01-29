@@ -1,0 +1,92 @@
+INFO  09:37:17,992 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  09:37:18,059 - #35 program
+INFO  09:37:18,059 - #42 test301
+INFO  09:37:18,059 - #42 int
+INFO  09:37:18,061 - #42 niz
+INFO  09:37:18,061 - #32 [
+INFO  09:37:18,061 - #33 ]
+INFO  09:37:18,062 - #41 ,
+INFO  09:37:18,062 - #42 niz2
+INFO  09:37:18,062 - #32 [
+INFO  09:37:18,062 - #33 ]
+INFO  09:37:18,062 - #41 ,
+INFO  09:37:18,062 - #42 a
+INFO  09:37:18,062 - #41 ,
+INFO  09:37:18,063 - #42 b
+INFO  09:37:18,063 - #39 ;
+INFO  09:37:18,063 - #42 char
+INFO  09:37:18,063 - #42 nizch
+INFO  09:37:18,063 - #32 [
+INFO  09:37:18,063 - #33 ]
+INFO  09:37:18,063 - #39 ;
+INFO  09:37:18,064 - #36 {
+INFO  09:37:18,064 - #10 void
+INFO  09:37:18,065 - #42 main
+INFO  09:37:18,065 - #30 (
+INFO  09:37:18,066 - #31 )
+INFO  09:37:18,066 - #36 {
+INFO  09:37:18,067 - #37 }
+INFO  09:37:18,068 - #37 }
+INFO  09:37:18,071 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList_semi(
+        Type(
+         int
+        ) [Type]
+        VarDeclrs_comma(
+          VarDeclrs_comma(
+            VarDeclrs_comma(
+              VarDeclrs_single(
+                VarDecl_bracket(
+                 niz
+                ) [VarDecl_bracket]
+              ) [VarDeclrs_single]
+              VarDecl_bracket(
+               niz2
+              ) [VarDecl_bracket]
+            ) [VarDeclrs_comma]
+            VarDecl_ident(
+             a
+            ) [VarDecl_ident]
+          ) [VarDeclrs_comma]
+          VarDecl_ident(
+           b
+          ) [VarDecl_ident]
+        ) [VarDeclrs_comma]
+      ) [VarDeclList_semi]
+    ) [ConVarDeclList_var]
+    VarDeclList_semi(
+      Type(
+       char
+      ) [Type]
+      VarDeclrs_single(
+        VarDecl_bracket(
+         nizch
+        ) [VarDecl_bracket]
+      ) [VarDeclrs_single]
+    ) [VarDeclList_semi]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  09:37:18,071 - ===================================
+INFO  09:37:18,071 - Parsiranje uspesno zavrseno!

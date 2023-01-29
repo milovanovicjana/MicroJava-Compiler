@@ -1,0 +1,102 @@
+INFO  22:39:52,203 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  22:39:52,280 - #35 program
+INFO  22:39:52,280 - #42 test302
+INFO  22:39:52,281 - #36 {
+INFO  22:39:52,282 - #42 int
+INFO  22:39:52,283 - #42 sum
+INFO  22:39:52,284 - #30 (
+INFO  22:39:52,285 - #42 int
+INFO  22:39:52,285 - #42 z
+INFO  22:39:52,285 - #29 .
+ERROR 22:39:52,285 - 
+Sintaksna greska na liniji 8
+INFO  22:39:52,285 - #29 .
+INFO  22:39:52,285 - #41 ,
+INFO  22:39:52,286 - #42 int
+INFO  22:39:52,287 - #42 d
+INFO  22:39:52,287 - #31 )
+INFO  22:39:52,289 - #36 {
+INFO  22:39:52,290 - #9 return
+INFO  22:39:52,291 - #42 z
+INFO  22:39:52,292 - #13 +
+INFO  22:39:52,295 - #42 d
+INFO  22:39:52,299 - #39 ;
+INFO  22:39:52,300 - #37 }
+INFO  22:39:52,300 - #37 }
+INFO  22:39:52,303 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_type(
+        Type(
+         int
+        ) [Type]
+       sum
+      ) [MethodRetAndName_type]
+      FormParsList_list(
+        FormParam_error(
+        ) [FormParam_error]
+        FormParsMore_comma(
+          FormParam_ident(
+            Type(
+             int
+            ) [Type]
+           d
+          ) [FormParam_ident]
+          FormParsMore_e(
+          ) [FormParsMore_e]
+        ) [FormParsMore_comma]
+      ) [FormParsList_list]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_return_expr(
+          Expr(
+            AddopTermList_add(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorSub_designator1(
+                        Designator_ident(
+                         z
+                        ) [Designator_ident]
+                      ) [FactorSub_designator1]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+              Addop_plus(
+              ) [Addop_plus]
+              Term(
+                MulopFactorList_factor(
+                  Factor(
+                    Unary_e(
+                    ) [Unary_e]
+                    FactorSub_designator1(
+                      Designator_ident(
+                       d
+                      ) [Designator_ident]
+                    ) [FactorSub_designator1]
+                  ) [Factor]
+                ) [MulopFactorList_factor]
+              ) [Term]
+            ) [AddopTermList_add]
+          ) [Expr]
+        ) [Statement_return_expr]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  22:39:52,303 - ===================================
+ERROR 22:39:52,303 - Parsiranje NIJE uspesno zavrseno!

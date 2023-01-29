@@ -1,0 +1,243 @@
+INFO  11:18:30,071 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  11:18:30,127 - #13 program
+INFO  11:18:30,127 - #41 test302
+INFO  11:18:30,127 - #41 bool
+INFO  11:18:30,129 - #41 x
+INFO  11:18:30,130 - #38 ;
+INFO  11:18:30,131 - #36 {
+INFO  11:18:30,131 - #10 void
+INFO  11:18:30,132 - #41 main
+INFO  11:18:30,132 - #31 (
+INFO  11:18:30,132 - #32 )
+INFO  11:18:30,133 - #41 bool
+INFO  11:18:30,133 - #41 niz
+INFO  11:18:30,133 - #33 [
+INFO  11:18:30,133 - #34 ]
+INFO  11:18:30,133 - #38 ;
+INFO  11:18:30,134 - #41 bool
+INFO  11:18:30,134 - #41 c
+INFO  11:18:30,134 - #40 ,
+INFO  11:18:30,134 - #41 c1
+INFO  11:18:30,134 - #38 ;
+INFO  11:18:30,136 - #36 {
+INFO  11:18:30,136 - #41 niz
+INFO  11:18:30,137 - #30 .
+INFO  11:18:30,138 - #12 foreach
+INFO  11:18:30,138 - #31 (
+INFO  11:18:30,139 - #41 x
+INFO  11:18:30,139 - #35 =>
+INFO  11:18:30,140 - #7 print
+INFO  11:18:30,140 - #31 (
+INFO  11:18:30,140 - #41 x
+INFO  11:18:30,140 - #32 )
+INFO  11:18:30,142 - #38 ;
+INFO  11:18:30,142 - #32 )
+INFO  11:18:30,142 - #38 ;
+INFO  11:18:30,142 - #41 c
+INFO  11:18:30,142 - #39 =
+INFO  11:18:30,142 - #42 1
+INFO  11:18:30,143 - #38 ;
+INFO  11:18:30,143 - #41 niz
+INFO  11:18:30,143 - #33 [
+INFO  11:18:30,143 - #43 1
+INFO  11:18:30,144 - #34 ]
+INFO  11:18:30,144 - #39 =
+INFO  11:18:30,144 - #42 0
+INFO  11:18:30,144 - #38 ;
+INFO  11:18:30,144 - #37 }
+INFO  11:18:30,145 - #37 }
+INFO  11:18:30,156 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         bool
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       x
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_list(
+          VarDeclListMethod_e(
+          ) [VarDeclListMethod_e]
+          VarDeclList(
+            TypeVar_type(
+              Type(
+               bool
+              ) [Type]
+            ) [TypeVar_type]
+            VarDecl_bracket(
+             niz
+            ) [VarDecl_bracket]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListMethod_list]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           c
+          ) [VarDecl_ident]
+          VarDeclMore_comma(
+            VarDecl_ident(
+             c1
+            ) [VarDecl_ident]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_comma]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_list(
+          StatementList_list(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_foreach(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+              ForeachLoopStart(
+              ) [ForeachLoopStart]
+              ForeachIdentName(
+               x
+              ) [ForeachIdentName]
+              Statement_print(
+                PrintParameters_noNumber(
+                  Expr(
+                    AddopTermList_terml(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor_e(
+                            FactorSub_designator1(
+                              Designator(
+                                DesignatorName(
+                                 x
+                                ) [DesignatorName]
+                                DesignatorIndex_e(
+                                ) [DesignatorIndex_e]
+                              ) [Designator]
+                            ) [FactorSub_designator1]
+                          ) [Factor_e]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_terml]
+                  ) [Expr]
+                ) [PrintParameters_noNumber]
+              ) [Statement_print]
+            ) [Statement_foreach]
+          ) [StatementList_list]
+          Statement_designator(
+            DesignatorStatement_assignop(
+              DesignatorStatementAssignop_assignop(
+                Designator(
+                  DesignatorName(
+                   c
+                  ) [DesignatorName]
+                  DesignatorIndex_e(
+                  ) [DesignatorIndex_e]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_constant(
+                            Constant_b(
+                             1
+                            ) [Constant_b]
+                          ) [FactorSub_constant]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [DesignatorStatementAssignop_assignop]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designator]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_assignop(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesignatorIndex_index(
+                  Expr(
+                    AddopTermList_terml(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor_e(
+                            FactorSub_constant(
+                              Constant_n(
+                               1
+                              ) [Constant_n]
+                            ) [FactorSub_constant]
+                          ) [Factor_e]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_terml]
+                  ) [Expr]
+                ) [DesignatorIndex_index]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_constant(
+                          Constant_b(
+                           0
+                          ) [Constant_b]
+                        ) [FactorSub_constant]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [DesignatorStatementAssignop_assignop]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  11:18:30,157 - ===================================
+INFO  11:18:30,162 - Pretraga na liniji 13(niz), nadjeno Var niz: Arr of bool, 0, 1 
+INFO  11:18:30,162 - Pretraga na liniji 13(x), nadjeno Var x: bool, 0, 0 
+INFO  11:18:30,162 - Pretraga na liniji 13(x), nadjeno Var x: bool, 0, 0 
+INFO  11:18:30,162 - Pretraga na liniji 14(c), nadjeno Var c: bool, 1, 1 
+INFO  11:18:30,163 - Pretraga na liniji 15(niz), nadjeno Var niz: Arr of bool, 0, 1 
+INFO  11:18:30,163 - ===================================
+INFO  11:18:30,164 - Parsiranje uspesno zavrseno!

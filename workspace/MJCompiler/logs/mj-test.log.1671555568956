@@ -1,0 +1,156 @@
+INFO  17:59:18,555 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  17:59:18,631 - #13 program
+INFO  17:59:18,631 - #41 test302
+INFO  17:59:18,631 - #14 const
+INFO  17:59:18,634 - #41 int
+INFO  17:59:18,634 - #41 jedan
+INFO  17:59:18,635 - #39 =
+INFO  17:59:18,635 - #43 1
+INFO  17:59:18,635 - #38 ;
+INFO  17:59:18,637 - #36 {
+INFO  17:59:18,638 - #10 void
+INFO  17:59:18,639 - #41 main
+INFO  17:59:18,639 - #31 (
+INFO  17:59:18,640 - #32 )
+INFO  17:59:18,641 - #36 {
+INFO  17:59:18,641 - #4 if
+INFO  17:59:18,642 - #31 (
+INFO  17:59:18,643 - #43 1
+INFO  17:59:18,644 - #21 !=
+INFO  17:59:18,648 - #43 1
+INFO  17:59:18,650 - #32 )
+INFO  17:59:18,653 - #7 print
+INFO  17:59:18,653 - #31 (
+INFO  17:59:18,653 - #16 -
+INFO  17:59:18,653 - #43 6
+INFO  17:59:18,654 - #32 )
+INFO  17:59:18,654 - #38 ;
+INFO  17:59:18,654 - #3 else
+INFO  17:59:18,654 - #7 print
+INFO  17:59:18,654 - #31 (
+INFO  17:59:18,654 - #43 0
+INFO  17:59:18,654 - #32 )
+INFO  17:59:18,655 - #38 ;
+INFO  17:59:18,655 - #37 }
+INFO  17:59:18,655 - #37 }
+INFO  17:59:18,659 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       jedan
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_if(
+          Condition_termlist(
+            ConditionTermList_term(
+              ConditionTerm(
+                ConditionFactList_fact(
+                  ConditionFact_relop(
+                    Expr(
+                      AddopTermList_terml(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Unary_e(
+                              ) [Unary_e]
+                              FactorSub_num(
+                               1
+                              ) [FactorSub_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_terml]
+                    ) [Expr]
+                    Relop_neq(
+                    ) [Relop_neq]
+                    Expr(
+                      AddopTermList_terml(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Unary_e(
+                              ) [Unary_e]
+                              FactorSub_num(
+                               1
+                              ) [FactorSub_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_terml]
+                    ) [Expr]
+                  ) [ConditionFact_relop]
+                ) [ConditionFactList_fact]
+              ) [ConditionTerm]
+            ) [ConditionTermList_term]
+          ) [Condition_termlist]
+          Statement_print_expr(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_minus(
+                      ) [Unary_minus]
+                      FactorSub_num(
+                       6
+                      ) [FactorSub_num]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [Statement_print_expr]
+          ElseStatement_else(
+            Statement_print_expr(
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        FactorSub_num(
+                         0
+                        ) [FactorSub_num]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [Statement_print_expr]
+          ) [ElseStatement_else]
+        ) [Statement_if]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  17:59:18,660 - ===================================
+INFO  17:59:18,663 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,134 @@
+INFO  10:54:03,943 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:54:04,020 - #13 program
+INFO  10:54:04,020 - #41 test302
+INFO  10:54:04,020 - #14 const
+INFO  10:54:04,023 - #41 int
+INFO  10:54:04,023 - #41 x
+INFO  10:54:04,025 - #39 =
+INFO  10:54:04,025 - #43 2
+INFO  10:54:04,026 - #38 ;
+INFO  10:54:04,027 - #36 {
+INFO  10:54:04,029 - #10 void
+INFO  10:54:04,031 - #41 main
+INFO  10:54:04,031 - #31 (
+INFO  10:54:04,031 - #32 )
+INFO  10:54:04,032 - #41 int
+INFO  10:54:04,034 - #41 niz
+INFO  10:54:04,035 - #33 [
+INFO  10:54:04,035 - #34 ]
+INFO  10:54:04,035 - #38 ;
+INFO  10:54:04,036 - #36 {
+INFO  10:54:04,037 - #41 niz
+INFO  10:54:04,038 - #39 =
+INFO  10:54:04,040 - #6 new
+INFO  10:54:04,040 - #41 int
+INFO  10:54:04,041 - #33 [
+INFO  10:54:04,041 - #43 4
+INFO  10:54:04,041 - #34 ]
+INFO  10:54:04,042 - #38 ;
+INFO  10:54:04,043 - #37 }
+INFO  10:54:04,043 - #37 }
+INFO  10:54:04,057 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         2
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_bracket(
+           niz
+          ) [VarDecl_bracket]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_assignop(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_new(
+                          Type(
+                           int
+                          ) [Type]
+                          Expr(
+                            AddopTermList_terml(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor_e(
+                                    FactorSub_constant(
+                                      Constant_n(
+                                       4
+                                      ) [Constant_n]
+                                    ) [FactorSub_constant]
+                                  ) [Factor_e]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_terml]
+                          ) [Expr]
+                        ) [FactorSub_new]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [DesignatorStatementAssignop_assignop]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:54:04,058 - ===================================
+INFO  10:54:04,064 - Pretraga na liniji 13(niz), nadjeno Var niz: Arr of int, 0, 1 
+INFO  10:54:04,065 - ===================================
+INFO  10:54:04,066 - Parsiranje uspesno zavrseno!

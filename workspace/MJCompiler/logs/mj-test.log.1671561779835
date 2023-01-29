@@ -1,0 +1,37 @@
+INFO  19:42:14,120 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  19:42:14,181 - #13 program
+INFO  19:42:14,181 - #41 test301
+INFO  19:42:14,182 - #36 {
+INFO  19:42:14,183 - #10 void
+INFO  19:42:14,184 - #41 main
+INFO  19:42:14,184 - #31 (
+INFO  19:42:14,184 - #32 )
+INFO  19:42:14,185 - #36 {
+INFO  19:42:14,186 - #37 }
+INFO  19:42:14,186 - #37 }
+INFO  19:42:14,200 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  19:42:14,202 - ===================================
+ERROR 19:42:14,204 - Main metoda nije deklarisana
+INFO  19:42:14,204 - ===================================
+ERROR 19:42:14,205 - Parsiranje NIJE uspesno zavrseno!

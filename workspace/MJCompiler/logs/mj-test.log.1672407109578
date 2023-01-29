@@ -1,0 +1,102 @@
+INFO  14:31:35,126 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  14:31:35,167 - #13 program
+INFO  14:31:35,168 - #41 test302
+INFO  14:31:35,168 - #36 {
+INFO  14:31:35,169 - #10 void
+INFO  14:31:35,169 - #41 main
+INFO  14:31:35,170 - #31 (
+INFO  14:31:35,170 - #32 )
+INFO  14:31:35,170 - #36 {
+INFO  14:31:35,171 - #41 len
+INFO  14:31:35,171 - #31 (
+INFO  14:31:35,173 - #43 1
+INFO  14:31:35,173 - #40 ,
+INFO  14:31:35,174 - #43 23
+INFO  14:31:35,175 - #32 )
+INFO  14:31:35,175 - #38 ;
+INFO  14:31:35,175 - #37 }
+INFO  14:31:35,176 - #37 }
+INFO  14:31:35,184 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_actPars(
+            FunCallName(
+              Designator(
+                DesignatorName(
+                 len
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+            ) [FunCallName]
+            ActParsList_ap(
+              ActPar(
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_constant(
+                            Constant_n(
+                             1
+                            ) [Constant_n]
+                          ) [FactorSub_constant]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [ActPar]
+              ActParMore_comma(
+                ActPar(
+                  Expr(
+                    AddopTermList_terml(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor_e(
+                            FactorSub_constant(
+                              Constant_n(
+                               23
+                              ) [Constant_n]
+                            ) [FactorSub_constant]
+                          ) [Factor_e]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_terml]
+                  ) [Expr]
+                ) [ActPar]
+                ActParMore_e(
+                ) [ActParMore_e]
+              ) [ActParMore_comma]
+            ) [ActParsList_ap]
+          ) [DesignatorStatement_actPars]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  14:31:35,185 - ===================================
+INFO  14:31:35,188 - Pretraga na liniji 13(len), nadjeno Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+ERROR 14:31:35,188 - Greska na liniji 13: Broj stvarnih i formalnih parametara funkcije se ne poklapa!
+INFO  14:31:35,188 - ===================================
+ERROR 14:31:35,188 - Parsiranje NIJE uspesno zavrseno!

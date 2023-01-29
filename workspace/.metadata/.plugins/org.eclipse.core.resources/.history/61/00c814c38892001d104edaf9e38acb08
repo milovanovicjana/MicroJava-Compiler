@@ -1,0 +1,23 @@
+program p1
+
+const int a=1;
+int a,niz2[];
+char niz[];
+{
+
+   void main()int i,b,c,elem;{
+   		niz=new char[3];
+   		niz2=new int[5];
+   		
+   		i=0;
+   		niz[0]='a';
+   		niz[1]='b';
+   		niz[2]='c';
+   		niz.foreach(elem=>{
+   			print(elem);
+   		});
+   		
+   		
+   }
+    
+}

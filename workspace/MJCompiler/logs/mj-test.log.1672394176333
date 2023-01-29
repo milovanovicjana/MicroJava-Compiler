@@ -1,0 +1,71 @@
+INFO  10:54:08,729 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:54:09,002 - #13 program
+INFO  10:54:09,003 - #41 test302
+INFO  10:54:09,004 - #41 int
+INFO  10:54:09,018 - #41 a
+INFO  10:54:09,023 - #33 [
+INFO  10:54:09,024 - #34 ]
+INFO  10:54:09,024 - #38 ;
+INFO  10:54:09,028 - #41 int
+INFO  10:54:09,032 - #41 c
+INFO  10:54:09,032 - #38 ;
+INFO  10:54:09,033 - #36 {
+INFO  10:54:09,033 - #10 void
+INFO  10:54:09,036 - #41 main
+INFO  10:54:09,036 - #31 (
+INFO  10:54:09,037 - #32 )
+INFO  10:54:09,039 - #36 {
+INFO  10:54:09,041 - #37 }
+INFO  10:54:09,043 - #37 }
+INFO  10:54:09,061 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_bracket(
+         a
+        ) [VarDecl_bracket]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       c
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:54:09,062 - ===================================
+INFO  10:54:09,106 - ===================================

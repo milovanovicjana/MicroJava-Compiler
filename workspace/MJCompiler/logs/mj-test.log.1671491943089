@@ -1,0 +1,48 @@
+INFO  00:18:55,808 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  00:18:55,912 - #35 program
+INFO  00:18:55,913 - #42 test302
+INFO  00:18:55,913 - #38 const
+INFO  00:18:55,915 - #42 int
+INFO  00:18:55,916 - #42 jedan
+INFO  00:18:55,917 - #40 =
+INFO  00:18:55,917 - #44 1
+INFO  00:18:55,917 - #41 ,
+INFO  00:18:55,918 - #42 t
+INFO  00:18:55,918 - #18 ==
+ERROR 00:18:55,918 - 
+Sintaksna greska na liniji 5
+INFO  00:18:55,919 - #44 5
+INFO  00:18:55,919 - #39 ;
+INFO  00:18:55,919 - #36 {
+INFO  00:18:55,920 - #37 }
+ERROR 00:18:55,921 - Izvrsen oporavak u definiciji globalne konstante u liniji 5
+INFO  00:18:55,928 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl_ident(
+       jedan
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl_ident]
+      ConDeclMore_comma(
+        ConDecl_error(
+        ) [ConDecl_error]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclMore_comma]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  00:18:55,929 - ===================================
+ERROR 00:18:55,929 - Parsiranje NIJE uspesno zavrseno!

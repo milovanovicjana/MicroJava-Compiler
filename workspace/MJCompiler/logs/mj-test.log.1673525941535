@@ -1,0 +1,54 @@
+INFO  13:18:46,340 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  13:18:46,391 - #13 program
+INFO  13:18:46,392 - #41 test302
+INFO  13:18:46,392 - #41 in
+INFO  13:18:46,393 - #41 e
+INFO  13:18:46,394 - #38 ;
+INFO  13:18:46,395 - #36 {
+INFO  13:18:46,396 - #10 void
+INFO  13:18:46,397 - #41 main
+INFO  13:18:46,397 - #31 (
+INFO  13:18:46,398 - #32 )
+INFO  13:18:46,398 - #36 {
+INFO  13:18:46,399 - #37 }
+INFO  13:18:46,400 - #37 }
+INFO  13:18:46,411 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         in
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       e
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  13:18:46,411 - ===================================
+ERROR 13:18:46,415 - Greska na liniji 4: Nije pronadjen tip in u tabeli simbola!
+INFO  13:18:46,415 - ===================================
+ERROR 13:18:46,416 - Parsiranje NIJE uspesno zavrseno!

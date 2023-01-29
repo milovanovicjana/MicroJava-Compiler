@@ -1,0 +1,184 @@
+INFO  00:20:47,692 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  00:20:47,774 - #13 program
+INFO  00:20:47,774 - #41 P
+INFO  00:20:47,774 - #14 const
+INFO  00:20:47,775 - #41 int
+INFO  00:20:47,776 - #41 size
+INFO  00:20:47,777 - #39 =
+INFO  00:20:47,778 - #43 10
+INFO  00:20:47,778 - #38 ;
+INFO  00:20:47,780 - #41 int
+INFO  00:20:47,782 - #41 pos
+INFO  00:20:47,782 - #33 [
+INFO  00:20:47,783 - #34 ]
+INFO  00:20:47,783 - #38 ;
+INFO  00:20:47,784 - #41 int
+INFO  00:20:47,785 - #41 t
+INFO  00:20:47,785 - #38 ;
+INFO  00:20:47,786 - #36 {
+INFO  00:20:47,786 - #41 int
+INFO  00:20:47,787 - #41 f
+INFO  00:20:47,787 - #31 (
+INFO  00:20:47,789 - #41 char
+INFO  00:20:47,789 - #41 m
+INFO  00:20:47,789 - #40 ,
+INFO  00:20:47,789 - #41 int
+INFO  00:20:47,790 - #41 i
+INFO  00:20:47,790 - #40 ,
+INFO  00:20:47,790 - #41 char
+INFO  00:20:47,790 - #41 a
+INFO  00:20:47,790 - #40 ,
+INFO  00:20:47,790 - #41 bool
+INFO  00:20:47,790 - #41 a
+INFO  00:20:47,790 - #32 )
+INFO  00:20:47,792 - #36 {
+INFO  00:20:47,792 - #37 }
+INFO  00:20:47,793 - #10 void
+INFO  00:20:47,795 - #41 main
+INFO  00:20:47,795 - #31 (
+INFO  00:20:47,795 - #32 )
+INFO  00:20:47,797 - #36 {
+INFO  00:20:47,797 - #41 t
+INFO  00:20:47,797 - #39 =
+INFO  00:20:47,797 - #41 f
+INFO  00:20:47,799 - #31 (
+INFO  00:20:47,800 - #42 0
+INFO  00:20:47,801 - #44 ,
+ERROR 00:20:47,801 - 
+Sintaksna greska na liniji 9
+INFO  00:20:47,801 - #41 a
+INFO  00:20:47,801 - #40 ,
+INFO  00:20:47,801 - #43 1
+INFO  00:20:47,802 - #40 ,
+INFO  00:20:47,802 - #44 a
+INFO  00:20:47,802 - #32 )
+INFO  00:20:47,803 - #38 ;
+INFO  00:20:47,803 - #37 }
+INFO  00:20:47,803 - #37 }
+ERROR 00:20:47,803 - Izvrsen oporavak u iskazu dodele u liniji 14
+INFO  00:20:47,819 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_con(
+        ConVarDeclList_e(
+        ) [ConVarDeclList_e]
+        ConstDeclList(
+          ConstDeclListType(
+            Type(
+             int
+            ) [Type]
+          ) [ConstDeclListType]
+          ConDecl(
+           size
+            Constant_n(
+             10
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConstDeclList]
+      ) [ConVarDeclList_con]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_bracket(
+         pos
+        ) [VarDecl_bracket]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       t
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethodRetAndName_type]
+        FormParsList_list(
+          FormParam_ident(
+            Type(
+             char
+            ) [Type]
+           m
+          ) [FormParam_ident]
+          FormParsMore_comma(
+            FormParam_ident(
+              Type(
+               int
+              ) [Type]
+             i
+            ) [FormParam_ident]
+            FormParsMore_comma(
+              FormParam_ident(
+                Type(
+                 char
+                ) [Type]
+               a
+              ) [FormParam_ident]
+              FormParsMore_comma(
+                FormParam_ident(
+                  Type(
+                   bool
+                  ) [Type]
+                 a
+                ) [FormParam_ident]
+                FormParsMore_e(
+                ) [FormParsMore_e]
+              ) [FormParsMore_comma]
+            ) [FormParsMore_comma]
+          ) [FormParsMore_comma]
+        ) [FormParsList_list]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_error(
+            ) [DesignatorStatementAssignop_error]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  00:20:47,820 - ===================================
+INFO  00:20:47,825 - ===================================
+ERROR 00:20:47,827 - Parsiranje NIJE uspesno zavrseno!

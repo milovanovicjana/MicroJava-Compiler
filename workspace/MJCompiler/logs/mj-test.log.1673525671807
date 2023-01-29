@@ -1,0 +1,54 @@
+INFO  13:13:33,051 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  13:13:33,108 - #13 program
+INFO  13:13:33,109 - #41 test302
+INFO  13:13:33,109 - #41 it
+INFO  13:13:33,110 - #41 err
+INFO  13:13:33,111 - #38 ;
+INFO  13:13:33,112 - #36 {
+INFO  13:13:33,113 - #10 void
+INFO  13:13:33,114 - #41 main
+INFO  13:13:33,114 - #31 (
+INFO  13:13:33,114 - #32 )
+INFO  13:13:33,115 - #36 {
+INFO  13:13:33,116 - #37 }
+INFO  13:13:33,117 - #37 }
+INFO  13:13:33,129 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         it
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       err
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  13:13:33,130 - ===================================
+ERROR 13:13:33,133 - Greska na liniji 4: Nije pronadjen tip it u tabeli simbola!
+INFO  13:13:33,133 - ===================================
+ERROR 13:13:33,135 - Parsiranje NIJE uspesno zavrseno!

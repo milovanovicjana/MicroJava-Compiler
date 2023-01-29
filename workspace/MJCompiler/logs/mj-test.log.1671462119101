@@ -1,0 +1,43 @@
+INFO  15:54:58,343 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  15:54:58,503 - #35 program
+INFO  15:54:58,503 - #42 test301
+INFO  15:54:58,503 - #42 int
+INFO  15:54:58,507 - #42 niz
+INFO  15:54:58,508 - #32 [
+INFO  15:54:58,509 - #33 ]
+INFO  15:54:58,509 - #39 ;
+INFO  15:54:58,510 - #42 int
+INFO  15:54:58,513 - #42 a
+INFO  15:54:58,513 - #41 ,
+INFO  15:54:58,513 - #42 curr
+INFO  15:54:58,513 - #15 *
+ERROR 15:54:58,513 - 
+Sintaksna greska na liniji 8
+INFO  15:54:58,513 - #39 ;
+INFO  15:54:58,513 - #36 {
+INFO  15:54:58,513 - #37 }
+INFO  15:54:58,517 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_errorsemi1(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_bracket(
+         niz
+        ) [VarDecl_bracket]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+  ) [ConVarDeclList_errorsemi1]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  15:54:58,517 - ===================================
+ERROR 15:54:58,518 - Parsiranje NIJE uspesno zavrseno!

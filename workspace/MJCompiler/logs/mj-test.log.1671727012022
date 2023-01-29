@@ -1,0 +1,54 @@
+INFO  17:36:03,448 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  17:36:03,494 - #13 program
+INFO  17:36:03,495 - #41 test301
+INFO  17:36:03,495 - #41 imp
+INFO  17:36:03,496 - #41 i
+INFO  17:36:03,496 - #38 ;
+INFO  17:36:03,497 - #36 {
+INFO  17:36:03,498 - #10 void
+INFO  17:36:03,499 - #41 main
+INFO  17:36:03,499 - #31 (
+INFO  17:36:03,499 - #32 )
+INFO  17:36:03,500 - #36 {
+INFO  17:36:03,501 - #37 }
+INFO  17:36:03,502 - #37 }
+INFO  17:36:03,510 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         imp
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       i
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  17:36:03,511 - ===================================
+ERROR 17:36:03,514 - Greska na liniji 7: Nije pronadjen tip imp u tabeli simbola!
+INFO  17:36:03,514 - ===================================
+ERROR 17:36:03,515 - Parsiranje NIJE uspesno zavrseno!

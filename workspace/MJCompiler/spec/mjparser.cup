@@ -1,0 +1,452 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass()); 
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+        
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+/*keywords*/
+terminal BREAK, ELSE, IF, WHILE, NEW, PRINT, READ, RETURN, VOID, CONTINUE, FOREACH, PROG, CONST;
+
+/*operators*/
+terminal PLUS, MINUS, MUL, DIV, PERCENT, EQ, NEQ, GT, GTE, LTE, LT, AND, OR, PLUSPLUS, MINUSMINUS;
+terminal DOT, LPAREN, RPAREN, LBRACKET, RBRACKET, ARROW;
+terminal LBRACE, RBRACE, SEMI, EQUAL, COMMA;
+
+/*identifiers*/
+terminal String IDENT;
+
+/*literals*/
+terminal Integer BOOL, NUMBER;
+terminal Character CHARACTER;
+
+/*Program*/
+nonterminal ConVarDeclList, MethodDeclList;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program;
+
+/*ConVarDeclList*/
+nonterminal ConstDeclList, VarDeclList;
+
+/*ConstDeclList*/
+nonterminal ConDeclMore, ConstDeclListType, ConDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+
+
+/*ConDecl*/
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Constant;
+
+/*VarDeclList*/
+nonterminal VarDecl, VarDeclMore, TypeVar;
+
+/*MethodDeclList*/
+nonterminal MethodDecl;
+
+/*MethodDecl*/
+nonterminal FormParsList, StatementList, VarDeclListMethod;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodRetAndName;
+
+/*FormParsList*/
+nonterminal FormParam, FormParsMore;
+
+/*StatementList*/
+nonterminal Statement;
+
+/*Statement*/
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConditionFact, ConditionFactList, ConditionTerm, ConditionTermList, Condition;
+
+nonterminal DesignatorStatement;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator;
+
+/*Condition*/
+
+/*ConditionTermList*/
+
+/*ConditionTerm*/
+
+/*ConditionFactList*/
+
+/*ConditionFact*/
+nonterminal Relop;
+
+/*DesignatorStatement*/
+nonterminal DesignatorStatementAssignop, Assignop, DesignatorList, ActParsList;
+
+/*DesignatorList*/
+nonterminal  Desig;
+
+/*MoreDesig*/
+nonterminal MoreDesig;
+
+/*ActParsList*/
+nonterminal ActPar, ActParMore;
+
+/*Expr*/
+//nonterminal AddopTermList;
+
+/*AddopTermList*/
+nonterminal Addop;
+
+/*Term*/
+//nonterminal MulopFactorList;
+
+/*MulopFactorList*/
+nonterminal Mulop;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct FactorSub, Factor, MulopFactorList, Term, AddopTermList, Expr;
+
+
+/*Factor*/
+nonterminal Unary;
+
+/*Designator*/
+/*dodala zbog laske sledece faze*/
+nonterminal DesignatorIndex;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj FunCallName, DesignatorName;
+
+/*za break i continue potrebno u semantickoj analizi*/
+nonterminal WhileLoopStart, ForeachLoopStart;
+
+/*za print semantickoj analizi*/
+nonterminal rs.etf.pp1.symboltable.concepts.Struct PrintParameters;
+
+
+/*dodala za if zbog generisanja koda*/
+nonterminal IfStart, ThenStart, ElseStart, ElseStmt, WhileCondition, WhileEnd, DesignatorForeach;
+
+/*dodala zbog generisanja koda*/
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ForeachIdentName;
+nonterminal EndForeach, ForeachStart;
+
+precedence left ELSE;
+
+
+Program ::= (Program) PROG ProgName ConVarDeclList LBRACE MethodDeclList RBRACE;   /*ok*/
+
+ProgName ::= (ProgName) IDENT:progName; /*DODALA*/  /*ok*/
+
+
+ConVarDeclList ::= (ConVarDeclList_con) ConVarDeclList ConstDeclList 
+					| 
+					(ConVarDeclList_var) ConVarDeclList VarDeclList
+					|
+					(ConVarDeclList_e) /*epsilon*/
+					;
+					
+ConstDeclList ::= (ConstDeclList) CONST ConstDeclListType ConDecl ConDeclMore SEMI
+				;  /*ok*/
+				
+ConstDeclListType ::= (ConstDeclListType) Type;/*ok*/
+
+ConDeclMore ::= (ConDeclMore_comma) COMMA ConDecl ConDeclMore 
+				|
+				(ConDeclMore_e) /*epsilon*/
+				;  /*ok*/
+				
+ConDecl ::= (ConDecl) IDENT:constName EQUAL Constant;
+			 /*ok*/
+			
+
+Constant ::= (Constant_n) NUMBER:val
+			| 
+			(Constant_c) CHARACTER:val
+			|
+			(Constant_b) BOOL:val
+			;  /*ok*/
+			
+Type ::= (Type) IDENT:typeName ;  /*ok*/
+			
+VarDeclList ::= (VarDeclList) TypeVar VarDecl VarDeclMore SEMI;
+
+TypeVar ::= (TypeVar_type) Type
+			|
+			(TypeVar_error) error:l
+			{: parser.report_error("Izvrsen oporavak u deklaraciji globalne promenljive(pogrsan tip) u liniji " + lleft, null);  :}
+			;
+
+VarDecl ::= (VarDecl_ident) IDENT:varName
+			| 
+			(VarDecl_bracket) IDENT:varName LBRACKET RBRACKET
+			|
+			(VarDecl_error) error:l
+			{: parser.report_error("Izvrsen oporavak u deklaraciji globalne promenljive u liniji " + lleft, null);  :}
+			;
+
+VarDeclMore ::= (VarDeclMore_comma) COMMA VarDecl VarDeclMore
+				|
+				(VarDeclMore_e) /*epsilon*/
+				;
+
+
+MethodDeclList ::= (MethodDeclList_decl) MethodDeclList MethodDecl
+					|
+					(MethodDeclList_e) /*epsilon*/
+					;  /*ok*/
+MethodDecl ::= (MethodDecl) MethodRetAndName LPAREN FormParsList RPAREN VarDeclListMethod LBRACE StatementList RBRACE; /*ok*/
+
+MethodRetAndName ::= (MethodRetAndName_type) Type IDENT:methodName
+					|
+					(MethodRetAndName_void) VOID IDENT:methodName
+					; /*DODALA*/ /*ok*/
+
+
+VarDeclListMethod ::= (VarDeclListMethod_list) VarDeclListMethod VarDeclList
+					|
+					(VarDeclListMethod_e) /*epsilon*/
+					; /*ok*/
+	
+FormParsList ::= (FormParsList_list) FormParam FormParsMore 
+				|
+				(FormParsList_e) /*epsilon*/
+				; /*ok*/
+FormParam ::= (FormParam_ident) Type IDENT:name
+			|
+			(FormParam_bracket) Type IDENT:name LBRACKET RBRACKET
+			|
+			(FormParam_error) error:l /*oporavak od greske*/
+			 {: parser.report_error("Izvrsen oporavak u formalnom parametru fje u liniji " + lleft, null);  :}
+			;	 /*ok*/	
+
+
+FormParsMore ::= (FormParsMore_comma) COMMA FormParam FormParsMore
+				|
+				(FormParsMore_e) /*epsilon*/
+				; /*ok*/
+				
+				
+StatementList ::= (StatementList_list) StatementList Statement
+				|
+				(StatementList_e) /*epsilon*/
+				;  /*ok*/
+
+
+Statement ::=(Statement_designator) DesignatorStatement SEMI /*ok*/
+			|
+			(Statement_if) IfStart ThenStart Statement ElseStmt/*ok*/
+			|
+			(Statement_while) WhileLoopStart WhileCondition Statement WhileEnd/*ok*/
+			|
+			 (Statement_break) BREAK SEMI /*ok*/
+			|
+			(Statement_continue) CONTINUE SEMI /*ok*/
+			|
+			(Statement_return_noexpr) RETURN SEMI /*ok*/
+			|
+			(Statement_return_expr) RETURN Expr SEMI /*ok*/
+			|
+			(Statement_read) READ LPAREN Designator RPAREN SEMI /*ok*/
+			|
+			(Statement_print) PRINT LPAREN PrintParameters RPAREN SEMI /*ok*/
+			|
+			(Statement_foreach) DesignatorForeach DOT ForeachLoopStart LPAREN ForeachIdentName ARROW Statement EndForeach RPAREN SEMI /*drugacije nego njima al msm da je ok*/
+			|
+			(Statement_statementList) LBRACE StatementList RBRACE
+			;  /*ok*/
+
+DesignatorForeach ::= (DesignatorForeach) Designator;
+EndForeach ::= (EndForeach) /*epsilon*/;
+
+WhileCondition ::= (WhileCondition)LPAREN Condition RPAREN;
+WhileEnd ::= (WhileEnd)/*epsilon*/;
+
+IfStart ::= (IfStart)IF;
+ThenStart ::= (ThenStart)LPAREN Condition RPAREN ;
+ElseStart ::= (ElseStart)ELSE;
+
+ElseStmt ::= (ElseStmt_else) ElseStart Statement
+			|
+			(ElseStmt_e)/*epsilon*/
+			;
+
+ForeachIdentName ::= (ForeachIdentName) IDENT:identName;
+
+PrintParameters ::= (PrintParameters_noNumber) Expr
+					|
+					(PrintParameters_withNumber) Expr COMMA NUMBER
+					;	
+						
+WhileLoopStart ::= 	(WhileLoopStart) WHILE;	
+ForeachLoopStart ::= 	(ForeachLoopStart) FOREACH;	
+			
+
+
+
+Condition ::= (Condition_termlist) ConditionTermList
+			  |
+			  (Condition_error) error:l  /*oporavak od greske dodala*/
+			  {: parser.report_error("Izvrsen oporavak unutar IF konstrukcije u liniji " + lleft, null);  :} 
+			  ;   /*ok*/
+
+ConditionTermList ::= (ConditionTermList_or) ConditionTermList OR ConditionTerm 
+			 |
+			 (ConditionTermList_term) ConditionTerm
+			 ;/*ok*/
+			 
+ConditionTerm ::= (ConditionTerm) ConditionFactList; /*ok*/
+
+ConditionFactList ::= (ConditionFactList_and) ConditionFactList AND ConditionFact
+					|
+					(ConditionFactList_fact) ConditionFact
+					; /*ok*/
+ConditionFact ::= (ConditionFact_expr) Expr 
+					| 
+					(ConditionFact_eq) Expr EQ  Expr
+					| 
+					(ConditionFact_neq) Expr NEQ  Expr
+					| 
+					(ConditionFact_qt) Expr GT  Expr
+					| 
+					(ConditionFact_gte) Expr GTE  Expr
+					| 
+					(ConditionFact_lt) Expr LT  Expr
+					| 
+					(ConditionFact_lte) Expr LTE  Expr
+					; /*ok*/
+		  	
+DesignatorStatement ::= (DesignatorStatement_assignop) DesignatorStatementAssignop /*ok*/
+						|
+						(DesignatorStatement_plusplus) Designator PLUSPLUS /*ok*/
+						|
+						(DesignatorStatement_minusminus) Designator MINUSMINUS /*ok*/
+						|
+						(DesignatorStatement_actPars) FunCallName LPAREN ActParsList RPAREN /*ok*/
+						|
+						(DesignatorStatement_desig_array) LBRACKET DesignatorList RBRACKET Assignop Designator
+						;
+						
+DesignatorStatementAssignop ::= (DesignatorStatementAssignop_error) error:l  /*oporavak od greske*/
+								{: parser.report_error("Izvrsen oporavak u iskazu dodele u liniji " + lleft, null);  :}
+								|
+								(DesignatorStatementAssignop_assignop) Designator Assignop Expr /*ok*/
+								;
+
+						
+DesignatorList ::= (DesignatorList_comma) DesignatorList COMMA Desig
+					|
+					(DesignatorList_desig) Desig
+					;	
+
+Desig ::= (Desig_d) Designator
+		|
+		(Desig_e) /*epsilon*/
+		;
+
+MoreDesig ::= (MoreDesig_comma) COMMA Desig MoreDesig
+			|
+			(MoreDesig_e) /*epsilon*/
+			;
+
+ActParsList ::= (ActParsList_ap) ActPar ActParMore
+					|
+					(ActParsList_e) /*epsilon*/
+					;/*ok*/
+								
+ActPar ::= (ActPar) Expr; /*ok*/
+
+ActParMore ::= (ActParMore_comma) COMMA ActPar ActParMore
+				|
+				(ActParMore_e) /*epsilon*/
+				; /*ok*/
+				
+Designator ::= (Designator) DesignatorName DesignatorIndex;/*ok*/
+
+DesignatorIndex ::= (DesignatorIndex_index) LBRACKET Expr RBRACKET
+					|
+					(DesignatorIndex_e)/*epsilon*/
+					;
+					
+DesignatorName ::= (DesignatorName) IDENT:designatorName; /*DODALA*/ /*ok*/
+
+
+Expr ::= (Expr) AddopTermList; /*ok*/
+
+
+AddopTermList ::= (AddopTermList_add) AddopTermList Addop Term
+				|
+				(AddopTermList_terml) Term
+				; /*ok*/
+				
+Term ::= (Term) MulopFactorList; /*ok*/
+
+MulopFactorList ::= (MulopFactorList_list) MulopFactorList Mulop Factor
+					|
+					(MulopFactorList_factor) Factor
+					; /*ok*/
+
+Factor ::= (Factor_minus) MINUS FactorSub
+			|
+			(Factor_e) FactorSub
+			; /*ok*/
+
+		
+FactorSub ::= (FactorSub_designator1) Designator /*ok*/
+		  |
+		  (FactorSub_designator2) FunCallName LPAREN ActParsList RPAREN /*ok*/
+		  |
+		  (FactorSub_constant) Constant	 /*ok*/
+		  |
+		  (FactorSub_expr) LPAREN Expr RPAREN /*ok*/
+		  |
+		  (FactorSub_new) NEW Type LBRACKET Expr RBRACKET /*ok*/
+		  ;
+
+FunCallName ::=	(FunCallName) Designator;	/*dodala*/
+		
+Assignop ::= (Assignop) EQUAL; /*ok*/ 
+
+Addop ::= (Addop_plus) PLUS 
+		  | 
+		  (Addop_minus) MINUS
+		  ; /*ok*/
+Mulop ::= (Mulop_mul) MUL 
+		  | 
+		  (Mulop_div) DIV
+		  |
+		  (Mulop_percent) PERCENT 
+		  ; /*ok*/

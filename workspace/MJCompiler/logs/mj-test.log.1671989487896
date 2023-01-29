@@ -1,0 +1,321 @@
+INFO  18:31:12,217 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  18:31:12,257 - #13 program
+INFO  18:31:12,257 - #41 P
+INFO  18:31:12,257 - #41 int
+INFO  18:31:12,258 - #41 a
+INFO  18:31:12,259 - #33 [
+INFO  18:31:12,259 - #34 ]
+INFO  18:31:12,259 - #40 ,
+INFO  18:31:12,259 - #41 b
+INFO  18:31:12,259 - #38 ;
+INFO  18:31:12,260 - #14 const
+INFO  18:31:12,261 - #41 bool
+INFO  18:31:12,261 - #41 c
+INFO  18:31:12,261 - #39 =
+INFO  18:31:12,262 - #42 1
+INFO  18:31:12,262 - #38 ;
+INFO  18:31:12,263 - #36 {
+INFO  18:31:12,263 - #41 int
+INFO  18:31:12,264 - #41 s
+INFO  18:31:12,264 - #31 (
+INFO  18:31:12,264 - #41 int
+INFO  18:31:12,264 - #41 a
+INFO  18:31:12,264 - #40 ,
+INFO  18:31:12,265 - #41 char
+INFO  18:31:12,265 - #41 b
+INFO  18:31:12,265 - #40 ,
+INFO  18:31:12,265 - #41 bool
+INFO  18:31:12,265 - #41 q
+INFO  18:31:12,265 - #40 ,
+INFO  18:31:12,265 - #41 int
+INFO  18:31:12,265 - #41 aa
+INFO  18:31:12,265 - #32 )
+INFO  18:31:12,266 - #36 {
+INFO  18:31:12,266 - #9 return
+INFO  18:31:12,266 - #43 3
+INFO  18:31:12,267 - #38 ;
+INFO  18:31:12,268 - #37 }
+INFO  18:31:12,268 - #41 char
+INFO  18:31:12,269 - #41 ss
+INFO  18:31:12,269 - #31 (
+INFO  18:31:12,269 - #32 )
+INFO  18:31:12,269 - #36 {
+INFO  18:31:12,269 - #9 return
+INFO  18:31:12,269 - #44 a
+INFO  18:31:12,269 - #38 ;
+INFO  18:31:12,270 - #37 }
+INFO  18:31:12,270 - #10 void
+INFO  18:31:12,270 - #41 main
+INFO  18:31:12,270 - #31 (
+INFO  18:31:12,270 - #32 )
+INFO  18:31:12,270 - #36 {
+INFO  18:31:12,270 - #7 print
+INFO  18:31:12,270 - #31 (
+INFO  18:31:12,270 - #41 a
+INFO  18:31:12,270 - #33 [
+INFO  18:31:12,271 - #43 1
+INFO  18:31:12,271 - #34 ]
+INFO  18:31:12,271 - #32 )
+INFO  18:31:12,272 - #38 ;
+INFO  18:31:12,272 - #41 a
+INFO  18:31:12,272 - #33 [
+INFO  18:31:12,273 - #43 1
+INFO  18:31:12,273 - #34 ]
+INFO  18:31:12,273 - #39 =
+INFO  18:31:12,273 - #42 1
+INFO  18:31:12,274 - #38 ;
+INFO  18:31:12,274 - #37 }
+INFO  18:31:12,274 - #37 }
+INFO  18:31:12,283 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_bracket(
+         a
+        ) [VarDecl_bracket]
+        VarDeclMore_comma(
+          VarDecl_ident(
+           b
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         bool
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       c
+        Constant_b(
+         1
+        ) [Constant_b]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_decl(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethodRetAndName_type(
+            Type(
+             int
+            ) [Type]
+           s
+          ) [MethodRetAndName_type]
+          FormParsList_list(
+            FormParam_ident(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormParam_ident]
+            FormParsMore_comma(
+              FormParam_ident(
+                Type(
+                 char
+                ) [Type]
+               b
+              ) [FormParam_ident]
+              FormParsMore_comma(
+                FormParam_ident(
+                  Type(
+                   bool
+                  ) [Type]
+                 q
+                ) [FormParam_ident]
+                FormParsMore_comma(
+                  FormParam_ident(
+                    Type(
+                     int
+                    ) [Type]
+                   aa
+                  ) [FormParam_ident]
+                  FormParsMore_e(
+                  ) [FormParsMore_e]
+                ) [FormParsMore_comma]
+              ) [FormParsMore_comma]
+            ) [FormParsMore_comma]
+          ) [FormParsList_list]
+          VarDeclListMethod_e(
+          ) [VarDeclListMethod_e]
+          StatementList_list(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_return_expr(
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_constant(
+                          Constant_n(
+                           3
+                          ) [Constant_n]
+                        ) [FactorSub_constant]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [Statement_return_expr]
+          ) [StatementList_list]
+        ) [MethodDecl]
+      ) [MethodDeclList_decl]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           char
+          ) [Type]
+         ss
+        ) [MethodRetAndName_type]
+        FormParsList_e(
+        ) [FormParsList_e]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_return_expr(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_constant(
+                        Constant_c(
+                         a
+                        ) [Constant_c]
+                      ) [FactorSub_constant]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [Statement_return_expr]
+        ) [StatementList_list]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_print(
+            PrintParameters_noNumber(
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_designator1(
+                          Designator(
+                            DesignatorName(
+                             a
+                            ) [DesignatorName]
+                            DesignatorIndex_index(
+                              Expr(
+                                AddopTermList_terml(
+                                  Term(
+                                    MulopFactorList_factor(
+                                      Factor_e(
+                                        FactorSub_constant(
+                                          Constant_n(
+                                           1
+                                          ) [Constant_n]
+                                        ) [FactorSub_constant]
+                                      ) [Factor_e]
+                                    ) [MulopFactorList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_terml]
+                              ) [Expr]
+                            ) [DesignatorIndex_index]
+                          ) [Designator]
+                        ) [FactorSub_designator1]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [PrintParameters_noNumber]
+          ) [Statement_print]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_assignop(
+              Designator(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                DesignatorIndex_index(
+                  Expr(
+                    AddopTermList_terml(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor_e(
+                            FactorSub_constant(
+                              Constant_n(
+                               1
+                              ) [Constant_n]
+                            ) [FactorSub_constant]
+                          ) [Factor_e]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_terml]
+                  ) [Expr]
+                ) [DesignatorIndex_index]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_constant(
+                          Constant_b(
+                           1
+                          ) [Constant_b]
+                        ) [FactorSub_constant]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [DesignatorStatementAssignop_assignop]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  18:31:12,285 - ===================================
+INFO  18:31:12,288 - Pretraga na liniji 16(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  18:31:12,288 - Pretraga na liniji 18(a), nadjeno Var a: Arr of int, 0, 0 
+ERROR 18:31:12,288 - Greska na liniji 18: Leva i desna strana u iskazu dedele nisu kompatibile
+INFO  18:31:12,288 - ===================================
+ERROR 18:31:12,288 - Parsiranje NIJE uspesno zavrseno!

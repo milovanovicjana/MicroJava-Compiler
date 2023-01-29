@@ -1,0 +1,71 @@
+INFO  21:01:55,598 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  21:01:55,661 - #13 program
+INFO  21:01:55,662 - #41 test301
+INFO  21:01:55,662 - #14 const
+INFO  21:01:55,663 - #41 int
+INFO  21:01:55,663 - #41 i
+INFO  21:01:55,665 - #39 =
+INFO  21:01:55,665 - #43 8
+INFO  21:01:55,665 - #40 ,
+INFO  21:01:55,666 - #41 c
+INFO  21:01:55,667 - #39 =
+INFO  21:01:55,667 - #41 jana
+ERROR 21:01:55,667 - 
+Sintaksna greska na liniji 5
+INFO  21:01:55,667 - #40 ,
+INFO  21:01:55,667 - #41 j
+INFO  21:01:55,667 - #39 =
+ERROR 21:01:55,669 - Izvrsen oporavak u deklaraciji globalne promenljive(pogrsan tip) u liniji 8
+ERROR 21:01:55,670 - 
+Sintaksna greska na liniji 5
+INFO  21:01:55,671 - #43 9
+INFO  21:01:55,671 - #38 ;
+INFO  21:01:55,671 - #36 {
+INFO  21:01:55,671 - #10 void
+INFO  21:01:55,671 - #41 main
+ERROR 21:01:55,671 - Izvrsen oporavak u deklaraciji globalne promenljive u liniji 5
+INFO  21:01:55,674 - #31 (
+INFO  21:01:55,674 - #32 )
+INFO  21:01:55,675 - #36 {
+INFO  21:01:55,676 - #37 }
+INFO  21:01:55,676 - #37 }
+INFO  21:01:55,690 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_error(
+      ) [TypeVar_error]
+      VarDecl_ident(
+       jana
+      ) [VarDecl_ident]
+      VarDeclMore_comma(
+        VarDecl_error(
+        ) [VarDecl_error]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  21:01:55,690 - ===================================
+INFO  21:01:55,693 - ===================================
+ERROR 21:01:55,694 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,98 @@
+INFO  13:23:47,153 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  13:23:47,214 - #13 program
+INFO  13:23:47,214 - #41 test302
+INFO  13:23:47,214 - #36 {
+INFO  13:23:47,216 - #10 void
+INFO  13:23:47,217 - #41 main
+INFO  13:23:47,217 - #31 (
+INFO  13:23:47,217 - #32 )
+INFO  13:23:47,218 - #36 {
+INFO  13:23:47,218 - #7 print
+INFO  13:23:47,219 - #31 (
+INFO  13:23:47,219 - #41 ord
+INFO  13:23:47,219 - #31 (
+INFO  13:23:47,222 - #44 b
+INFO  13:23:47,222 - #32 )
+INFO  13:23:47,225 - #32 )
+INFO  13:23:47,225 - #38 ;
+INFO  13:23:47,225 - #37 }
+INFO  13:23:47,226 - #37 }
+INFO  13:23:47,239 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          PrintParameters_noNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_designator2(
+                        FunCallName(
+                          Designator(
+                            DesignatorName(
+                             ord
+                            ) [DesignatorName]
+                            DesignatorIndex_e(
+                            ) [DesignatorIndex_e]
+                          ) [Designator]
+                        ) [FunCallName]
+                        ActParsList_ap(
+                          ActPar(
+                            Expr(
+                              AddopTermList_terml(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor_e(
+                                      FactorSub_constant(
+                                        Constant_c(
+                                         b
+                                        ) [Constant_c]
+                                      ) [FactorSub_constant]
+                                    ) [Factor_e]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_terml]
+                            ) [Expr]
+                          ) [ActPar]
+                          ActParMore_e(
+                          ) [ActParMore_e]
+                        ) [ActParsList_ap]
+                      ) [FactorSub_designator2]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [PrintParameters_noNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  13:23:47,240 - ===================================
+INFO  13:23:47,246 - Pretraga na liniji 13(ord), nadjeno Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+INFO  13:23:47,247 - petlja
+INFO  13:23:47,247 - ===================================
+INFO  13:23:47,250 - 0
+INFO  13:23:47,250 - 0
+INFO  13:23:47,251 - Parsiranje uspesno zavrseno!

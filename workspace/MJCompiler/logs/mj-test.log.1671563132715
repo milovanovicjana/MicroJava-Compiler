@@ -1,0 +1,72 @@
+INFO  20:04:58,892 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  20:04:58,945 - #13 program
+INFO  20:04:58,945 - #41 test301
+INFO  20:04:58,945 - #41 boolean
+INFO  20:04:58,947 - #41 r
+INFO  20:04:58,948 - #38 ;
+INFO  20:04:58,949 - #36 {
+INFO  20:04:58,951 - #10 void
+INFO  20:04:58,951 - #41 main
+INFO  20:04:58,951 - #31 (
+INFO  20:04:58,952 - #32 )
+INFO  20:04:58,952 - #41 boolean
+INFO  20:04:58,953 - #41 r
+INFO  20:04:58,953 - #38 ;
+INFO  20:04:58,953 - #36 {
+INFO  20:04:58,953 - #37 }
+INFO  20:04:58,954 - #37 }
+INFO  20:04:58,968 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         boolean
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       r
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             boolean
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           r
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  20:04:58,969 - ===================================
+ERROR 20:04:58,972 - Nije pronadjen tip boolean u tabeli simbola!
+ERROR 20:04:58,973 - Nije pronadjen tip boolean u tabeli simbola!
+INFO  20:04:58,973 - ===================================
+ERROR 20:04:58,974 - Parsiranje NIJE uspesno zavrseno!

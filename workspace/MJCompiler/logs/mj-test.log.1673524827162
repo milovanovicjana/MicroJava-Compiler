@@ -1,0 +1,40 @@
+INFO  12:59:00,754 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  12:59:00,793 - #13 program
+INFO  12:59:00,793 - #41 test302
+INFO  12:59:00,793 - #36 {
+INFO  12:59:00,794 - #41 vod
+INFO  12:59:00,795 - #41 main
+INFO  12:59:00,795 - #31 (
+INFO  12:59:00,796 - #32 )
+INFO  12:59:00,796 - #36 {
+INFO  12:59:00,797 - #37 }
+INFO  12:59:00,797 - #37 }
+INFO  12:59:00,806 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_type(
+        Type(
+         vod
+        ) [Type]
+       main
+      ) [MethodRetAndName_type]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  12:59:00,807 - ===================================
+ERROR 12:59:00,810 - Greska na liniji 8: Nije pronadjen tip vod u tabeli simbola!
+INFO  12:59:00,810 - ===================================
+ERROR 12:59:00,811 - Parsiranje NIJE uspesno zavrseno!

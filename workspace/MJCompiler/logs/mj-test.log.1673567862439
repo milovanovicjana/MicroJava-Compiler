@@ -1,0 +1,101 @@
+INFO  00:54:11,280 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  00:54:11,388 - #13 program
+INFO  00:54:11,388 - #41 MJProgram
+INFO  00:54:11,388 - #41 char
+INFO  00:54:11,391 - #41 b
+INFO  00:54:11,393 - #38 ;
+INFO  00:54:11,394 - #36 {
+INFO  00:54:11,396 - #10 void
+INFO  00:54:11,398 - #41 main
+INFO  00:54:11,398 - #31 (
+INFO  00:54:11,398 - #32 )
+INFO  00:54:11,399 - #36 {
+INFO  00:54:11,401 - #8 read
+INFO  00:54:11,402 - #31 (
+INFO  00:54:11,402 - #41 b
+INFO  00:54:11,403 - #32 )
+INFO  00:54:11,407 - #38 ;
+INFO  00:54:11,407 - #7 print
+INFO  00:54:11,408 - #31 (
+INFO  00:54:11,408 - #41 b
+INFO  00:54:11,408 - #32 )
+INFO  00:54:11,413 - #38 ;
+INFO  00:54:11,413 - #37 }
+INFO  00:54:11,413 - #37 }
+INFO  00:54:11,434 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         char
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       b
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_read(
+            Designator(
+              DesignatorName(
+               b
+              ) [DesignatorName]
+              DesignatorIndex_e(
+              ) [DesignatorIndex_e]
+            ) [Designator]
+          ) [Statement_read]
+        ) [StatementList_list]
+        Statement_print(
+          PrintParameters_noNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_designator1(
+                        Designator(
+                          DesignatorName(
+                           b
+                          ) [DesignatorName]
+                          DesignatorIndex_e(
+                          ) [DesignatorIndex_e]
+                        ) [Designator]
+                      ) [FactorSub_designator1]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [PrintParameters_noNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  00:54:11,435 - ===================================
+INFO  00:54:11,442 - Pretraga na liniji 8(b), nadjeno Var b: char, 0, 0 
+INFO  00:54:11,443 - Pretraga na liniji 9(b), nadjeno Var b: char, 0, 0 
+INFO  00:54:11,443 - ===================================
+INFO  00:54:11,458 - Parsiranje uspesno zavrseno!

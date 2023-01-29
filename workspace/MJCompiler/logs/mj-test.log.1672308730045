@@ -1,0 +1,249 @@
+INFO  11:11:56,915 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  11:11:56,972 - #13 program
+INFO  11:11:56,972 - #41 test302
+INFO  11:11:56,972 - #14 const
+INFO  11:11:56,974 - #41 int
+INFO  11:11:56,974 - #41 x
+INFO  11:11:56,975 - #39 =
+INFO  11:11:56,975 - #43 2
+INFO  11:11:56,975 - #38 ;
+INFO  11:11:56,976 - #36 {
+INFO  11:11:56,977 - #10 void
+INFO  11:11:56,977 - #41 main
+INFO  11:11:56,977 - #31 (
+INFO  11:11:56,978 - #32 )
+INFO  11:11:56,978 - #41 bool
+INFO  11:11:56,979 - #41 niz
+INFO  11:11:56,979 - #33 [
+INFO  11:11:56,979 - #34 ]
+INFO  11:11:56,979 - #38 ;
+INFO  11:11:56,980 - #41 bool
+INFO  11:11:56,981 - #41 c
+INFO  11:11:56,981 - #38 ;
+INFO  11:11:56,981 - #36 {
+INFO  11:11:56,981 - #41 niz
+INFO  11:11:56,982 - #30 .
+INFO  11:11:56,983 - #12 foreach
+INFO  11:11:56,983 - #31 (
+INFO  11:11:56,984 - #41 c
+INFO  11:11:56,984 - #35 =>
+INFO  11:11:56,985 - #41 c
+INFO  11:11:56,985 - #39 =
+INFO  11:11:56,985 - #42 0
+INFO  11:11:56,987 - #38 ;
+INFO  11:11:56,989 - #32 )
+INFO  11:11:56,990 - #38 ;
+INFO  11:11:56,990 - #41 c
+INFO  11:11:56,990 - #39 =
+INFO  11:11:56,990 - #42 1
+INFO  11:11:56,990 - #38 ;
+INFO  11:11:56,990 - #41 niz
+INFO  11:11:56,990 - #33 [
+INFO  11:11:56,990 - #43 1
+INFO  11:11:56,991 - #34 ]
+INFO  11:11:56,991 - #39 =
+INFO  11:11:56,991 - #42 0
+INFO  11:11:56,991 - #38 ;
+INFO  11:11:56,991 - #37 }
+INFO  11:11:56,991 - #37 }
+INFO  11:11:57,005 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         2
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_list(
+          VarDeclListMethod_e(
+          ) [VarDeclListMethod_e]
+          VarDeclList(
+            TypeVar_type(
+              Type(
+               bool
+              ) [Type]
+            ) [TypeVar_type]
+            VarDecl_bracket(
+             niz
+            ) [VarDecl_bracket]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListMethod_list]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           c
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_list(
+          StatementList_list(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_foreach(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+              ForeachLoopStart(
+              ) [ForeachLoopStart]
+              ForeachIdentName(
+               c
+              ) [ForeachIdentName]
+              Statement_designator(
+                DesignatorStatement_assignop(
+                  DesignatorStatementAssignop_assignop(
+                    Designator(
+                      DesignatorName(
+                       c
+                      ) [DesignatorName]
+                      DesignatorIndex_e(
+                      ) [DesignatorIndex_e]
+                    ) [Designator]
+                    Assignop(
+                    ) [Assignop]
+                    Expr(
+                      AddopTermList_terml(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor_e(
+                              FactorSub_constant(
+                                Constant_b(
+                                 0
+                                ) [Constant_b]
+                              ) [FactorSub_constant]
+                            ) [Factor_e]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_terml]
+                    ) [Expr]
+                  ) [DesignatorStatementAssignop_assignop]
+                ) [DesignatorStatement_assignop]
+              ) [Statement_designator]
+            ) [Statement_foreach]
+          ) [StatementList_list]
+          Statement_designator(
+            DesignatorStatement_assignop(
+              DesignatorStatementAssignop_assignop(
+                Designator(
+                  DesignatorName(
+                   c
+                  ) [DesignatorName]
+                  DesignatorIndex_e(
+                  ) [DesignatorIndex_e]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_constant(
+                            Constant_b(
+                             1
+                            ) [Constant_b]
+                          ) [FactorSub_constant]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [DesignatorStatementAssignop_assignop]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designator]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_assignop(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesignatorIndex_index(
+                  Expr(
+                    AddopTermList_terml(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor_e(
+                            FactorSub_constant(
+                              Constant_n(
+                               1
+                              ) [Constant_n]
+                            ) [FactorSub_constant]
+                          ) [Factor_e]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_terml]
+                  ) [Expr]
+                ) [DesignatorIndex_index]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_constant(
+                          Constant_b(
+                           0
+                          ) [Constant_b]
+                        ) [FactorSub_constant]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [DesignatorStatementAssignop_assignop]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  11:11:57,006 - ===================================
+INFO  11:11:57,011 - Pretraga na liniji 13(niz), nadjeno Var niz: Arr of bool, 0, 1 
+INFO  11:11:57,011 - Pretraga na liniji 13(c), nadjeno Var c: bool, 1, 1 
+ERROR 11:11:57,011 - Greska na liniji 13: Promenljiva c koja predstavlja tekuci element niza se moze samo citati, ne moze se vrstit upis u nju
+INFO  11:11:57,011 - Pretraga na liniji 13(c), nadjeno Var c: bool, 1, 1 
+INFO  11:11:57,011 - Pretraga na liniji 14(c), nadjeno Var c: bool, 1, 1 
+INFO  11:11:57,012 - Pretraga na liniji 15(niz), nadjeno Var niz: Arr of bool, 0, 1 
+INFO  11:11:57,012 - ===================================
+ERROR 11:11:57,012 - Parsiranje NIJE uspesno zavrseno!

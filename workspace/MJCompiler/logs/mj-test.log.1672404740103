@@ -1,0 +1,66 @@
+INFO  13:46:31,197 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  13:46:31,233 - #13 program
+INFO  13:46:31,234 - #41 test302
+INFO  13:46:31,234 - #36 {
+INFO  13:46:31,235 - #10 void
+INFO  13:46:31,236 - #41 main
+INFO  13:46:31,236 - #31 (
+INFO  13:46:31,236 - #32 )
+INFO  13:46:31,237 - #36 {
+INFO  13:46:31,237 - #7 print
+INFO  13:46:31,238 - #31 (
+INFO  13:46:31,238 - #43 1
+INFO  13:46:31,238 - #40 ,
+INFO  13:46:31,239 - #43 2
+INFO  13:46:31,239 - #32 )
+INFO  13:46:31,239 - #38 ;
+INFO  13:46:31,239 - #37 }
+INFO  13:46:31,240 - #37 }
+INFO  13:46:31,247 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          PrintParameters_withNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_constant(
+                        Constant_n(
+                         1
+                        ) [Constant_n]
+                      ) [FactorSub_constant]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+           2
+          ) [PrintParameters_withNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  13:46:31,249 - ===================================
+INFO  13:46:31,252 - ===================================
+INFO  13:46:31,255 - 2
+INFO  13:46:31,256 - Parsiranje uspesno zavrseno!

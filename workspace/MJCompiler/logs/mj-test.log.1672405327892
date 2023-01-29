@@ -1,0 +1,143 @@
+INFO  14:01:58,616 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  14:01:58,655 - #13 program
+INFO  14:01:58,655 - #41 test302
+INFO  14:01:58,655 - #36 {
+INFO  14:01:58,657 - #41 int
+INFO  14:01:58,658 - #41 f
+INFO  14:01:58,658 - #31 (
+INFO  14:01:58,659 - #32 )
+INFO  14:01:58,659 - #36 {
+INFO  14:01:58,659 - #7 print
+INFO  14:01:58,660 - #31 (
+INFO  14:01:58,660 - #44 f
+INFO  14:01:58,660 - #32 )
+INFO  14:01:58,661 - #38 ;
+INFO  14:01:58,661 - #9 return
+INFO  14:01:58,662 - #43 1
+INFO  14:01:58,662 - #38 ;
+INFO  14:01:58,662 - #37 }
+INFO  14:01:58,662 - #10 void
+INFO  14:01:58,663 - #41 main
+INFO  14:01:58,663 - #31 (
+INFO  14:01:58,663 - #32 )
+INFO  14:01:58,663 - #36 {
+INFO  14:01:58,663 - #7 print
+INFO  14:01:58,663 - #31 (
+INFO  14:01:58,663 - #41 f
+INFO  14:01:58,663 - #31 (
+INFO  14:01:58,665 - #32 )
+INFO  14:01:58,666 - #32 )
+INFO  14:01:58,666 - #38 ;
+INFO  14:01:58,666 - #37 }
+INFO  14:01:58,666 - #37 }
+INFO  14:01:58,675 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethodRetAndName_type]
+        FormParsList_e(
+        ) [FormParsList_e]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_list(
+          StatementList_list(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_print(
+              PrintParameters_noNumber(
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_constant(
+                            Constant_c(
+                             f
+                            ) [Constant_c]
+                          ) [FactorSub_constant]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [PrintParameters_noNumber]
+            ) [Statement_print]
+          ) [StatementList_list]
+          Statement_return_expr(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_constant(
+                        Constant_n(
+                         1
+                        ) [Constant_n]
+                      ) [FactorSub_constant]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [Statement_return_expr]
+        ) [StatementList_list]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          PrintParameters_noNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_designator2(
+                        FunCallName(
+                          Designator(
+                            DesignatorName(
+                             f
+                            ) [DesignatorName]
+                            DesignatorIndex_e(
+                            ) [DesignatorIndex_e]
+                          ) [Designator]
+                        ) [FunCallName]
+                        ActParsList_e(
+                        ) [ActParsList_e]
+                      ) [FactorSub_designator2]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [PrintParameters_noNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  14:01:58,675 - ===================================
+INFO  14:01:58,678 - Pretraga na liniji 18(f), nadjeno Meth f: int, 0, 0 
+
+INFO  14:01:58,679 - ===================================

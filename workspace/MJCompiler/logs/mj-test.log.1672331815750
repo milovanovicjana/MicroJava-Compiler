@@ -1,0 +1,179 @@
+INFO  17:36:33,471 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  17:36:33,514 - #13 program
+INFO  17:36:33,514 - #41 test302
+INFO  17:36:33,514 - #14 const
+INFO  17:36:33,516 - #41 bool
+INFO  17:36:33,516 - #41 a
+INFO  17:36:33,517 - #39 =
+INFO  17:36:33,517 - #42 1
+INFO  17:36:33,517 - #38 ;
+INFO  17:36:33,518 - #41 int
+INFO  17:36:33,519 - #41 niz
+INFO  17:36:33,519 - #33 [
+INFO  17:36:33,519 - #34 ]
+INFO  17:36:33,519 - #38 ;
+INFO  17:36:33,520 - #41 int
+INFO  17:36:33,520 - #41 a
+INFO  17:36:33,520 - #33 [
+INFO  17:36:33,520 - #34 ]
+INFO  17:36:33,520 - #38 ;
+INFO  17:36:33,521 - #41 int
+INFO  17:36:33,521 - #41 b
+INFO  17:36:33,521 - #38 ;
+INFO  17:36:33,521 - #36 {
+INFO  17:36:33,521 - #41 int
+INFO  17:36:33,522 - #41 f
+INFO  17:36:33,522 - #31 (
+INFO  17:36:33,522 - #32 )
+INFO  17:36:33,523 - #36 {
+INFO  17:36:33,523 - #37 }
+INFO  17:36:33,524 - #10 void
+INFO  17:36:33,524 - #41 c
+INFO  17:36:33,524 - #31 (
+INFO  17:36:33,524 - #32 )
+INFO  17:36:33,524 - #36 {
+INFO  17:36:33,525 - #41 f
+INFO  17:36:33,525 - #31 (
+INFO  17:36:33,527 - #32 )
+INFO  17:36:33,527 - #38 ;
+INFO  17:36:33,527 - #37 }
+INFO  17:36:33,527 - #10 void
+INFO  17:36:33,528 - #41 main
+INFO  17:36:33,528 - #31 (
+INFO  17:36:33,528 - #32 )
+INFO  17:36:33,528 - #36 {
+INFO  17:36:33,528 - #37 }
+INFO  17:36:33,528 - #37 }
+INFO  17:36:33,536 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_var(
+        ConVarDeclList_con(
+          ConVarDeclList_e(
+          ) [ConVarDeclList_e]
+          ConstDeclList(
+            ConstDeclListType(
+              Type(
+               bool
+              ) [Type]
+            ) [ConstDeclListType]
+            ConDecl(
+             a
+              Constant_b(
+               1
+              ) [Constant_b]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConstDeclList]
+        ) [ConVarDeclList_con]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_bracket(
+           niz
+          ) [VarDecl_bracket]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [ConVarDeclList_var]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_bracket(
+         a
+        ) [VarDecl_bracket]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       b
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_decl(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethodRetAndName_type(
+            Type(
+             int
+            ) [Type]
+           f
+          ) [MethodRetAndName_type]
+          FormParsList_e(
+          ) [FormParsList_e]
+          VarDeclListMethod_e(
+          ) [VarDeclListMethod_e]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [MethodDecl]
+      ) [MethodDeclList_decl]
+      MethodDecl(
+        MethodRetAndName_void(
+         c
+        ) [MethodRetAndName_void]
+        FormParsList_e(
+        ) [FormParsList_e]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_designator(
+            DesignatorStatement_actPars(
+              FunCallName(
+                Designator(
+                  DesignatorName(
+                   f
+                  ) [DesignatorName]
+                  DesignatorIndex_e(
+                  ) [DesignatorIndex_e]
+                ) [Designator]
+              ) [FunCallName]
+              ActParsList_e(
+              ) [ActParsList_e]
+            ) [DesignatorStatement_actPars]
+          ) [Statement_designator]
+        ) [StatementList_list]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  17:36:33,537 - ===================================
+ERROR 17:36:33,540 - Greska na liniji 6: Ime varijable a je vec deklarisano u okviru istog opsega!
+INFO  17:36:33,540 - Pretraga na liniji 14(f), nadjeno Meth f: int, 0, 0 
+
+INFO  17:36:33,540 - ===================================
+ERROR 17:36:33,541 - Parsiranje NIJE uspesno zavrseno!

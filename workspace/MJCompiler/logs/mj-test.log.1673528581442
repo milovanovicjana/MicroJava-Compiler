@@ -1,0 +1,97 @@
+INFO  14:02:22,489 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  14:02:22,569 - #13 program
+INFO  14:02:22,569 - #41 p1
+INFO  14:02:22,569 - #41 inn
+INFO  14:02:22,571 - #41 x
+INFO  14:02:22,572 - #38 ;
+INFO  14:02:22,573 - #14 const
+INFO  14:02:22,574 - #41 chr
+INFO  14:02:22,574 - #41 x
+INFO  14:02:22,574 - #39 =
+INFO  14:02:22,575 - #43 3
+INFO  14:02:22,575 - #38 ;
+INFO  14:02:22,576 - #36 {
+INFO  14:02:22,577 - #10 void
+INFO  14:02:22,577 - #41 main
+INFO  14:02:22,577 - #31 (
+INFO  14:02:22,577 - #32 )
+INFO  14:02:22,578 - #41 in
+INFO  14:02:22,579 - #41 x
+INFO  14:02:22,580 - #38 ;
+INFO  14:02:22,580 - #36 {
+INFO  14:02:22,580 - #37 }
+INFO  14:02:22,581 - #37 }
+INFO  14:02:22,593 - Program(
+  ProgName(
+   p1
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           inn
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_ident(
+         x
+        ) [VarDecl_ident]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         chr
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         3
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             in
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           x
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  14:02:22,594 - ===================================
+ERROR 14:02:22,598 - Greska na liniji 3: Nije pronadjen tip inn u tabeli simbola!
+ERROR 14:02:22,598 - Greska na liniji 4: Ime chr ne predstavlja tip!
+ERROR 14:02:22,598 - Greska na liniji 4: Nekompabilan tip u definiciji konstante
+ERROR 14:02:22,599 - Greska na liniji 6: Nije pronadjen tip in u tabeli simbola!
+INFO  14:02:22,599 - ===================================
+ERROR 14:02:22,600 - Parsiranje NIJE uspesno zavrseno!

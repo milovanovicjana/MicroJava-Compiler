@@ -1,0 +1,94 @@
+INFO  21:07:52,743 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  21:07:52,805 - #13 program
+INFO  21:07:52,805 - #41 test301
+INFO  21:07:52,805 - #14 const
+INFO  21:07:52,806 - #41 int
+INFO  21:07:52,807 - #41 i
+INFO  21:07:52,808 - #39 =
+INFO  21:07:52,808 - #43 8
+INFO  21:07:52,808 - #40 ,
+INFO  21:07:52,810 - #41 j
+INFO  21:07:52,810 - #39 =
+INFO  21:07:52,810 - #43 9
+INFO  21:07:52,810 - #38 ;
+INFO  21:07:52,811 - #14 const
+INFO  21:07:52,813 - #41 bool
+INFO  21:07:52,813 - #41 a
+INFO  21:07:52,813 - #39 =
+INFO  21:07:52,813 - #42 0
+INFO  21:07:52,813 - #38 ;
+INFO  21:07:52,814 - #36 {
+INFO  21:07:52,814 - #10 void
+INFO  21:07:52,816 - #41 main
+INFO  21:07:52,816 - #31 (
+INFO  21:07:52,816 - #32 )
+INFO  21:07:52,817 - #36 {
+INFO  21:07:52,818 - #37 }
+INFO  21:07:52,819 - #37 }
+INFO  21:07:52,833 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConstDeclList(
+        ConstDeclListType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstDeclListType]
+        ConDecl(
+         i
+          Constant_n(
+           8
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_comma(
+          ConDecl(
+           j
+            Constant_n(
+             9
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclMore_comma]
+      ) [ConstDeclList]
+    ) [ConVarDeclList_con]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         bool
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       a
+        Constant_b(
+         0
+        ) [Constant_b]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  21:07:52,833 - ===================================
+INFO  21:07:52,836 - ===================================
+INFO  21:07:52,837 - Parsiranje uspesno zavrseno!

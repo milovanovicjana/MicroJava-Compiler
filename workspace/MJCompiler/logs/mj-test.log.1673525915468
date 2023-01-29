@@ -1,0 +1,81 @@
+INFO  13:15:26,331 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  13:15:26,385 - #13 program
+INFO  13:15:26,385 - #41 test302
+INFO  13:15:26,385 - #36 {
+INFO  13:15:26,386 - #10 void
+INFO  13:15:26,387 - #41 no_args
+INFO  13:15:26,387 - #31 (
+INFO  13:15:26,387 - #41 int
+INFO  13:15:26,387 - #15 +
+ERROR 13:15:26,387 - 
+Sintaksna greska na liniji 9
+INFO  13:15:26,387 - #32 )
+INFO  13:15:26,388 - #36 {
+INFO  13:15:26,388 - #37 }
+INFO  13:15:26,388 - #10 void
+ERROR 13:15:26,388 - Izvrsen oporavak u formalnom parametru fje u liniji 9
+INFO  13:15:26,391 - #41 first_args
+INFO  13:15:26,391 - #31 (
+INFO  13:15:26,391 - #41 int
+INFO  13:15:26,391 - #41 a
+INFO  13:15:26,392 - #40 ,
+INFO  13:15:26,392 - #41 int
+INFO  13:15:26,392 - #15 +
+ERROR 13:15:26,392 - 
+Sintaksna greska na liniji 13
+INFO  13:15:26,392 - #32 )
+INFO  13:15:26,393 - #36 {
+INFO  13:15:26,393 - #37 }
+INFO  13:15:26,393 - #10 void
+ERROR 13:15:26,393 - Izvrsen oporavak u formalnom parametru fje u liniji 13
+INFO  13:15:26,393 - #41 last_args
+INFO  13:15:26,393 - #31 (
+INFO  13:15:26,393 - #41 int
+INFO  13:15:26,393 - #15 +
+ERROR 13:15:26,393 - 
+Sintaksna greska na liniji 17
+INFO  13:15:26,393 - #40 ,
+INFO  13:15:26,393 - #41 int
+INFO  13:15:26,393 - #41 b
+INFO  13:15:26,394 - #32 )
+ERROR 13:15:26,394 - Izvrsen oporavak u formalnom parametru fje u liniji 17
+INFO  13:15:26,394 - #36 {
+INFO  13:15:26,394 - #37 }
+INFO  13:15:26,394 - #10 void
+INFO  13:15:26,394 - #41 outer_args
+INFO  13:15:26,394 - #31 (
+INFO  13:15:26,394 - #41 int
+INFO  13:15:26,394 - #41 x
+INFO  13:15:26,394 - #40 ,
+INFO  13:15:26,395 - #41 int
+INFO  13:15:26,395 - #15 +
+ERROR 13:15:26,395 - 
+Sintaksna greska na liniji 21
+INFO  13:15:26,395 - #40 ,
+INFO  13:15:26,395 - #41 int
+INFO  13:15:26,395 - #41 y
+INFO  13:15:26,395 - #32 )
+ERROR 13:15:26,395 - Izvrsen oporavak u formalnom parametru fje u liniji 21
+INFO  13:15:26,395 - #36 {
+INFO  13:15:26,395 - #10 void
+ERROR 13:15:26,395 - 
+Sintaksna greska na liniji 23
+INFO  13:15:26,395 - #41 main
+INFO  13:15:26,396 - #31 (
+INFO  13:15:26,396 - #32 )
+INFO  13:15:26,396 - #36 {
+INFO  13:15:26,396 - #41 x
+INFO  13:15:26,396 - #39 =
+INFO  13:15:26,396 - #38 ;
+INFO  13:15:26,396 - #41 a
+INFO  13:15:26,396 - #39 =
+INFO  13:15:26,396 - #31 (
+INFO  13:15:26,396 - #43 5
+INFO  13:15:26,396 - #15 +
+INFO  13:15:26,397 - #17 *
+INFO  13:15:26,397 - #43 2
+INFO  13:15:26,397 - #32 )
+INFO  13:15:26,397 - #38 ;
+INFO  13:15:26,397 - #37 }
+INFO  13:15:26,397 - #37 }
+ERROR 13:15:26,397 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 33

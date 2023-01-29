@@ -1,0 +1,49 @@
+INFO  14:55:38,827 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  14:55:38,997 - #35 program
+INFO  14:55:38,997 - #42 test301
+INFO  14:55:38,997 - #36 {
+INFO  14:55:39,001 - #10 void
+INFO  14:55:39,003 - #42 main
+INFO  14:55:39,003 - #30 (
+INFO  14:55:39,003 - #31 )
+INFO  14:55:39,005 - #36 {
+INFO  14:55:39,007 - #42 a
+INFO  14:55:39,008 - #40 =
+INFO  14:55:39,008 - #42 a
+INFO  14:55:39,013 - #13 +
+INFO  14:55:39,017 - #42 b
+INFO  14:55:39,020 - #13 +
+INFO  14:55:39,020 - #39 ;
+ERROR 14:55:39,021 - 
+Sintaksna greska na liniji 10
+INFO  14:55:39,021 - #37 }
+INFO  14:55:39,021 - #37 }
+ERROR 14:55:39,022 - Izvrsen oporavak do ; u liniji 10
+INFO  14:55:39,031 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator_error(
+        ) [Statement_designator_error]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  14:55:39,031 - ===================================
+ERROR 14:55:39,031 - Parsiranje NIJE uspesno zavrseno!

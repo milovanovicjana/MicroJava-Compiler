@@ -1,0 +1,81 @@
+INFO  14:31:49,580 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  14:31:49,621 - #13 program
+INFO  14:31:49,621 - #41 test302
+INFO  14:31:49,621 - #36 {
+INFO  14:31:49,622 - #10 void
+INFO  14:31:49,623 - #41 main
+INFO  14:31:49,623 - #31 (
+INFO  14:31:49,623 - #32 )
+INFO  14:31:49,623 - #36 {
+INFO  14:31:49,624 - #41 len
+INFO  14:31:49,624 - #31 (
+INFO  14:31:49,626 - #43 1
+INFO  14:31:49,626 - #32 )
+INFO  14:31:49,629 - #38 ;
+INFO  14:31:49,629 - #37 }
+INFO  14:31:49,629 - #37 }
+INFO  14:31:49,637 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_actPars(
+            FunCallName(
+              Designator(
+                DesignatorName(
+                 len
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+            ) [FunCallName]
+            ActParsList_ap(
+              ActPar(
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_constant(
+                            Constant_n(
+                             1
+                            ) [Constant_n]
+                          ) [FactorSub_constant]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [ActPar]
+              ActParMore_e(
+              ) [ActParMore_e]
+            ) [ActParsList_ap]
+          ) [DesignatorStatement_actPars]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  14:31:49,638 - ===================================
+INFO  14:31:49,641 - Pretraga na liniji 13(len), nadjeno Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+ERROR 14:31:49,641 - Greska na liniji 13: Argument metode len mora biti tipa niza
+INFO  14:31:49,642 - ===================================
+ERROR 14:31:49,642 - Parsiranje NIJE uspesno zavrseno!

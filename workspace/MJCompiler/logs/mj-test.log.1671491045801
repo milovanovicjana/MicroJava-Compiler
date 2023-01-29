@@ -1,0 +1,124 @@
+INFO  00:02:28,167 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  00:02:28,237 - #35 program
+INFO  00:02:28,237 - #42 test301
+INFO  00:02:28,237 - #36 {
+INFO  00:02:28,240 - #10 void
+INFO  00:02:28,242 - #42 main
+INFO  00:02:28,242 - #30 (
+INFO  00:02:28,242 - #42 int
+INFO  00:02:28,242 - #42 a
+INFO  00:02:28,243 - #41 ,
+INFO  00:02:28,244 - #42 int
+INFO  00:02:28,244 - #29 .
+ERROR 00:02:28,244 - 
+Sintaksna greska na liniji 8
+INFO  00:02:28,245 - #29 .
+INFO  00:02:28,245 - #29 .
+INFO  00:02:28,245 - #42 b
+INFO  00:02:28,246 - #41 ,
+INFO  00:02:28,246 - #42 int
+INFO  00:02:28,246 - #42 x
+INFO  00:02:28,246 - #41 ,
+ERROR 00:02:28,246 - Izvrsen oporavak u formalnom parametru fje u liniji 8
+INFO  00:02:28,249 - #29 .
+ERROR 00:02:28,249 - 
+Sintaksna greska na liniji 8
+INFO  00:02:28,249 - #29 .
+INFO  00:02:28,249 - #42 o
+INFO  00:02:28,250 - #31 )
+INFO  00:02:28,250 - #36 {
+INFO  00:02:28,250 - #4 if
+INFO  00:02:28,250 - #30 (
+ERROR 00:02:28,250 - Izvrsen oporavak u formalnom parametru fje u liniji 8
+INFO  00:02:28,253 - #30 (
+INFO  00:02:28,255 - #29 .
+ERROR 00:02:28,256 - 
+Sintaksna greska na liniji 12
+INFO  00:02:28,256 - #29 .
+INFO  00:02:28,256 - #29 .
+INFO  00:02:28,256 - #29 .
+INFO  00:02:28,256 - #31 )
+INFO  00:02:28,256 - #36 {
+INFO  00:02:28,256 - #37 }
+INFO  00:02:28,256 - #42 a
+ERROR 00:02:28,257 - Izvrsen oporavak unutar IF konstrukcije u liniji 12
+INFO  00:02:28,261 - #40 =
+INFO  00:02:28,261 - #42 a
+INFO  00:02:28,262 - #29 .
+ERROR 00:02:28,262 - 
+Sintaksna greska na liniji 14
+INFO  00:02:28,262 - #29 .
+INFO  00:02:28,263 - #29 .
+INFO  00:02:28,263 - #15 *
+INFO  00:02:28,263 - #39 ;
+INFO  00:02:28,263 - #37 }
+INFO  00:02:28,263 - #37 }
+ERROR 00:02:28,263 - Izvrsen oporavak u iskazu dodele u liniji 1
+INFO  00:02:28,267 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_list(
+        FormParam_ident(
+          Type(
+           int
+          ) [Type]
+         a
+        ) [FormParam_ident]
+        FormParsMore_comma(
+          FormParam_error(
+          ) [FormParam_error]
+          FormParsMore_comma(
+            FormParam_ident(
+              Type(
+               int
+              ) [Type]
+             x
+            ) [FormParam_ident]
+            FormParsMore_comma(
+              FormParam_error(
+              ) [FormParam_error]
+              FormParsMore_e(
+              ) [FormParsMore_e]
+            ) [FormParsMore_comma]
+          ) [FormParsMore_comma]
+        ) [FormParsMore_comma]
+      ) [FormParsList_list]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_if(
+            Condition_error(
+            ) [Condition_error]
+            Statement_statementList(
+              StatementList_e(
+              ) [StatementList_e]
+            ) [Statement_statementList]
+            ElseStatement_e(
+            ) [ElseStatement_e]
+          ) [Statement_if]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_error(
+            ) [DesignatorStatementAssignop_error]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  00:02:28,268 - ===================================
+ERROR 00:02:28,268 - Parsiranje NIJE uspesno zavrseno!

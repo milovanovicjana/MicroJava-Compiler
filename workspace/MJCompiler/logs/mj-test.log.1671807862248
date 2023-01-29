@@ -1,0 +1,78 @@
+INFO  16:04:09,588 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  16:04:09,628 - #13 program
+INFO  16:04:09,629 - #41 test301
+INFO  16:04:09,629 - #14 const
+INFO  16:04:09,630 - #41 int
+INFO  16:04:09,630 - #41 i
+INFO  16:04:09,632 - #39 =
+INFO  16:04:09,632 - #43 1
+INFO  16:04:09,632 - #38 ;
+INFO  16:04:09,633 - #36 {
+INFO  16:04:09,634 - #10 void
+INFO  16:04:09,634 - #41 main
+INFO  16:04:09,634 - #31 (
+INFO  16:04:09,635 - #32 )
+INFO  16:04:09,635 - #41 bool
+INFO  16:04:09,636 - #41 x
+INFO  16:04:09,636 - #33 [
+INFO  16:04:09,636 - #34 ]
+INFO  16:04:09,636 - #38 ;
+INFO  16:04:09,636 - #36 {
+INFO  16:04:09,637 - #37 }
+INFO  16:04:09,638 - #37 }
+INFO  16:04:09,647 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       i
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_bracket(
+           x
+          ) [VarDecl_bracket]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  16:04:09,647 - ===================================
+INFO  16:04:09,649 - ===================================
+INFO  16:04:09,650 - Parsiranje uspesno zavrseno!

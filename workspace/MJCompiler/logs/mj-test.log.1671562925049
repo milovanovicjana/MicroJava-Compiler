@@ -1,0 +1,58 @@
+INFO  20:01:50,286 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  20:01:50,345 - #13 program
+INFO  20:01:50,345 - #41 test301
+INFO  20:01:50,345 - #41 ex
+INFO  20:01:50,347 - #41 r
+INFO  20:01:50,348 - #39 =
+ERROR 20:01:50,349 - 
+Sintaksna greska na liniji 5
+INFO  20:01:50,349 - #43 3
+INFO  20:01:50,349 - #38 ;
+INFO  20:01:50,349 - #36 {
+INFO  20:01:50,350 - #10 void
+INFO  20:01:50,350 - #41 main
+ERROR 20:01:50,350 - Izvrsen oporavak u deklaraciji globalne promenljive u liniji 5
+INFO  20:01:50,353 - #31 (
+INFO  20:01:50,353 - #32 )
+INFO  20:01:50,354 - #36 {
+INFO  20:01:50,355 - #37 }
+INFO  20:01:50,356 - #37 }
+INFO  20:01:50,368 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         ex
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_error(
+      ) [VarDecl_error]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  20:01:50,369 - ===================================
+ERROR 20:01:50,371 - Nije pronadjen tip ex u tabeli simbola!
+INFO  20:01:50,371 - ===================================
+ERROR 20:01:50,373 - Parsiranje NIJE uspesno zavrseno!

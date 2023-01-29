@@ -1,0 +1,74 @@
+INFO  20:02:05,054 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  20:02:05,125 - #13 program
+INFO  20:02:05,125 - #41 test301
+INFO  20:02:05,126 - #41 ex
+INFO  20:02:05,127 - #41 r
+INFO  20:02:05,129 - #39 =
+ERROR 20:02:05,129 - 
+Sintaksna greska na liniji 5
+INFO  20:02:05,129 - #43 3
+INFO  20:02:05,129 - #38 ;
+INFO  20:02:05,129 - #36 {
+INFO  20:02:05,130 - #10 void
+INFO  20:02:05,130 - #41 main
+ERROR 20:02:05,130 - Izvrsen oporavak u deklaraciji globalne promenljive u liniji 5
+INFO  20:02:05,134 - #31 (
+INFO  20:02:05,134 - #32 )
+INFO  20:02:05,135 - #36 {
+INFO  20:02:05,136 - #41 ex
+INFO  20:02:05,137 - #41 r
+ERROR 20:02:05,137 - 
+Sintaksna greska na liniji 10
+INFO  20:02:05,137 - #39 =
+INFO  20:02:05,138 - #43 3
+INFO  20:02:05,138 - #38 ;
+INFO  20:02:05,138 - #37 }
+INFO  20:02:05,138 - #37 }
+ERROR 20:02:05,139 - Izvrsen oporavak u iskazu dodele u liniji 1
+INFO  20:02:05,161 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         ex
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_error(
+      ) [VarDecl_error]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_error(
+            ) [DesignatorStatementAssignop_error]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  20:02:05,162 - ===================================
+ERROR 20:02:05,165 - Nije pronadjen tip ex u tabeli simbola!
+INFO  20:02:05,165 - ===================================
+ERROR 20:02:05,166 - Parsiranje NIJE uspesno zavrseno!

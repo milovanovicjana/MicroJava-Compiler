@@ -1,0 +1,22 @@
+program p1
+
+const char c='a';
+{
+	int f1(int a,bool b, char c){
+		return a;
+	}
+	bool f2(char c,bool d){
+		return true;
+	}
+	
+	
+    void main(){
+    	f1(a,c,c);
+    	f1(a,true,c);
+    	
+    	f2('a',false);
+    	f2(123,c,3);
+    
+    }
+}
+

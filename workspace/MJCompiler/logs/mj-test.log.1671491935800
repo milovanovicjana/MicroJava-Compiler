@@ -1,0 +1,49 @@
+INFO  00:18:48,789 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  00:18:48,895 - #35 program
+INFO  00:18:48,895 - #42 test302
+INFO  00:18:48,895 - #38 const
+INFO  00:18:48,898 - #42 int
+INFO  00:18:48,899 - #42 jedan
+INFO  00:18:48,901 - #40 =
+INFO  00:18:48,901 - #44 1
+INFO  00:18:48,901 - #41 ,
+INFO  00:18:48,901 - #42 t
+INFO  00:18:48,902 - #40 =
+INFO  00:18:48,902 - #44 5
+INFO  00:18:48,902 - #39 ;
+INFO  00:18:48,903 - #36 {
+INFO  00:18:48,905 - #37 }
+INFO  00:18:48,907 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl_ident(
+       jedan
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl_ident]
+      ConDeclMore_comma(
+        ConDecl_ident(
+         t
+          Constant_n(
+           5
+          ) [Constant_n]
+        ) [ConDecl_ident]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclMore_comma]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  00:18:48,908 - ===================================
+INFO  00:18:48,908 - Parsiranje uspesno zavrseno!

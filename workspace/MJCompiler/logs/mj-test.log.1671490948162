@@ -1,0 +1,88 @@
+INFO  00:02:01,010 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  00:02:01,094 - #35 program
+INFO  00:02:01,094 - #42 test301
+INFO  00:02:01,094 - #36 {
+INFO  00:02:01,097 - #10 void
+INFO  00:02:01,098 - #42 main
+INFO  00:02:01,099 - #30 (
+INFO  00:02:01,099 - #29 .
+ERROR 00:02:01,099 - 
+Sintaksna greska na liniji 8
+INFO  00:02:01,099 - #29 .
+INFO  00:02:01,099 - #31 )
+INFO  00:02:01,099 - #36 {
+INFO  00:02:01,100 - #4 if
+INFO  00:02:01,100 - #30 (
+ERROR 00:02:01,101 - Izvrsen oporavak u formalnom parametru fje u liniji 8
+INFO  00:02:01,105 - #30 (
+INFO  00:02:01,107 - #29 .
+ERROR 00:02:01,107 - 
+Sintaksna greska na liniji 12
+INFO  00:02:01,107 - #29 .
+INFO  00:02:01,107 - #29 .
+INFO  00:02:01,107 - #29 .
+INFO  00:02:01,108 - #31 )
+INFO  00:02:01,108 - #36 {
+INFO  00:02:01,108 - #37 }
+INFO  00:02:01,108 - #42 a
+ERROR 00:02:01,108 - Izvrsen oporavak unutar IF konstrukcije u liniji 12
+INFO  00:02:01,110 - #40 =
+INFO  00:02:01,111 - #42 a
+INFO  00:02:01,112 - #29 .
+ERROR 00:02:01,112 - 
+Sintaksna greska na liniji 14
+INFO  00:02:01,112 - #29 .
+INFO  00:02:01,113 - #29 .
+INFO  00:02:01,113 - #15 *
+INFO  00:02:01,113 - #39 ;
+INFO  00:02:01,113 - #37 }
+INFO  00:02:01,113 - #37 }
+ERROR 00:02:01,114 - Izvrsen oporavak u iskazu dodele u liniji 1
+INFO  00:02:01,118 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_list(
+        FormParam_error(
+        ) [FormParam_error]
+        FormParsMore_e(
+        ) [FormParsMore_e]
+      ) [FormParsList_list]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_if(
+            Condition_error(
+            ) [Condition_error]
+            Statement_statementList(
+              StatementList_e(
+              ) [StatementList_e]
+            ) [Statement_statementList]
+            ElseStatement_e(
+            ) [ElseStatement_e]
+          ) [Statement_if]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_error(
+            ) [DesignatorStatementAssignop_error]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  00:02:01,119 - ===================================
+ERROR 00:02:01,119 - Parsiranje NIJE uspesno zavrseno!

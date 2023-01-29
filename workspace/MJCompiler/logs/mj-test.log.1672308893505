@@ -1,0 +1,249 @@
+INFO  11:14:44,510 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  11:14:44,577 - #13 program
+INFO  11:14:44,577 - #41 test302
+INFO  11:14:44,577 - #14 const
+INFO  11:14:44,580 - #41 int
+INFO  11:14:44,580 - #41 x
+INFO  11:14:44,582 - #39 =
+INFO  11:14:44,582 - #43 2
+INFO  11:14:44,582 - #38 ;
+INFO  11:14:44,584 - #36 {
+INFO  11:14:44,585 - #10 void
+INFO  11:14:44,585 - #41 main
+INFO  11:14:44,586 - #31 (
+INFO  11:14:44,586 - #32 )
+INFO  11:14:44,587 - #41 bool
+INFO  11:14:44,588 - #41 niz
+INFO  11:14:44,588 - #33 [
+INFO  11:14:44,588 - #34 ]
+INFO  11:14:44,588 - #38 ;
+INFO  11:14:44,589 - #41 bool
+INFO  11:14:44,590 - #41 c
+INFO  11:14:44,592 - #40 ,
+INFO  11:14:44,592 - #41 c1
+INFO  11:14:44,592 - #38 ;
+INFO  11:14:44,592 - #36 {
+INFO  11:14:44,592 - #41 niz
+INFO  11:14:44,593 - #30 .
+INFO  11:14:44,596 - #12 foreach
+INFO  11:14:44,596 - #31 (
+INFO  11:14:44,597 - #41 c
+INFO  11:14:44,597 - #35 =>
+INFO  11:14:44,598 - #7 print
+INFO  11:14:44,598 - #31 (
+INFO  11:14:44,598 - #41 x
+INFO  11:14:44,598 - #32 )
+INFO  11:14:44,599 - #38 ;
+INFO  11:14:44,600 - #32 )
+INFO  11:14:44,600 - #38 ;
+INFO  11:14:44,600 - #41 c
+INFO  11:14:44,600 - #39 =
+INFO  11:14:44,600 - #42 1
+INFO  11:14:44,601 - #38 ;
+INFO  11:14:44,601 - #41 niz
+INFO  11:14:44,601 - #33 [
+INFO  11:14:44,602 - #43 1
+INFO  11:14:44,602 - #34 ]
+INFO  11:14:44,602 - #39 =
+INFO  11:14:44,602 - #42 0
+INFO  11:14:44,602 - #38 ;
+INFO  11:14:44,602 - #37 }
+INFO  11:14:44,602 - #37 }
+INFO  11:14:44,616 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         2
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_list(
+          VarDeclListMethod_e(
+          ) [VarDeclListMethod_e]
+          VarDeclList(
+            TypeVar_type(
+              Type(
+               bool
+              ) [Type]
+            ) [TypeVar_type]
+            VarDecl_bracket(
+             niz
+            ) [VarDecl_bracket]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListMethod_list]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           c
+          ) [VarDecl_ident]
+          VarDeclMore_comma(
+            VarDecl_ident(
+             c1
+            ) [VarDecl_ident]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_comma]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_list(
+          StatementList_list(
+            StatementList_e(
+            ) [StatementList_e]
+            Statement_foreach(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+              ForeachLoopStart(
+              ) [ForeachLoopStart]
+              ForeachIdentName(
+               c
+              ) [ForeachIdentName]
+              Statement_print(
+                PrintParameters_noNumber(
+                  Expr(
+                    AddopTermList_terml(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor_e(
+                            FactorSub_designator1(
+                              Designator(
+                                DesignatorName(
+                                 x
+                                ) [DesignatorName]
+                                DesignatorIndex_e(
+                                ) [DesignatorIndex_e]
+                              ) [Designator]
+                            ) [FactorSub_designator1]
+                          ) [Factor_e]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_terml]
+                  ) [Expr]
+                ) [PrintParameters_noNumber]
+              ) [Statement_print]
+            ) [Statement_foreach]
+          ) [StatementList_list]
+          Statement_designator(
+            DesignatorStatement_assignop(
+              DesignatorStatementAssignop_assignop(
+                Designator(
+                  DesignatorName(
+                   c
+                  ) [DesignatorName]
+                  DesignatorIndex_e(
+                  ) [DesignatorIndex_e]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_constant(
+                            Constant_b(
+                             1
+                            ) [Constant_b]
+                          ) [FactorSub_constant]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [DesignatorStatementAssignop_assignop]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designator]
+        ) [StatementList_list]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_assignop(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesignatorIndex_index(
+                  Expr(
+                    AddopTermList_terml(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor_e(
+                            FactorSub_constant(
+                              Constant_n(
+                               1
+                              ) [Constant_n]
+                            ) [FactorSub_constant]
+                          ) [Factor_e]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_terml]
+                  ) [Expr]
+                ) [DesignatorIndex_index]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_constant(
+                          Constant_b(
+                           0
+                          ) [Constant_b]
+                        ) [FactorSub_constant]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [DesignatorStatementAssignop_assignop]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  11:14:44,617 - ===================================
+INFO  11:14:44,622 - Pretraga na liniji 13(niz), nadjeno Var niz: Arr of bool, 0, 1 
+INFO  11:14:44,622 - Pretraga na liniji 13(x), nadjeno Con x: int, 2, 0 
+INFO  11:14:44,623 - Pretraga na liniji 13(c), nadjeno Var c: bool, 1, 1 
+INFO  11:14:44,623 - Pretraga na liniji 14(c), nadjeno Var c: bool, 1, 1 
+INFO  11:14:44,623 - Pretraga na liniji 15(niz), nadjeno Var niz: Arr of bool, 0, 1 
+INFO  11:14:44,623 - ===================================
+INFO  11:14:44,624 - Parsiranje uspesno zavrseno!

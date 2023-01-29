@@ -1,0 +1,62 @@
+INFO  23:36:21,808 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  23:36:21,888 - #35 program
+INFO  23:36:21,888 - #42 test301
+INFO  23:36:21,888 - #36 {
+INFO  23:36:21,890 - #10 void
+INFO  23:36:21,891 - #42 main
+INFO  23:36:21,891 - #30 (
+INFO  23:36:21,891 - #29 .
+ERROR 23:36:21,891 - 
+Sintaksna greska na liniji 8
+INFO  23:36:21,891 - #29 .
+INFO  23:36:21,892 - #31 )
+INFO  23:36:21,892 - #36 {
+INFO  23:36:21,892 - #42 a
+INFO  23:36:21,893 - #40 =
+ERROR 23:36:21,893 - Izvrsen oporavak u formalnom parametru fje u liniji 8
+INFO  23:36:21,896 - #42 a
+INFO  23:36:21,898 - #13 +
+INFO  23:36:21,900 - #39 ;
+ERROR 23:36:21,901 - 
+Sintaksna greska na liniji 13
+INFO  23:36:21,901 - #37 }
+INFO  23:36:21,901 - #37 }
+INFO  23:36:21,907 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_list(
+        FormParam_error(
+        ) [FormParam_error]
+        FormParsMore_e(
+        ) [FormParsMore_e]
+      ) [FormParsList_list]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_error(
+            Designator_ident(
+             a
+            ) [Designator_ident]
+            Assignop(
+            ) [Assignop]
+          ) [DesignatorStatement_error]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  23:36:21,907 - ===================================
+ERROR 23:36:21,907 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,55 @@
+INFO  15:52:40,814 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  15:52:40,852 - #35 program
+INFO  15:52:40,852 - #42 test301
+INFO  15:52:40,853 - #42 int
+INFO  15:52:40,853 - #42 niz
+INFO  15:52:40,854 - #32 [
+INFO  15:52:40,854 - #33 ]
+INFO  15:52:40,854 - #39 ;
+INFO  15:52:40,855 - #42 int
+INFO  15:52:40,855 - #42 a
+INFO  15:52:40,855 - #41 ,
+INFO  15:52:40,855 - #42 curr
+INFO  15:52:40,856 - #39 ;
+INFO  15:52:40,856 - #36 {
+INFO  15:52:40,856 - #37 }
+INFO  15:52:40,857 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_bracket(
+         niz
+        ) [VarDecl_bracket]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_ident(
+       a
+      ) [VarDecl_ident]
+      VarDeclMore_comma(
+        VarDecl_ident(
+         curr
+        ) [VarDecl_ident]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  15:52:40,859 - ===================================
+INFO  15:52:40,859 - Parsiranje uspesno zavrseno!

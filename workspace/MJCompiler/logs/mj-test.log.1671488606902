@@ -1,0 +1,95 @@
+INFO  23:23:12,124 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  23:23:12,314 - #35 program
+INFO  23:23:12,316 - #42 test301
+INFO  23:23:12,316 - #36 {
+INFO  23:23:12,320 - #10 void
+INFO  23:23:12,321 - #42 main
+INFO  23:23:12,323 - #30 (
+INFO  23:23:12,323 - #29 .
+ERROR 23:23:12,323 - 
+Sintaksna greska na liniji 8
+INFO  23:23:12,324 - #29 .
+INFO  23:23:12,324 - #31 )
+INFO  23:23:12,325 - #36 {
+INFO  23:23:12,327 - #42 a
+INFO  23:23:12,328 - #40 =
+ERROR 23:23:12,329 - Izvrsen oporavak u formalnom parametru fje u liniji 8
+INFO  23:23:12,339 - #42 a
+INFO  23:23:12,345 - #13 +
+INFO  23:23:12,349 - #42 s
+INFO  23:23:12,354 - #39 ;
+INFO  23:23:12,358 - #37 }
+INFO  23:23:12,359 - #37 }
+INFO  23:23:12,366 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_list(
+        FormParam_error(
+        ) [FormParam_error]
+        FormParsMore_e(
+        ) [FormParsMore_e]
+      ) [FormParsList_list]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            Designator_ident(
+             a
+            ) [Designator_ident]
+            Assignop(
+            ) [Assignop]
+            Expr(
+              AddopTermList_add(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        FactorSub_designator1(
+                          Designator_ident(
+                           a
+                          ) [Designator_ident]
+                        ) [FactorSub_designator1]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+                Addop_plus(
+                ) [Addop_plus]
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorSub_designator1(
+                        Designator_ident(
+                         s
+                        ) [Designator_ident]
+                      ) [FactorSub_designator1]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_add]
+            ) [Expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  23:23:12,368 - ===================================
+ERROR 23:23:12,368 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,128 @@
+INFO  21:24:13,715 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  21:24:13,783 - #13 program
+INFO  21:24:13,784 - #41 test301
+INFO  21:24:13,784 - #14 const
+INFO  21:24:13,785 - #41 int
+INFO  21:24:13,786 - #41 i
+INFO  21:24:13,787 - #39 =
+INFO  21:24:13,787 - #43 1
+INFO  21:24:13,788 - #38 ;
+INFO  21:24:13,789 - #14 const
+INFO  21:24:13,791 - #41 int
+INFO  21:24:13,791 - #41 b
+INFO  21:24:13,791 - #39 =
+INFO  21:24:13,791 - #43 7
+INFO  21:24:13,791 - #38 ;
+INFO  21:24:13,791 - #14 const
+INFO  21:24:13,792 - #41 bool
+INFO  21:24:13,792 - #41 r
+INFO  21:24:13,792 - #39 =
+INFO  21:24:13,792 - #42 1
+INFO  21:24:13,792 - #38 ;
+INFO  21:24:13,793 - #14 const
+INFO  21:24:13,793 - #41 char
+INFO  21:24:13,793 - #41 a
+INFO  21:24:13,793 - #39 =
+INFO  21:24:13,793 - #44 b
+INFO  21:24:13,793 - #38 ;
+INFO  21:24:13,793 - #36 {
+INFO  21:24:13,793 - #10 void
+INFO  21:24:13,795 - #41 main
+INFO  21:24:13,795 - #31 (
+INFO  21:24:13,795 - #32 )
+INFO  21:24:13,796 - #36 {
+INFO  21:24:13,799 - #37 }
+INFO  21:24:13,799 - #37 }
+INFO  21:24:13,818 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_con(
+        ConVarDeclList_con(
+          ConVarDeclList_e(
+          ) [ConVarDeclList_e]
+          ConstDeclList(
+            ConstDeclListType(
+              Type(
+               int
+              ) [Type]
+            ) [ConstDeclListType]
+            ConDecl(
+             i
+              Constant_n(
+               1
+              ) [Constant_n]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConstDeclList]
+        ) [ConVarDeclList_con]
+        ConstDeclList(
+          ConstDeclListType(
+            Type(
+             int
+            ) [Type]
+          ) [ConstDeclListType]
+          ConDecl(
+           b
+            Constant_n(
+             7
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConstDeclList]
+      ) [ConVarDeclList_con]
+      ConstDeclList(
+        ConstDeclListType(
+          Type(
+           bool
+          ) [Type]
+        ) [ConstDeclListType]
+        ConDecl(
+         r
+          Constant_b(
+           1
+          ) [Constant_b]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDeclList_con]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         char
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       a
+        Constant_c(
+         b
+        ) [Constant_c]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  21:24:13,818 - ===================================
+INFO  21:24:13,821 - ===================================
+INFO  21:24:13,822 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,161 @@
+INFO  17:41:18,696 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  17:41:18,737 - #13 program
+INFO  17:41:18,737 - #41 P
+INFO  17:41:18,737 - #41 int
+INFO  17:41:18,738 - #41 a
+INFO  17:41:18,739 - #40 ,
+INFO  17:41:18,739 - #41 b
+INFO  17:41:18,739 - #40 ,
+INFO  17:41:18,739 - #41 c
+INFO  17:41:18,739 - #38 ;
+INFO  17:41:18,740 - #36 {
+INFO  17:41:18,740 - #41 int
+INFO  17:41:18,741 - #41 s
+INFO  17:41:18,741 - #31 (
+INFO  17:41:18,741 - #32 )
+INFO  17:41:18,742 - #36 {
+INFO  17:41:18,742 - #9 return
+INFO  17:41:18,743 - #43 3
+INFO  17:41:18,743 - #38 ;
+INFO  17:41:18,744 - #37 }
+INFO  17:41:18,744 - #10 void
+INFO  17:41:18,745 - #41 main
+INFO  17:41:18,745 - #31 (
+INFO  17:41:18,745 - #32 )
+INFO  17:41:18,745 - #36 {
+INFO  17:41:18,745 - #41 a
+INFO  17:41:18,745 - #39 =
+INFO  17:41:18,747 - #41 s
+INFO  17:41:18,748 - #31 (
+INFO  17:41:18,749 - #32 )
+INFO  17:41:18,749 - #38 ;
+INFO  17:41:18,750 - #37 }
+INFO  17:41:18,750 - #37 }
+INFO  17:41:18,758 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       a
+      ) [VarDecl_ident]
+      VarDeclMore_comma(
+        VarDecl_ident(
+         b
+        ) [VarDecl_ident]
+        VarDeclMore_comma(
+          VarDecl_ident(
+           c
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_comma]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         s
+        ) [MethodRetAndName_type]
+        FormParsList_e(
+        ) [FormParsList_e]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_return_expr(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_constant(
+                        Constant_n(
+                         3
+                        ) [Constant_n]
+                      ) [FactorSub_constant]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [Statement_return_expr]
+        ) [StatementList_list]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_designator(
+          DesignatorStatement_assignop(
+            DDesignatorStatementAssignop_assignop(
+              Designator(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                DesignatorIndex_e(
+                ) [DesignatorIndex_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_designator2(
+                          FunCallName(
+                            Designator(
+                              DesignatorName(
+                               s
+                              ) [DesignatorName]
+                              DesignatorIndex_e(
+                              ) [DesignatorIndex_e]
+                            ) [Designator]
+                          ) [FunCallName]
+                          ActParsList_e(
+                          ) [ActParsList_e]
+                        ) [FactorSub_designator2]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [DDesignatorStatementAssignop_assignop]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designator]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  17:41:18,759 - ===================================
+INFO  17:41:18,761 - Pretraga na liniji 11(a), nadjeno Var a: int, 0, 0 
+INFO  17:41:18,761 - Pretraga na liniji 11(s), nadjeno Meth s: int, 0, 0 
+
+INFO  17:41:18,761 - usao 
+INFO  17:41:18,762 - ===================================
+INFO  17:41:18,762 - Parsiranje uspesno zavrseno!

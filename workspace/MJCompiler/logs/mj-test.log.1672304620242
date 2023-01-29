@@ -1,0 +1,83 @@
+INFO  10:03:24,075 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:03:24,170 - #13 program
+INFO  10:03:24,170 - #41 test302
+INFO  10:03:24,170 - #14 const
+INFO  10:03:24,172 - #41 int
+INFO  10:03:24,172 - #41 x
+INFO  10:03:24,173 - #39 =
+INFO  10:03:24,174 - #43 9
+INFO  10:03:24,174 - #38 ;
+INFO  10:03:24,175 - #41 int
+INFO  10:03:24,176 - #41 i
+INFO  10:03:24,177 - #40 ,
+INFO  10:03:24,177 - #41 j
+INFO  10:03:24,177 - #38 ;
+INFO  10:03:24,178 - #36 {
+INFO  10:03:24,180 - #10 void
+INFO  10:03:24,181 - #41 main
+INFO  10:03:24,181 - #31 (
+INFO  10:03:24,181 - #32 )
+INFO  10:03:24,182 - #36 {
+INFO  10:03:24,183 - #37 }
+INFO  10:03:24,186 - #37 }
+INFO  10:03:24,201 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConstDeclList(
+        ConstDeclListType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstDeclListType]
+        ConDecl(
+         x
+          Constant_n(
+           9
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDeclList_con]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       i
+      ) [VarDecl_ident]
+      VarDeclMore_comma(
+        VarDecl_ident(
+         j
+        ) [VarDecl_ident]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:03:24,201 - ===================================
+INFO  10:03:24,207 - ===================================
+INFO  10:03:24,209 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,58 @@
+INFO  20:00:12,432 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  20:00:12,494 - #13 program
+INFO  20:00:12,494 - #41 test301
+INFO  20:00:12,494 - #41 ex
+INFO  20:00:12,496 - #41 r
+INFO  20:00:12,497 - #39 =
+ERROR 20:00:12,498 - 
+Sintaksna greska na liniji 5
+INFO  20:00:12,498 - #43 3
+INFO  20:00:12,498 - #38 ;
+INFO  20:00:12,498 - #36 {
+INFO  20:00:12,499 - #10 void
+INFO  20:00:12,499 - #41 main
+ERROR 20:00:12,499 - Izvrsen oporavak u deklaraciji globalne promenljive u liniji 5
+INFO  20:00:12,502 - #31 (
+INFO  20:00:12,502 - #32 )
+INFO  20:00:12,503 - #36 {
+INFO  20:00:12,503 - #37 }
+INFO  20:00:12,504 - #37 }
+INFO  20:00:12,518 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         ex
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_error(
+      ) [VarDecl_error]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  20:00:12,519 - ===================================
+ERROR 20:00:12,521 - Nije pronadjen tipex u tabeli simbola!
+INFO  20:00:12,521 - ===================================
+ERROR 20:00:12,523 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,82 @@
+INFO  10:25:09,773 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:25:09,841 - #13 program
+INFO  10:25:09,841 - #41 test302
+INFO  10:25:09,841 - #14 const
+INFO  10:25:09,843 - #41 int
+INFO  10:25:09,843 - #41 x
+INFO  10:25:09,846 - #39 =
+INFO  10:25:09,846 - #43 9
+INFO  10:25:09,846 - #38 ;
+INFO  10:25:09,848 - #14 const
+INFO  10:25:09,849 - #41 char
+INFO  10:25:09,849 - #41 a
+INFO  10:25:09,850 - #39 =
+INFO  10:25:09,850 - #44 a
+INFO  10:25:09,850 - #38 ;
+INFO  10:25:09,850 - #36 {
+INFO  10:25:09,850 - #10 void
+INFO  10:25:09,851 - #41 main
+INFO  10:25:09,851 - #31 (
+INFO  10:25:09,852 - #32 )
+INFO  10:25:09,853 - #36 {
+INFO  10:25:09,854 - #37 }
+INFO  10:25:09,855 - #37 }
+INFO  10:25:09,867 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConstDeclList(
+        ConstDeclListType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstDeclListType]
+        ConDecl(
+         x
+          Constant_n(
+           9
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDeclList_con]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         char
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       a
+        Constant_c(
+         a
+        ) [Constant_c]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:25:09,867 - ===================================
+INFO  10:25:09,873 - ===================================
+INFO  10:25:09,874 - Parsiranje uspesno zavrseno!

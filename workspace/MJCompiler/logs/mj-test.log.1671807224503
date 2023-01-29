@@ -1,0 +1,75 @@
+INFO  15:53:38,300 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  15:53:38,333 - #13 program
+INFO  15:53:38,333 - #41 test301
+INFO  15:53:38,333 - #14 const
+INFO  15:53:38,333 - #41 int
+INFO  15:53:38,334 - #41 i
+INFO  15:53:38,334 - #39 =
+INFO  15:53:38,334 - #41 bool
+ERROR 15:53:38,334 - 
+Sintaksna greska na liniji 7
+INFO  15:53:38,335 - #38 ;
+INFO  15:53:38,335 - #36 {
+INFO  15:53:38,335 - #10 void
+ERROR 15:53:38,335 - Izvrsen oporavak u deklaraciji globalne promenljive(pogrsan tip) u liniji 8
+INFO  15:53:38,337 - #41 main
+INFO  15:53:38,337 - #31 (
+INFO  15:53:38,337 - #32 )
+INFO  15:53:38,337 - #41 bool
+INFO  15:53:38,338 - #41 x
+INFO  15:53:38,338 - #33 [
+INFO  15:53:38,338 - #34 ]
+INFO  15:53:38,338 - #38 ;
+INFO  15:53:38,338 - #36 {
+INFO  15:53:38,338 - #37 }
+INFO  15:53:38,339 - #37 }
+INFO  15:53:38,344 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_error(
+      ) [TypeVar_error]
+      VarDecl_ident(
+       bool
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_bracket(
+           x
+          ) [VarDecl_bracket]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  15:53:38,344 - ===================================
+ERROR 15:53:38,346 - Greska na liniji 10: Ime bool ne predstavlja tip!
+INFO  15:53:38,346 - ===================================

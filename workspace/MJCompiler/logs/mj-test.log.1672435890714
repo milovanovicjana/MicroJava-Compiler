@@ -1,0 +1,109 @@
+INFO  22:24:39,893 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  22:24:39,977 - #13 program
+INFO  22:24:39,977 - #41 test302
+INFO  22:24:39,977 - #41 int
+INFO  22:24:39,979 - #41 niz
+INFO  22:24:39,980 - #33 [
+INFO  22:24:39,980 - #34 ]
+INFO  22:24:39,980 - #38 ;
+INFO  22:24:39,981 - #14 const
+INFO  22:24:39,982 - #41 char
+INFO  22:24:39,982 - #41 a
+INFO  22:24:39,983 - #39 =
+INFO  22:24:39,983 - #44 b
+INFO  22:24:39,983 - #38 ;
+INFO  22:24:39,986 - #36 {
+INFO  22:24:39,987 - #10 void
+INFO  22:24:39,987 - #41 main
+INFO  22:24:39,988 - #31 (
+INFO  22:24:39,988 - #32 )
+INFO  22:24:39,989 - #36 {
+INFO  22:24:39,989 - #7 print
+INFO  22:24:39,990 - #31 (
+INFO  22:24:39,991 - #41 a
+INFO  22:24:39,991 - #32 )
+INFO  22:24:39,995 - #38 ;
+INFO  22:24:39,995 - #37 }
+INFO  22:24:39,995 - #37 }
+INFO  22:24:40,011 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_bracket(
+         niz
+        ) [VarDecl_bracket]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         char
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       a
+        Constant_c(
+         b
+        ) [Constant_c]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          PrintParameters_noNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_designator1(
+                        Designator(
+                          DesignatorName(
+                           a
+                          ) [DesignatorName]
+                          DesignatorIndex_e(
+                          ) [DesignatorIndex_e]
+                        ) [Designator]
+                      ) [FactorSub_designator1]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [PrintParameters_noNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  22:24:40,011 - ===================================
+INFO  22:24:40,017 - Pretraga na liniji 14(a), nadjeno Con a: char, 98, 0 
+INFO  22:24:40,017 - ===================================
+INFO  22:24:40,024 - Parsiranje uspesno zavrseno!

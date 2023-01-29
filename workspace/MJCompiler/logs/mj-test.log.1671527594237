@@ -1,0 +1,92 @@
+INFO  10:07:25,903 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:07:26,190 - #13 program
+INFO  10:07:26,190 - #41 test301
+INFO  10:07:26,190 - #41 int
+INFO  10:07:26,198 - #30 .
+ERROR 10:07:26,198 - 
+Sintaksna greska na liniji 7
+INFO  10:07:26,198 - #30 .
+INFO  10:07:26,198 - #41 niz
+INFO  10:07:26,198 - #33 [
+INFO  10:07:26,199 - #34 ]
+INFO  10:07:26,199 - #40 ,
+ERROR 10:07:26,199 - Izvrsen oporavak u deklaraciji globalne promenljive(pogrsan tip) u liniji 8
+INFO  10:07:26,200 - #30 .
+ERROR 10:07:26,200 - 
+Sintaksna greska na liniji 7
+INFO  10:07:26,200 - #30 .
+INFO  10:07:26,200 - #40 ,
+INFO  10:07:26,200 - #41 a
+INFO  10:07:26,200 - #38 ;
+INFO  10:07:26,201 - #41 char
+ERROR 10:07:26,201 - Izvrsen oporavak u deklaraciji globalne promenljive u liniji 7
+INFO  10:07:26,210 - #41 nizch
+INFO  10:07:26,213 - #33 [
+INFO  10:07:26,213 - #34 ]
+INFO  10:07:26,213 - #38 ;
+INFO  10:07:26,213 - #36 {
+INFO  10:07:26,213 - #10 void
+INFO  10:07:26,217 - #41 main
+INFO  10:07:26,217 - #31 (
+INFO  10:07:26,218 - #32 )
+INFO  10:07:26,220 - #36 {
+INFO  10:07:26,224 - #37 }
+INFO  10:07:26,226 - #37 }
+INFO  10:07:26,231 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        TypeVar_error(
+        ) [TypeVar_error]
+        VarDecl_bracket(
+         niz
+        ) [VarDecl_bracket]
+        VarDeclMore_comma(
+          VarDecl_error(
+          ) [VarDecl_error]
+          VarDeclMore_comma(
+            VarDecl_ident(
+             a
+            ) [VarDecl_ident]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclMore_comma]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         char
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_bracket(
+       nizch
+      ) [VarDecl_bracket]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:07:26,231 - ===================================
+ERROR 10:07:26,232 - Parsiranje NIJE uspesno zavrseno!

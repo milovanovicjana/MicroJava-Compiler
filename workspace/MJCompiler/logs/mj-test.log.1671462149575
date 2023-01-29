@@ -1,0 +1,45 @@
+INFO  16:01:59,107 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  16:01:59,591 - #35 program
+INFO  16:01:59,592 - #42 test301
+INFO  16:01:59,592 - #38 const
+INFO  16:01:59,610 - #42 int
+INFO  16:01:59,611 - #42 jedan
+INFO  16:01:59,620 - #40 =
+INFO  16:01:59,620 - #44 1
+INFO  16:01:59,621 - #41 ,
+INFO  16:01:59,631 - #38 const
+ERROR 16:01:59,631 - 
+Sintaksna greska na liniji 5
+INFO  16:01:59,632 - #42 int
+INFO  16:01:59,632 - #42 x
+INFO  16:01:59,632 - #40 =
+INFO  16:01:59,634 - #44 1
+INFO  16:01:59,634 - #39 ;
+INFO  16:01:59,635 - #36 {
+INFO  16:01:59,635 - #37 }
+INFO  16:01:59,675 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       jedan
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_errorcomma(
+      ) [ConDeclMore_errorcomma]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  16:01:59,676 - ===================================
+ERROR 16:01:59,676 - Parsiranje NIJE uspesno zavrseno!

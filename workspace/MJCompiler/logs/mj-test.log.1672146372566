@@ -1,0 +1,61 @@
+INFO  14:05:20,233 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  14:05:20,279 - #13 program
+INFO  14:05:20,279 - #41 test302
+INFO  14:05:20,279 - #14 const
+INFO  14:05:20,280 - #41 imt
+INFO  14:05:20,280 - #41 x
+INFO  14:05:20,281 - #39 =
+INFO  14:05:20,281 - #43 1
+INFO  14:05:20,281 - #38 ;
+INFO  14:05:20,282 - #36 {
+INFO  14:05:20,283 - #10 void
+INFO  14:05:20,283 - #41 main
+INFO  14:05:20,283 - #31 (
+INFO  14:05:20,284 - #32 )
+INFO  14:05:20,284 - #36 {
+INFO  14:05:20,285 - #37 }
+INFO  14:05:20,285 - #37 }
+INFO  14:05:20,295 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         imt
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  14:05:20,295 - ===================================
+ERROR 14:05:20,298 - Greska na liniji 6: Nije pronadjen tip imt u tabeli simbola!
+ERROR 14:05:20,298 - Greska na liniji 6: Nekompabilan tip u definiciji konstante
+INFO  14:05:20,298 - ===================================
+ERROR 14:05:20,299 - Parsiranje NIJE uspesno zavrseno!

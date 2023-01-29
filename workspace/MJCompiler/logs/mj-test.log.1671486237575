@@ -1,0 +1,113 @@
+INFO  22:42:26,185 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  22:42:26,271 - #35 program
+INFO  22:42:26,271 - #42 test302
+INFO  22:42:26,271 - #36 {
+INFO  22:42:26,273 - #42 int
+INFO  22:42:26,275 - #42 sum
+INFO  22:42:26,277 - #30 (
+INFO  22:42:26,277 - #42 int
+INFO  22:42:26,277 - #42 z
+INFO  22:42:26,277 - #29 .
+ERROR 22:42:26,278 - 
+Sintaksna greska na liniji 8
+INFO  22:42:26,278 - #29 .
+INFO  22:42:26,278 - #41 ,
+INFO  22:42:26,278 - #42 int
+INFO  22:42:26,279 - #42 d
+INFO  22:42:26,279 - #41 ,
+ERROR 22:42:26,280 - Izvrsen oporavak do ; u liniji 8
+INFO  22:42:26,281 - #29 .
+ERROR 22:42:26,281 - 
+Sintaksna greska na liniji 8
+INFO  22:42:26,282 - #29 .
+INFO  22:42:26,282 - #31 )
+INFO  22:42:26,282 - #36 {
+INFO  22:42:26,282 - #9 return
+INFO  22:42:26,282 - #42 z
+ERROR 22:42:26,282 - Izvrsen oporavak do ; u liniji 8
+INFO  22:42:26,289 - #13 +
+INFO  22:42:26,292 - #42 d
+INFO  22:42:26,293 - #39 ;
+INFO  22:42:26,295 - #37 }
+INFO  22:42:26,295 - #37 }
+INFO  22:42:26,300 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_type(
+        Type(
+         int
+        ) [Type]
+       sum
+      ) [MethodRetAndName_type]
+      FormParsList_list(
+        FormParam_error(
+        ) [FormParam_error]
+        FormParsMore_comma(
+          FormParam_ident(
+            Type(
+             int
+            ) [Type]
+           d
+          ) [FormParam_ident]
+          FormParsMore_comma(
+            FormParam_error(
+            ) [FormParam_error]
+            FormParsMore_e(
+            ) [FormParsMore_e]
+          ) [FormParsMore_comma]
+        ) [FormParsMore_comma]
+      ) [FormParsList_list]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_return_expr(
+          Expr(
+            AddopTermList_add(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      FactorSub_designator1(
+                        Designator_ident(
+                         z
+                        ) [Designator_ident]
+                      ) [FactorSub_designator1]
+                    ) [Factor]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+              Addop_plus(
+              ) [Addop_plus]
+              Term(
+                MulopFactorList_factor(
+                  Factor(
+                    Unary_e(
+                    ) [Unary_e]
+                    FactorSub_designator1(
+                      Designator_ident(
+                       d
+                      ) [Designator_ident]
+                    ) [FactorSub_designator1]
+                  ) [Factor]
+                ) [MulopFactorList_factor]
+              ) [Term]
+            ) [AddopTermList_add]
+          ) [Expr]
+        ) [Statement_return_expr]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  22:42:26,301 - ===================================
+ERROR 22:42:26,301 - Parsiranje NIJE uspesno zavrseno!

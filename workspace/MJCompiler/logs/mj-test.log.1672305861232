@@ -1,0 +1,100 @@
+INFO  10:24:12,974 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:24:13,046 - #13 program
+INFO  10:24:13,046 - #41 test302
+INFO  10:24:13,046 - #14 const
+INFO  10:24:13,048 - #41 int
+INFO  10:24:13,048 - #41 x
+INFO  10:24:13,049 - #39 =
+INFO  10:24:13,050 - #43 9
+INFO  10:24:13,050 - #38 ;
+INFO  10:24:13,051 - #14 const
+INFO  10:24:13,053 - #41 int
+INFO  10:24:13,053 - #41 y
+INFO  10:24:13,053 - #39 =
+INFO  10:24:13,053 - #43 9
+INFO  10:24:13,053 - #38 ;
+INFO  10:24:13,053 - #36 {
+INFO  10:24:13,053 - #10 void
+INFO  10:24:13,054 - #41 main
+INFO  10:24:13,054 - #31 (
+INFO  10:24:13,054 - #32 )
+INFO  10:24:13,055 - #41 i
+INFO  10:24:13,057 - #41 x
+INFO  10:24:13,057 - #38 ;
+INFO  10:24:13,058 - #36 {
+INFO  10:24:13,060 - #37 }
+INFO  10:24:13,061 - #37 }
+INFO  10:24:13,076 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConstDeclList(
+        ConstDeclListType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstDeclListType]
+        ConDecl(
+         x
+          Constant_n(
+           9
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDeclList_con]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       y
+        Constant_n(
+         9
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             i
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           x
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:24:13,076 - ===================================
+ERROR 10:24:13,081 - Greska na liniji 12: Nije pronadjen tip i u tabeli simbola!
+INFO  10:24:13,081 - ===================================
+ERROR 10:24:13,083 - Parsiranje NIJE uspesno zavrseno!

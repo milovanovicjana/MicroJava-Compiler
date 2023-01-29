@@ -1,0 +1,52 @@
+program MJProgram
+	int x; int y[];
+	int i,j;
+	const char a = 'a';
+	char b;
+	bool barr[];
+	const bool bConst = true;
+	
+{
+	
+
+	void main() 
+	bool bo;
+	int curr;
+	{
+		i = 0;
+		j = 0;
+		while(true){
+			while(i < 3){
+				read(b);
+				print(b);
+				i++;
+			}
+			print(eol);
+			while(j<4){
+				read(b);
+				print(b);
+				j++;
+			}
+			
+			print(eol);
+			break;
+		}
+		
+		y = new int[2];
+		y[0] = 0;
+		y[1] = 1;
+		
+		[y[y[1]],] = y;
+		
+		print(y[0]); print(y[1]);
+		print(eol);
+		
+		read(bo);
+		if(bo && bConst==true || bConst==false){
+			print('t');print('r');print('u');print('e');
+		}else{
+			print('f');print('a');print('l');print('s');print('e');
+		}
+		
+	}
+}

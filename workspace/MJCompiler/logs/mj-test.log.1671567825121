@@ -1,0 +1,83 @@
+INFO  21:22:35,371 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  21:22:35,441 - #13 program
+INFO  21:22:35,441 - #41 test301
+INFO  21:22:35,441 - #14 const
+INFO  21:22:35,443 - #41 int
+INFO  21:22:35,443 - #41 i
+INFO  21:22:35,445 - #39 =
+INFO  21:22:35,445 - #43 1
+INFO  21:22:35,445 - #38 ;
+INFO  21:22:35,447 - #14 const
+INFO  21:22:35,448 - #41 int
+INFO  21:22:35,449 - #41 i
+INFO  21:22:35,449 - #39 =
+INFO  21:22:35,449 - #43 3
+INFO  21:22:35,449 - #38 ;
+INFO  21:22:35,449 - #36 {
+INFO  21:22:35,450 - #10 void
+INFO  21:22:35,451 - #41 main
+INFO  21:22:35,451 - #31 (
+INFO  21:22:35,451 - #32 )
+INFO  21:22:35,453 - #36 {
+INFO  21:22:35,455 - #37 }
+INFO  21:22:35,455 - #37 }
+INFO  21:22:35,470 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConstDeclList(
+        ConstDeclListType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstDeclListType]
+        ConDecl(
+         i
+          Constant_n(
+           1
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConstDeclList]
+    ) [ConVarDeclList_con]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       i
+        Constant_n(
+         3
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  21:22:35,470 - ===================================
+ERROR 21:22:35,474 - Greska na liniji 8: Ime konstante je vec deklarisano u okviru istog opsega!
+INFO  21:22:35,474 - ===================================
+ERROR 21:22:35,475 - Parsiranje NIJE uspesno zavrseno!

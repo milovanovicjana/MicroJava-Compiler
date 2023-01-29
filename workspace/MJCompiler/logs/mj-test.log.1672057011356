@@ -1,0 +1,136 @@
+INFO  13:16:41,726 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  13:16:41,778 - #13 program
+INFO  13:16:41,779 - #41 test302
+INFO  13:16:41,779 - #41 bool
+INFO  13:16:41,780 - #41 niz
+INFO  13:16:41,780 - #33 [
+INFO  13:16:41,781 - #34 ]
+INFO  13:16:41,781 - #38 ;
+INFO  13:16:41,781 - #41 int
+INFO  13:16:41,782 - #41 curr
+INFO  13:16:41,782 - #38 ;
+INFO  13:16:41,782 - #36 {
+INFO  13:16:41,782 - #10 void
+INFO  13:16:41,783 - #41 main
+INFO  13:16:41,783 - #31 (
+INFO  13:16:41,783 - #32 )
+INFO  13:16:41,784 - #41 bool
+INFO  13:16:41,784 - #41 x
+INFO  13:16:41,784 - #38 ;
+INFO  13:16:41,784 - #36 {
+INFO  13:16:41,785 - #4 if
+INFO  13:16:41,787 - #31 (
+INFO  13:16:41,787 - #41 curr
+INFO  13:16:41,787 - #32 )
+INFO  13:16:41,791 - #36 {
+INFO  13:16:41,791 - #37 }
+INFO  13:16:41,791 - #37 }
+INFO  13:16:41,792 - #37 }
+INFO  13:16:41,801 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           bool
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_bracket(
+         niz
+        ) [VarDecl_bracket]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       curr
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           x
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_if(
+          Condition_termlist(
+            ConditionTermList_term(
+              ConditionTerm(
+                ConditionFactList_fact(
+                  ConditionFact_expr(
+                    Expr(
+                      AddopTermList_terml(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor_e(
+                              FactorSub_designator1(
+                                Designator(
+                                  DesignatorName(
+                                   curr
+                                  ) [DesignatorName]
+                                  DesignatorIndex_e(
+                                  ) [DesignatorIndex_e]
+                                ) [Designator]
+                              ) [FactorSub_designator1]
+                            ) [Factor_e]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_terml]
+                    ) [Expr]
+                  ) [ConditionFact_expr]
+                ) [ConditionFactList_fact]
+              ) [ConditionTerm]
+            ) [ConditionTermList_term]
+          ) [Condition_termlist]
+          Statement_statementList(
+            StatementList_e(
+            ) [StatementList_e]
+          ) [Statement_statementList]
+          ElseStatement_e(
+          ) [ElseStatement_e]
+        ) [Statement_if]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  13:16:41,802 - ===================================
+INFO  13:16:41,805 - Pretraga na liniji 13(curr), nadjeno Var curr: int, 1, 0 
+ERROR 13:16:41,805 - Greska na liniji 13: Uslovni izraz mora biti tipa bool
+INFO  13:16:41,805 - ===================================
+ERROR 13:16:41,806 - Parsiranje NIJE uspesno zavrseno!

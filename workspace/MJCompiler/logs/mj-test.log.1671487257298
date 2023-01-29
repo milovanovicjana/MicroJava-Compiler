@@ -1,0 +1,50 @@
+INFO  23:00:46,313 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  23:00:46,615 - #35 program
+INFO  23:00:46,615 - #42 test302
+INFO  23:00:46,615 - #36 {
+INFO  23:00:46,619 - #42 int
+INFO  23:00:46,620 - #42 sum
+INFO  23:00:46,622 - #30 (
+INFO  23:00:46,623 - #31 )
+INFO  23:00:46,625 - #36 {
+INFO  23:00:46,626 - #42 a
+INFO  23:00:46,627 - #40 =
+INFO  23:00:46,628 - #29 .
+ERROR 23:00:46,628 - 
+Sintaksna greska na liniji 11
+INFO  23:00:46,628 - #29 .
+INFO  23:00:46,628 - #39 ;
+INFO  23:00:46,628 - #37 }
+INFO  23:00:46,629 - #37 }
+ERROR 23:00:46,629 - Izvrsen oporavak u formalnom parametru fje u liniji 1
+INFO  23:00:46,634 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_type(
+        Type(
+         int
+        ) [Type]
+       sum
+      ) [MethodRetAndName_type]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_error(
+        ) [Statement_error]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  23:00:46,635 - ===================================
+ERROR 23:00:46,635 - Parsiranje NIJE uspesno zavrseno!

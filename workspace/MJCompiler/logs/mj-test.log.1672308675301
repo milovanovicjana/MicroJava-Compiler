@@ -1,0 +1,169 @@
+INFO  11:10:05,548 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  11:10:05,617 - #13 program
+INFO  11:10:05,618 - #41 test302
+INFO  11:10:05,618 - #14 const
+INFO  11:10:05,619 - #41 int
+INFO  11:10:05,619 - #41 x
+INFO  11:10:05,621 - #39 =
+INFO  11:10:05,621 - #43 2
+INFO  11:10:05,621 - #38 ;
+INFO  11:10:05,623 - #36 {
+INFO  11:10:05,624 - #10 void
+INFO  11:10:05,625 - #41 main
+INFO  11:10:05,625 - #31 (
+INFO  11:10:05,625 - #32 )
+INFO  11:10:05,626 - #41 bool
+INFO  11:10:05,627 - #41 niz
+INFO  11:10:05,627 - #33 [
+INFO  11:10:05,627 - #34 ]
+INFO  11:10:05,627 - #38 ;
+INFO  11:10:05,628 - #41 bool
+INFO  11:10:05,629 - #41 c
+INFO  11:10:05,631 - #38 ;
+INFO  11:10:05,631 - #36 {
+INFO  11:10:05,631 - #41 niz
+INFO  11:10:05,632 - #30 .
+INFO  11:10:05,634 - #12 foreach
+INFO  11:10:05,634 - #31 (
+INFO  11:10:05,635 - #41 c
+INFO  11:10:05,635 - #35 =>
+INFO  11:10:05,636 - #7 print
+INFO  11:10:05,636 - #31 (
+INFO  11:10:05,636 - #41 x
+INFO  11:10:05,636 - #32 )
+INFO  11:10:05,639 - #38 ;
+INFO  11:10:05,639 - #32 )
+INFO  11:10:05,640 - #38 ;
+INFO  11:10:05,640 - #8 read
+INFO  11:10:05,640 - #31 (
+INFO  11:10:05,641 - #41 main
+INFO  11:10:05,641 - #32 )
+INFO  11:10:05,641 - #38 ;
+INFO  11:10:05,641 - #37 }
+INFO  11:10:05,641 - #37 }
+INFO  11:10:05,653 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConstDeclList(
+      ConstDeclListType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstDeclListType]
+      ConDecl(
+       x
+        Constant_n(
+         2
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConstDeclList]
+  ) [ConVarDeclList_con]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_list(
+          VarDeclListMethod_e(
+          ) [VarDeclListMethod_e]
+          VarDeclList(
+            TypeVar_type(
+              Type(
+               bool
+              ) [Type]
+            ) [TypeVar_type]
+            VarDecl_bracket(
+             niz
+            ) [VarDecl_bracket]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListMethod_list]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           c
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_foreach(
+            Designator(
+              DesignatorName(
+               niz
+              ) [DesignatorName]
+              DesignatorIndex_e(
+              ) [DesignatorIndex_e]
+            ) [Designator]
+            ForeachLoopStart(
+            ) [ForeachLoopStart]
+            ForeachIdentName(
+             c
+            ) [ForeachIdentName]
+            Statement_print(
+              PrintParameters_noNumber(
+                Expr(
+                  AddopTermList_terml(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor_e(
+                          FactorSub_designator1(
+                            Designator(
+                              DesignatorName(
+                               x
+                              ) [DesignatorName]
+                              DesignatorIndex_e(
+                              ) [DesignatorIndex_e]
+                            ) [Designator]
+                          ) [FactorSub_designator1]
+                        ) [Factor_e]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_terml]
+                ) [Expr]
+              ) [PrintParameters_noNumber]
+            ) [Statement_print]
+          ) [Statement_foreach]
+        ) [StatementList_list]
+        Statement_read(
+          Designator(
+            DesignatorName(
+             main
+            ) [DesignatorName]
+            DesignatorIndex_e(
+            ) [DesignatorIndex_e]
+          ) [Designator]
+        ) [Statement_read]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  11:10:05,654 - ===================================
+INFO  11:10:05,659 - Pretraga na liniji 13(niz), nadjeno Var niz: Arr of bool, 0, 1 
+INFO  11:10:05,659 - Pretraga na liniji 13(x), nadjeno Con x: int, 2, 0 
+INFO  11:10:05,659 - Pretraga na liniji 13(c), nadjeno Var c: bool, 1, 1 
+INFO  11:10:05,659 - Pretraga na liniji 15(main), nadjeno Meth main: notype, 0, 0 
+
+ERROR 11:10:05,659 - Greska na liniji 15: U read iskazu moze biti promenljiva ili element niza
+INFO  11:10:05,660 - ===================================
+ERROR 11:10:05,660 - Parsiranje NIJE uspesno zavrseno!

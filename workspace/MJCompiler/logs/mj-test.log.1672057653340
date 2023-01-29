@@ -1,0 +1,210 @@
+INFO  13:27:18,944 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  13:27:18,986 - #13 program
+INFO  13:27:18,986 - #41 test302
+INFO  13:27:18,986 - #41 int
+INFO  13:27:18,988 - #41 niz
+INFO  13:27:18,988 - #33 [
+INFO  13:27:18,988 - #34 ]
+INFO  13:27:18,988 - #38 ;
+INFO  13:27:18,989 - #41 int
+INFO  13:27:18,990 - #41 curr
+INFO  13:27:18,990 - #38 ;
+INFO  13:27:18,990 - #36 {
+INFO  13:27:18,990 - #41 int
+INFO  13:27:18,991 - #41 f
+INFO  13:27:18,991 - #31 (
+INFO  13:27:18,991 - #32 )
+INFO  13:27:18,991 - #36 {
+INFO  13:27:18,992 - #9 return
+INFO  13:27:18,992 - #43 5
+INFO  13:27:18,992 - #38 ;
+INFO  13:27:18,993 - #37 }
+INFO  13:27:18,994 - #10 void
+INFO  13:27:18,995 - #41 main
+INFO  13:27:18,995 - #31 (
+INFO  13:27:18,995 - #32 )
+INFO  13:27:18,995 - #41 bool
+INFO  13:27:18,995 - #41 x
+INFO  13:27:18,995 - #38 ;
+INFO  13:27:18,995 - #36 {
+INFO  13:27:18,995 - #4 if
+INFO  13:27:18,995 - #31 (
+INFO  13:27:18,995 - #41 f
+INFO  13:27:18,995 - #31 (
+INFO  13:27:18,997 - #32 )
+INFO  13:27:18,998 - #22 >
+INFO  13:27:18,998 - #41 niz
+INFO  13:27:18,998 - #32 )
+INFO  13:27:18,999 - #36 {
+INFO  13:27:19,000 - #37 }
+INFO  13:27:19,000 - #37 }
+INFO  13:27:19,000 - #37 }
+INFO  13:27:19,010 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      VarDeclList(
+        TypeVar_type(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar_type]
+        VarDecl_bracket(
+         niz
+        ) [VarDecl_bracket]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      TypeVar_type(
+        Type(
+         int
+        ) [Type]
+      ) [TypeVar_type]
+      VarDecl_ident(
+       curr
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethodRetAndName_type]
+        FormParsList_e(
+        ) [FormParsList_e]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_return_expr(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_constant(
+                        Constant_n(
+                         5
+                        ) [Constant_n]
+                      ) [FactorSub_constant]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [Statement_return_expr]
+        ) [StatementList_list]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_list(
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        VarDeclList(
+          TypeVar_type(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar_type]
+          VarDecl_ident(
+           x
+          ) [VarDecl_ident]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListMethod_list]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_if(
+          Condition_termlist(
+            ConditionTermList_term(
+              ConditionTerm(
+                ConditionFactList_fact(
+                  ConditionFact_qt(
+                    Expr(
+                      AddopTermList_terml(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor_e(
+                              FactorSub_designator2(
+                                FunCallName(
+                                  Designator(
+                                    DesignatorName(
+                                     f
+                                    ) [DesignatorName]
+                                    DesignatorIndex_e(
+                                    ) [DesignatorIndex_e]
+                                  ) [Designator]
+                                ) [FunCallName]
+                                ActParsList_e(
+                                ) [ActParsList_e]
+                              ) [FactorSub_designator2]
+                            ) [Factor_e]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_terml]
+                    ) [Expr]
+                    Expr(
+                      AddopTermList_terml(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor_e(
+                              FactorSub_designator1(
+                                Designator(
+                                  DesignatorName(
+                                   niz
+                                  ) [DesignatorName]
+                                  DesignatorIndex_e(
+                                  ) [DesignatorIndex_e]
+                                ) [Designator]
+                              ) [FactorSub_designator1]
+                            ) [Factor_e]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_terml]
+                    ) [Expr]
+                  ) [ConditionFact_qt]
+                ) [ConditionFactList_fact]
+              ) [ConditionTerm]
+            ) [ConditionTermList_term]
+          ) [Condition_termlist]
+          Statement_statementList(
+            StatementList_e(
+            ) [StatementList_e]
+          ) [Statement_statementList]
+          ElseStatement_e(
+          ) [ElseStatement_e]
+        ) [Statement_if]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  13:27:19,010 - ===================================
+INFO  13:27:19,013 - Pretraga na liniji 14(f), nadjeno Meth f: int, 0, 0 
+
+INFO  13:27:19,013 - usao
+INFO  13:27:19,013 - Pretraga na liniji 14(niz), nadjeno Var niz: Arr of int, 0, 0 
+ERROR 13:27:19,014 - Greska na liniji 14: Tipovi izraza u uslovu moraju biti komaptibilni
+INFO  13:27:19,014 - ===================================
+ERROR 13:27:19,014 - Parsiranje NIJE uspesno zavrseno!

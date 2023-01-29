@@ -1,0 +1,96 @@
+INFO  10:38:55,576 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  10:38:55,632 - #13 program
+INFO  10:38:55,632 - #41 test302
+INFO  10:38:55,633 - #36 {
+INFO  10:38:55,634 - #41 int
+INFO  10:38:55,635 - #41 x
+INFO  10:38:55,635 - #31 (
+INFO  10:38:55,635 - #41 int
+INFO  10:38:55,636 - #41 a
+INFO  10:38:55,636 - #40 ,
+INFO  10:38:55,636 - #41 int
+INFO  10:38:55,636 - #41 b
+INFO  10:38:55,636 - #32 )
+INFO  10:38:55,637 - #41 int
+INFO  10:38:55,637 - #41 c
+INFO  10:38:55,638 - #38 ;
+INFO  10:38:55,638 - #36 {
+INFO  10:38:55,639 - #37 }
+INFO  10:38:55,640 - #10 void
+INFO  10:38:55,641 - #41 main
+INFO  10:38:55,641 - #31 (
+INFO  10:38:55,641 - #32 )
+INFO  10:38:55,642 - #36 {
+INFO  10:38:55,642 - #37 }
+INFO  10:38:55,642 - #37 }
+INFO  10:38:55,654 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         x
+        ) [MethodRetAndName_type]
+        FormParsList_list(
+          FormParam_ident(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormParam_ident]
+          FormParsMore_comma(
+            FormParam_ident(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [FormParam_ident]
+            FormParsMore_e(
+            ) [FormParsMore_e]
+          ) [FormParsMore_comma]
+        ) [FormParsList_list]
+        VarDeclListMethod_list(
+          VarDeclListMethod_e(
+          ) [VarDeclListMethod_e]
+          VarDeclList(
+            TypeVar_type(
+              Type(
+               int
+              ) [Type]
+            ) [TypeVar_type]
+            VarDecl_ident(
+             c
+            ) [VarDecl_ident]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListMethod_list]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  10:38:55,654 - ===================================
+INFO  10:38:55,657 - ===================================
+INFO  10:38:55,658 - Parsiranje uspesno zavrseno!

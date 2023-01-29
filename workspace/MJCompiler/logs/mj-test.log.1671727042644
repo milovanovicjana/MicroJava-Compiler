@@ -1,0 +1,54 @@
+INFO  17:36:52,027 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  17:36:52,074 - #13 program
+INFO  17:36:52,075 - #41 test301
+INFO  17:36:52,075 - #41 i
+INFO  17:36:52,076 - #30 .
+ERROR 17:36:52,076 - 
+Sintaksna greska na liniji 7
+INFO  17:36:52,076 - #30 .
+INFO  17:36:52,076 - #41 i
+INFO  17:36:52,076 - #38 ;
+INFO  17:36:52,077 - #36 {
+INFO  17:36:52,077 - #10 void
+ERROR 17:36:52,077 - Izvrsen oporavak u deklaraciji globalne promenljive(pogrsan tip) u liniji 8
+INFO  17:36:52,079 - #41 main
+INFO  17:36:52,079 - #31 (
+INFO  17:36:52,080 - #32 )
+INFO  17:36:52,080 - #36 {
+INFO  17:36:52,081 - #37 }
+INFO  17:36:52,081 - #37 }
+INFO  17:36:52,091 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      TypeVar_error(
+      ) [TypeVar_error]
+      VarDecl_ident(
+       i
+      ) [VarDecl_ident]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethodDeclList_decl(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  17:36:52,091 - ===================================
+INFO  17:36:52,093 - ===================================

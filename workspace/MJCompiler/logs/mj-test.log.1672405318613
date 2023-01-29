@@ -1,0 +1,121 @@
+INFO  14:01:03,672 - Compiling source file: C:\Users\xxx\Desktop\CETVRTA-GODINA\7.SEMESTAR\PP1\PROJEKAT_PP\workspace\MJCompiler\test\program.mj
+INFO  14:01:03,711 - #13 program
+INFO  14:01:03,711 - #41 test302
+INFO  14:01:03,711 - #36 {
+INFO  14:01:03,712 - #41 int
+INFO  14:01:03,713 - #41 f
+INFO  14:01:03,713 - #31 (
+INFO  14:01:03,714 - #32 )
+INFO  14:01:03,714 - #36 {
+INFO  14:01:03,714 - #7 print
+INFO  14:01:03,715 - #31 (
+INFO  14:01:03,715 - #44 f
+INFO  14:01:03,715 - #32 )
+INFO  14:01:03,717 - #38 ;
+INFO  14:01:03,717 - #37 }
+INFO  14:01:03,717 - #10 void
+INFO  14:01:03,718 - #41 main
+INFO  14:01:03,718 - #31 (
+INFO  14:01:03,718 - #32 )
+INFO  14:01:03,718 - #36 {
+INFO  14:01:03,718 - #7 print
+INFO  14:01:03,720 - #31 (
+INFO  14:01:03,720 - #41 f
+INFO  14:01:03,720 - #31 (
+INFO  14:01:03,722 - #32 )
+INFO  14:01:03,722 - #32 )
+INFO  14:01:03,722 - #38 ;
+INFO  14:01:03,723 - #37 }
+INFO  14:01:03,723 - #37 }
+INFO  14:01:03,731 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConVarDeclList_e(
+  ) [ConVarDeclList_e]
+  MethodDeclList_decl(
+    MethodDeclList_decl(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethodRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethodRetAndName_type]
+        FormParsList_e(
+        ) [FormParsList_e]
+        VarDeclListMethod_e(
+        ) [VarDeclListMethod_e]
+        StatementList_list(
+          StatementList_e(
+          ) [StatementList_e]
+          Statement_print(
+            PrintParameters_noNumber(
+              Expr(
+                AddopTermList_terml(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor_e(
+                        FactorSub_constant(
+                          Constant_c(
+                           f
+                          ) [Constant_c]
+                        ) [FactorSub_constant]
+                      ) [Factor_e]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_terml]
+              ) [Expr]
+            ) [PrintParameters_noNumber]
+          ) [Statement_print]
+        ) [StatementList_list]
+      ) [MethodDecl]
+    ) [MethodDeclList_decl]
+    MethodDecl(
+      MethodRetAndName_void(
+       main
+      ) [MethodRetAndName_void]
+      FormParsList_e(
+      ) [FormParsList_e]
+      VarDeclListMethod_e(
+      ) [VarDeclListMethod_e]
+      StatementList_list(
+        StatementList_e(
+        ) [StatementList_e]
+        Statement_print(
+          PrintParameters_noNumber(
+            Expr(
+              AddopTermList_terml(
+                Term(
+                  MulopFactorList_factor(
+                    Factor_e(
+                      FactorSub_designator2(
+                        FunCallName(
+                          Designator(
+                            DesignatorName(
+                             f
+                            ) [DesignatorName]
+                            DesignatorIndex_e(
+                            ) [DesignatorIndex_e]
+                          ) [Designator]
+                        ) [FunCallName]
+                        ActParsList_e(
+                        ) [ActParsList_e]
+                      ) [FactorSub_designator2]
+                    ) [Factor_e]
+                  ) [MulopFactorList_factor]
+                ) [Term]
+              ) [AddopTermList_terml]
+            ) [Expr]
+          ) [PrintParameters_noNumber]
+        ) [Statement_print]
+      ) [StatementList_list]
+    ) [MethodDecl]
+  ) [MethodDeclList_decl]
+) [Program]
+INFO  14:01:03,731 - ===================================
+INFO  14:01:03,734 - Pretraga na liniji 17(f), nadjeno Meth f: int, 0, 0 
+
+INFO  14:01:03,734 - ===================================

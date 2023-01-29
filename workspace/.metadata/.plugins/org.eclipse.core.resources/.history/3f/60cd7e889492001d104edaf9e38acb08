@@ -1,0 +1,24 @@
+program Program 
+int x[],y[];
+{
+
+
+	int f(int niz[])int elem;{
+	
+		niz.foreach(elem=>print(elem););
+	
+	}
+
+	
+
+
+	void main() { 
+	
+		x=new int[3];
+		x[0]=10;
+		x[1]=20;
+		x[2]=30;
+		f(x);
+	
+	}
+} 
